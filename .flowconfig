@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/.*
+.*/tests/.*
+.*/scripts/.*
+.*/examples/.*
+.*/benchmarks/.*
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
