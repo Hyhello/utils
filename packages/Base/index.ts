@@ -1,0 +1,16 @@
+export { default as get } from './get';
+// export { default as set } from './set';
+export { default as uuid } from './uuid';
+export { default as getType } from './getType';
+export { default as isArray } from './isArray';
+export { default as setStore } from './setStore';
+export { default as getStore } from './getStore';
+export { default as isString } from './isString';
+export { default as isNative } from './isNative';
+export { default as isObject } from './isObject';
+export { default as isNumber } from './isNumber';
+export { default as isBoolean } from './isBoolean';
+export { default as removeStore } from './removeStore';
+export { default as isUndefined } from './isUndefined';
+export { default as isPrimitive } from './isPrimitive';
+export { default as isPlainObject } from './isPlainObject';
