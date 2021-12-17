@@ -8,6 +8,6 @@ const { convertSep, pathResolve } = require('./utils');
 module.exports = {
 	resolve: ['.js', '.jsx', '.ts', '.tsx', '.json', '.scss'],
 	entries: {
-		'@': convertSep(pathResolve('./src'), '/')
+		pkg: convertSep(pathResolve('./packages'), '/')
 	}
 };

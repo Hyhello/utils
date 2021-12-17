@@ -4,7 +4,8 @@ const eslint = require('@rollup/plugin-eslint');
 const { babel } = require('@rollup/plugin-babel');
 const replace = require('@rollup/plugin-replace');
 const commonjs = require('@rollup/plugin-commonjs');
-const typescript = require('@rollup/plugin-typescript');
+const { DEFAULT_EXTENSIONS } = require('@babel/core');
+const typescript = require('rollup-plugin-typescript2');
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
 
 const aliass = require('./alias');
@@ -18,10 +19,6 @@ const baseConfig = {
 	input: 'packages/index.ts',
 	plugins: [
 		alias({ ...aliass }),
-		eslint({
-			formatter: require('eslint-friendly-formatter'),
-			include: ['packages/**/*.{js|jsx|ts|tsx}']
-		}),
 		nodeResolve({
 			extensions: aliass.resolve
 		}),
@@ -29,8 +26,13 @@ const baseConfig = {
 		json({
 			exclude: ['node_modules/**']
 		}),
-		typescript({ sourceMap: env === 'development' }),
-		babel({ babelHelpers: 'runtime', extensions: ['.js', '.ts'] }),
+        eslint({
+			formatter: require('eslint-friendly-formatter'),
+			include: ['packages/**/*.ts'],
+            exclude: 'node_modules/**'
+		}),
+		typescript({ sourceMap: env === 'development', useTsconfigDeclarationDir: true }),
+		babel({ babelHelpers: 'runtime', extensions: [...DEFAULT_EXTENSIONS, '.js', '.ts'] }),
 		replace({
 			preventAssignment: true,
 			values: {

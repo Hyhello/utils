@@ -1,9 +1,9 @@
 const rollup = require('rollup');
-const filesize = require('rollup-plugin-filesize');
-const { terser } = require('rollup-plugin-terser');
 const config = require('./config');
 const rollupConfig = require('./rollup.base');
 const packageJson = require('../package.json');
+const filesize = require('rollup-plugin-filesize');
+const { terser } = require('rollup-plugin-terser');
 const components = require('../components.config');
 const { toCamel, del, pathResolve } = require('./utils');
 
@@ -59,7 +59,7 @@ function buildComponents() {
 // 构建所有
 function buildEntry() {
 	const { outputDir, outputTypeList } = config.prod;
-	const name = toCamel(packageJson.name);
+	const name = toCamel(packageJson.name.replace(/^.*\/-?(\w+)$/, '$1'));
 	del([outputDir]);
 	buildComponents();
 	rollup.rollup(rollupConfig).then((bundle) => {
@@ -67,7 +67,7 @@ function buildEntry() {
 			bundle.write({
 				format: type,
 				name,
-				file: `${outputDir}/index.${type}.js`,
+				file: `${outputDir}/utils.${type}.js`,
 				sourcemap: false,
 				banner,
                 exports: 'named'
