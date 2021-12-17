@@ -1,5 +1,11 @@
-export { default as trim } from './trim';
-export { default as ltrim } from './ltrim';
-export { default as rtrim } from './rtrim';
-export { default as camelCase } from './camelCase';
-export { default as pathResolve } from './pathResolve';
+export { default as trim } from './trim/trim';
+export { default as ltrim } from './ltrim/ltrim';
+export { default as rtrim } from './rtrim/rtrim';
+export { default as split } from './split/split';
+export { default as toNumber } from './toNumber/toNumber';
+export { default as parseUrl } from './parseUrl/parseUrl';
+export { default as template } from './template/template';
+export { default as camelCase } from './camelCase/camelCase';
+export { default as capitalize } from './capitalize/capitalize';
+export { default as pathResolve } from './pathResolve/pathResolve';
+export { default as uncapitalize } from './uncapitalize/uncapitalize';

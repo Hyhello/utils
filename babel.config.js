@@ -5,6 +5,7 @@ module.exports = {
 			{
 				modules: false,
 				targets: {
+                    node: true,
 					browsers: ['> 1%', 'last 2 versions', 'not ie <= 8']
 				}
 			}
