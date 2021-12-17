@@ -2,4 +2,4 @@
 
 函数类的工具函数集合
 
-- [noop](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/packages/Function/noop/README.md)
+- [noop](https://github.com/Hyhello/utils/blob/master/packages/Function/noop/README.md)
