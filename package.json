@@ -34,11 +34,11 @@
   "author": "Hyhello",
   "license": "MIT",
   "bugs": {
-    "url": "https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/issues"
+    "url": "https://github.com/Hyhello/utils/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils.git"
+    "url": "git+git@github.com:Hyhello/utils.git"
   },
   "config": {
     "commitizen": {
