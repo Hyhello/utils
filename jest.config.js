@@ -25,7 +25,7 @@ module.exports = {
 
 	// A map from regular expressions to module names that allow to stub out resources with a single module
 	moduleNameMapper: {
-		'^pkg/(.*)$': '<rootDir>/packages/$1'
+		'^@/(.*)$': '<rootDir>/src/$1'
 	},
 
 	// A preset that is used as a base for Jest's configuration

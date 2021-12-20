@@ -16,7 +16,7 @@ const version = process.env.VERSION || packageJson.version;
 const env = process.env.NODE_ENV || 'development';
 
 const baseConfig = {
-	input: 'packages/index.ts',
+	input: 'src/index.ts',
 	plugins: [
 		alias({ ...aliass }),
 		nodeResolve({
@@ -28,7 +28,7 @@ const baseConfig = {
 		}),
         eslint({
 			formatter: require('eslint-friendly-formatter'),
-			include: ['packages/**/*.ts'],
+			include: ['src/**/*.ts'],
             exclude: 'node_modules/**'
 		}),
 		typescript({ sourceMap: env === 'development', useTsconfigDeclarationDir: true }),

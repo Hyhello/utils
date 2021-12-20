@@ -6,7 +6,7 @@
 const del = require('del');
 const path = require('path');
 
-exports.pathResolve = dir => path.resolve(__dirname, '../', dir);
+exports.pathResolve = (...args) => path.resolve(__dirname, '../', ...args);
 
 exports.toCamel = str => {
     return str.replace(/(?:^|-)(\w)/g, (_, $1) => {
@@ -26,4 +26,21 @@ exports.del = (dirList, log = true) => {
     } catch (e) {
         console.error(e);
     }
+};
+
+// simple json2md for docs.js
+exports.json2md = (list = [], level = 0) => {
+    let str = '';
+    const empty = ' '.repeat(level);
+    list.forEach(item => {
+        if (typeof item === 'object') {
+            str += `${empty}- ${item.title}\n`;
+            if (item.children) {
+                str += this.json2md(item.children, 2);
+            }
+        } else {
+            str += `${empty}- ${item}\n`;
+        }
+    });
+    return str;
 };
