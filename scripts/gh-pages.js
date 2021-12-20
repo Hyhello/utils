@@ -3,7 +3,7 @@
  * 时间：2021-05-11
  * 描述：upload to gh-pages
  */
-const { del } = require('./utils');
+// const { del } = require('./utils');
 const config = require('./config');
 const ghPages = require('gh-pages');
 const packageJson = require('../package.json');
@@ -15,9 +15,10 @@ ghPages.publish(
 	config.docsDir,
 	{
 		repo,
-		message: 'Auto-generated commit ' + new Date()
+		message: 'Auto-generated commit ' + new Date(),
+        dotfiles: true
 	},
 	function(e) {
-		del([`${config.docsDir}`]);
+		console.log('发布完成：https://hyhello.github.io/utils');
 	}
 );
