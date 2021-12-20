@@ -1,5 +1,5 @@
 {
-  "name": "@whfed/wh-utils",
+  "name": "@hyhello/utils",
   "version": "1.0.0",
   "description": "前端业务常用工具函数库",
   "main": "lib/utils.cjs.js",
@@ -26,7 +26,7 @@
     "test:watch": "jest --watchAll"
   },
   "keywords": [
-    "@whfed/wh-utils",
+    "@hyhello/utils",
     "@whfed/wh-tools",
     "utils",
     "tools"
