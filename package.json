@@ -1,5 +1,5 @@
 {
-  "name": "@hyhello/utils",
+  "name": "@whfed/wh-utils",
   "version": "1.0.0",
   "description": "前端业务常用工具函数库",
   "main": "lib/utils.cjs.js",
@@ -15,8 +15,9 @@
     "deploy": "bash scripts/deploy.sh",
     "dev": "npm run serve",
     "prebuild": "npm run lint:fix",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue packages",
-    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue packages",
+    "generate:docs": "node ./scripts/docs.js",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue src",
+    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue src",
     "build": "cross-env NODE_ENV=production node scripts/rollup.prod.js",
     "commit": "git-cz",
     "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s",
@@ -25,7 +26,7 @@
     "test:watch": "jest --watchAll"
   },
   "keywords": [
-    "@hyhello/utils",
+    "@whfed/wh-utils",
     "@whfed/wh-tools",
     "utils",
     "tools"
@@ -95,13 +96,13 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-prettier": "^3.4.1",
+    "fast-glob": "^3.2.7",
+    "fs-extra": "^10.0.0",
     "gh-pages": "^3.2.3",
-    "glob": "^7.2.0",
     "husky": "^7.0.2",
     "jest": "^27.0.6",
     "jest-environment-jsdom": "^27.0.6",
     "lint-staged": "^11.1.2",
-    "node-sass": "^6.0.1",
     "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
     "rollup": "^2.59.0",

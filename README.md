@@ -1,4 +1,4 @@
-# @hyhello/utils
+# @whfed/wh-utils
 
 ### 介绍
 
@@ -12,78 +12,78 @@
 - [支持情况](#支持情况)
 - [API](#)
   - **Array**
-    - [chunk](https://github.com/Hyhello/utils/blob/master/packages/Array/chunk)
-    - [compact](https://github.com/Hyhello/utils/blob/master/packages/Array/compact)
-    - [compare](https://github.com/Hyhello/utils/blob/master/packages/Array/compare)
-    - [oneOf](https://github.com/Hyhello/utils/blob/master/packages/Array/oneOf)
-    - [rangeArr](https://github.com/Hyhello/utils/blob/master/packages/Array/rangeArr)
-    - [toArray](https://github.com/Hyhello/utils/blob/master/packages/Array/toArray)
-    - [unique](https://github.com/Hyhello/utils/blob/master/packages/Array/unique)
+    - [chunk](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Array/chunk)
+    - [compact](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Array/compact)
+    - [compare](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Array/compare)
+    - [oneOf](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Array/oneOf)
+    - [rangeArr](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Array/rangeArr)
+    - [toArray](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Array/toArray)
+    - [unique](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Array/unique)
   - **Base**
-    - [get](https://github.com/Hyhello/utils/blob/master/packages/Base/get)
-    - [getStore](https://github.com/Hyhello/utils/blob/master/packages/Base/getStore)
-    - [setStore](https://github.com/Hyhello/utils/blob/master/packages/Base/setStore)
-    - [removeStore](https://github.com/Hyhello/utils/blob/master/packages/Base/removeStore)
-    - [getType](https://github.com/Hyhello/utils/blob/master/packages/Base/getType)
-    - [isArray](https://github.com/Hyhello/utils/blob/master/packages/Base/isArray)
-    - [isBoolean](https://github.com/Hyhello/utils/blob/master/packages/Base/isBoolean)
-    - [isElement](https://github.com/Hyhello/utils/blob/master/packages/Base/isElement)
-    - [isEmpty](https://github.com/Hyhello/utils/blob/master/packages/Base/isEmpty)
-    - [isFunction](https://github.com/Hyhello/utils/blob/master/packages/Base/isFunction)
-    - [isInteger](https://github.com/Hyhello/utils/blob/master/packages/Base/isInteger)
-    - [isNative](https://github.com/Hyhello/utils/blob/master/packages/Base/isNative)
-    - [isNumber](https://github.com/Hyhello/utils/blob/master/packages/Base/isNumber)
-    - [isObject](https://github.com/Hyhello/utils/blob/master/packages/Base/isObject)
-    - [isPlainObject](https://github.com/Hyhello/utils/blob/master/packages/Base/isPlainObject)
-    - [isPrimitive](https://github.com/Hyhello/utils/blob/master/packages/Base/isPrimitive)
-    - [isString](https://github.com/Hyhello/utils/blob/master/packages/Base/isString)
-    - [isUndefined](https://github.com/Hyhello/utils/blob/master/packages/Base/isUndefined)
-    - [uuid](https://github.com/Hyhello/utils/blob/master/packages/Base/uuid)
+    - [get](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/get)
+    - [getStore](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/getStore)
+    - [setStore](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/setStore)
+    - [removeStore](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/removeStore)
+    - [getType](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/getType)
+    - [isArray](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isArray)
+    - [isBoolean](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isBoolean)
+    - [isElement](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isElement)
+    - [isEmpty](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isEmpty)
+    - [isFunction](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isFunction)
+    - [isInteger](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isInteger)
+    - [isNative](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isNative)
+    - [isNumber](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isNumber)
+    - [isObject](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isObject)
+    - [isPlainObject](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isPlainObject)
+    - [isPrimitive](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isPrimitive)
+    - [isString](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isString)
+    - [isUndefined](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/isUndefined)
+    - [uuid](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Base/uuid)
   - **Date**
-    - [formatDate](https://github.com/Hyhello/utils/blob/master/packages/Date/formatDate)
-    - [isLeapYear](https://github.com/Hyhello/utils/blob/master/packages/Date/isLeapYear)
+    - [formatDate](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Date/formatDate)
+    - [isLeapYear](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Date/isLeapYear)
   - **Dom**
-    - [addClass](https://github.com/Hyhello/utils/blob/master/packages/Dom/addClass)
-    - [hasClass](https://github.com/Hyhello/utils/blob/master/packages/Dom/hasClass)
-    - [removeClass](https://github.com/Hyhello/utils/blob/master/packages/Dom/removeClass)
-    - [toggleClass](https://github.com/Hyhello/utils/blob/master/packages/Dom/toggleClass)
-    - [maybeAddPx](https://github.com/Hyhello/utils/blob/master/packages/Dom/maybeAddPx)
-    - [on](https://github.com/Hyhello/utils/blob/master/packages/Dom/on)
-    - [off](https://github.com/Hyhello/utils/blob/master/packages/Dom/off)
-    - [once](https://github.com/Hyhello/utils/blob/master/packages/Dom/once)
-    - [offset](https://github.com/Hyhello/utils/blob/master/packages/Dom/offset)
-    - [scrollTo](https://github.com/Hyhello/utils/blob/master/packages/Dom/scrollTo)
+    - [addClass](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/addClass)
+    - [hasClass](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/hasClass)
+    - [removeClass](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/removeClass)
+    - [toggleClass](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/toggleClass)
+    - [maybeAddPx](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/maybeAddPx)
+    - [on](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/on)
+    - [off](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/off)
+    - [once](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/once)
+    - [offset](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/offset)
+    - [scrollTo](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Dom/scrollTo)
   - **Function**
-    - [noop](https://github.com/Hyhello/utils/blob/master/packages/Function/noop)
+    - [noop](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Function/noop)
   - **Math**
-    - [max](https://github.com/Hyhello/utils/blob/master/packages/Math/max)
-    - [min](https://github.com/Hyhello/utils/blob/master/packages/Math/min)
-    - [random](https://github.com/Hyhello/utils/blob/master/packages/Math/random)
-    - [toFixed](https://github.com/Hyhello/utils/blob/master/packages/Math/toFixed)
+    - [max](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Math/max)
+    - [min](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Math/min)
+    - [random](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Math/random)
+    - [toFixed](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/Math/toFixed)
   - **RegExp**
-    - [isChinese](https://github.com/Hyhello/utils/blob/master/packages/RegExp/isChinese)
-    - [isEmail](https://github.com/Hyhello/utils/blob/master/packages/RegExp/isEmail)
-    - [isIdCard](https://github.com/Hyhello/utils/blob/master/packages/RegExp/isIdCard)
-    - [isMobile](https://github.com/Hyhello/utils/blob/master/packages/RegExp/isMobile)
-    - [isTel](https://github.com/Hyhello/utils/blob/master/packages/RegExp/isTel)
-    - [isUrl](https://github.com/Hyhello/utils/blob/master/packages/RegExp/isUrl)
+    - [isChinese](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/RegExp/isChinese)
+    - [isEmail](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/RegExp/isEmail)
+    - [isIdCard](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/RegExp/isIdCard)
+    - [isMobile](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/RegExp/isMobile)
+    - [isTel](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/RegExp/isTel)
+    - [isUrl](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/RegExp/isUrl)
   - **String**
-    - [camelCase](https://github.com/Hyhello/utils/blob/master/packages/String/camelCase)
-    - [capitalize](https://github.com/Hyhello/utils/blob/master/packages/String/capitalize)
-    - [uncapitalize](https://github.com/Hyhello/utils/blob/master/packages/String/uncapitalize)
-    - [trim](https://github.com/Hyhello/utils/blob/master/packages/String/trim)
-    - [ltrim](https://github.com/Hyhello/utils/blob/master/packages/String/ltrim)
-    - [rtrim](https://github.com/Hyhello/utils/blob/master/packages/String/rtrim)
-    - [parseUrl](https://github.com/Hyhello/utils/blob/master/packages/String/parseUrl)
-    - [pathResolve](https://github.com/Hyhello/utils/blob/master/packages/String/pathResolve)
-    - [split](https://github.com/Hyhello/utils/blob/master/packages/String/split)
-    - [template](https://github.com/Hyhello/utils/blob/master/packages/String/template)
-    - [toNumber](https://github.com/Hyhello/utils/blob/master/packages/String/toNumber)
+    - [camelCase](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/camelCase)
+    - [capitalize](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/capitalize)
+    - [uncapitalize](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/uncapitalize)
+    - [trim](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/trim)
+    - [ltrim](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/ltrim)
+    - [rtrim](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/rtrim)
+    - [parseUrl](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/parseUrl)
+    - [pathResolve](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/pathResolve)
+    - [split](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/split)
+    - [template](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/template)
+    - [toNumber](https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/blob/master/src/String/toNumber)
 
 ### 安装教程
 
 ```nodejs
-npm install @hyhello/utils
+npm install @whfed/wh-utils
 ```
 
 Note: add --save if you are using npm < 5.0.0
@@ -100,24 +100,24 @@ Use In Node.js:
 
 ```nodejs
 // Load the full build.
-var utils = require('@hyhello/utils');
+var utils = require('@whfed/wh-utils');
 
 // Load method categories.
-var isArray = require('@hyhello/utils/lib/isArray');
+var isArray = require('@whfed/wh-utils/lib/isArray');
 or
-var { isArray } = require('@hyhello/utils');
+var { isArray } = require('@whfed/wh-utils');
 ```
 
 Use In ES6:
 
 ```nodejs
 // Load the full build.
-import utils from '@hyhello/utils';
+import utils from '@whfed/wh-utils';
 
 // Load method categories.
-import isArray from '@hyhello/utils/lib/isArray';
+import isArray from '@whfed/wh-utils/lib/isArray';
 or
-import { isArray } from '@hyhello/utils';
+import { isArray } from '@whfed/wh-utils';
 ```
 
 ### 按需引入
@@ -142,7 +142,7 @@ options can be object.
 
 ```nodejs
 {
-  "libraryName": "@hyhello/utils",
+  "libraryName": "@whfed/wh-utils",
   "libraryDirectory": "lib",
   "camel2DashComponentName": false,  // default: true
 }
@@ -151,9 +151,9 @@ options can be object.
 #### For example, the default behavior
 
 ```nodejs
-import { isArray } from '@hyhello/utils';
+import { isArray } from '@whfed/wh-utils';
 ↓ ↓ ↓ ↓ ↓ ↓
-var isArray = require('@hyhello/utils/lib/isArray');
+var isArray = require('@whfed/wh-utils/lib/isArray');
 ```
 
 ### 支持情况

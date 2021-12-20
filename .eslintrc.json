@@ -60,7 +60,7 @@
 		"import/resolver": {
 			"alias": {
 				"map": [
-					["pkg", "./packages"]
+					["@", "./src"]
 				],
 				"extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
 			}

@@ -3,9 +3,8 @@
  * 时间：2021-05-11
  * 描述：upload to gh-pages
  */
-
 const { del } = require('./utils');
-const config = require('../config');
+const config = require('./config');
 const ghPages = require('gh-pages');
 const packageJson = require('../package.json');
 

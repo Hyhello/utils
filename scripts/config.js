@@ -1,4 +1,5 @@
 module.exports = {
+    docsDir: './docs',
 	dev: {
 		port: 9527,
 		open: true,
