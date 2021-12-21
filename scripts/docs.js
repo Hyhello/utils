@@ -13,7 +13,7 @@ const MD_NAME = pathResolve(outputDir, '_sidebar.md');
 
 // _sidebar模板
 const TPL = [
-    '[更新日志](CHANGELOG.md)',
+    '[**更新日志**](CHANGELOG.md)',
     {
         title: '开发指南',
         children: [

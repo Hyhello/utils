@@ -28,11 +28,13 @@ exports.del = (dirList, log = true) => {
     }
 };
 
+
 // simple json2md for docs.js
 exports.json2md = (list = [], level = 0) => {
     let str = '';
+    const len = list.length;
     const empty = ' '.repeat(level);
-    list.forEach(item => {
+    list.forEach((item, index) => {
         if (typeof item === 'object') {
             str += `${empty}- ${item.title}\n`;
             if (item.children) {
@@ -41,6 +43,10 @@ exports.json2md = (list = [], level = 0) => {
         } else {
             str += `${empty}- ${item}\n`;
         }
+        if (level === 0 && (len - 1 !== index)) {
+            str += '\n';
+        }
     });
     return str;
 };
+
