@@ -28,7 +28,6 @@ exports.del = (dirList, log = true) => {
     }
 };
 
-
 // simple json2md for docs.js
 exports.json2md = (list = [], level = 0) => {
     let str = '';
@@ -49,4 +48,3 @@ exports.json2md = (list = [], level = 0) => {
     });
     return str;
 };
-

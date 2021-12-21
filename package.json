@@ -1,5 +1,5 @@
 {
-  "name": "@hyhello/utils",
+  "name": "@whfed/wh-utils",
   "version": "1.0.0",
   "description": "前端业务常用工具函数库",
   "main": "lib/utils.cjs.js",
@@ -26,7 +26,7 @@
     "test:watch": "jest --watchAll"
   },
   "keywords": [
-    "@hyhello/utils",
+    "@whfed/wh-utils",
     "@whfed/wh-tools",
     "utils",
     "tools"
@@ -34,11 +34,11 @@
   "author": "Hyhello",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Hyhello/utils/issues"
+    "url": "https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:Hyhello/utils.git"
+    "url": "git+https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils.git"
   },
   "config": {
     "commitizen": {

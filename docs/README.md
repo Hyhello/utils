@@ -1,4 +1,4 @@
-# @hyhello/utils
+# @whfed/wh-utils
 
 ### 介绍
 
@@ -14,7 +14,7 @@
 ### 安装教程
 
 ```nodejs
-npm install @hyhello/utils
+npm install @whfed/wh-utils
 ```
 
 Note: add --save if you are using npm < 5.0.0
@@ -31,24 +31,24 @@ Use In Node.js:
 
 ```nodejs
 // Load the full build.
-var utils = require('@hyhello/utils');
+var utils = require('@whfed/wh-utils');
 
 // Load method categories.
-var isArray = require('@hyhello/utils/lib/isArray');
+var isArray = require('@whfed/wh-utils/lib/isArray');
 or
-var { isArray } = require('@hyhello/utils');
+var { isArray } = require('@whfed/wh-utils');
 ```
 
 Use In ES6:
 
 ```nodejs
 // Load the full build.
-import utils from '@hyhello/utils';
+import utils from '@whfed/wh-utils';
 
 // Load method categories.
-import isArray from '@hyhello/utils/lib/isArray';
+import isArray from '@whfed/wh-utils/lib/isArray';
 or
-import { isArray } from '@hyhello/utils';
+import { isArray } from '@whfed/wh-utils';
 ```
 
 ### 按需引入
@@ -73,7 +73,7 @@ options can be object.
 
 ```nodejs
 {
-  "libraryName": "@hyhello/utils",
+  "libraryName": "@whfed/wh-utils",
   "libraryDirectory": "lib",
   "camel2DashComponentName": false,  // default: true
 }
@@ -82,9 +82,9 @@ options can be object.
 #### For example, the default behavior
 
 ```nodejs
-import { isArray } from '@hyhello/utils';
+import { isArray } from '@whfed/wh-utils';
 ↓ ↓ ↓ ↓ ↓ ↓
-var isArray = require('@hyhello/utils/lib/isArray');
+var isArray = require('@whfed/wh-utils/lib/isArray');
 ```
 
 ### 支持情况
