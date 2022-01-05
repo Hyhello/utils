@@ -12,8 +12,8 @@
   ],
   "scripts": {
     "bootstrap": "yarn || pnpm i",
-    "deploy": "bash scripts/deploy.sh",
-    "gc": "bash ./scripts/gc.sh",
+    "deploy": "scripts/deploy.sh",
+    "gc": "./scripts/gc.sh",
     "prebuild": "npm run lint:fix",
     "serve:docs": "docsify serve ./docs --open",
     "generate:docs": "node ./scripts/docs.js",
