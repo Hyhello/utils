@@ -1,6 +1,6 @@
 {
   "name": "@hyhello/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端业务常用工具函数库",
   "main": "lib/utils.cjs.js",
   "module": "lib/utils.esm.js",
@@ -35,11 +35,11 @@
   "author": "Hyhello",
   "license": "MIT",
   "bugs": {
-    "url": "https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils/-/issues"
+    "url": "https://github.com/Hyhello/utils/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://code.cestc.cn/cestc_wh/data_center/web-frontEnd/utils.git"
+    "url": "git+https://github.com/Hyhello/utils.git"
   },
   "config": {
     "commitizen": {
