@@ -4,4 +4,4 @@
 ### 目的：高效率完成前端业务代码
 
 [Githab](https://github.com/Hyhello/utils)
-[开始阅读](#whfedwh-utils)
+[开始阅读](#hyhelloutils)
