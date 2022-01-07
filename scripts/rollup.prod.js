@@ -59,7 +59,7 @@ function buildComponents() {
 // 构建所有
 function buildEntry() {
 	const { outputDir, outputTypeList } = config.prod;
-	const name = packageJson.name.replace(/^.*-(\w+)$/, '$1');
+	const name = packageJson.name.replace(/^.*\/(\w+)$/, '$1');
 	del([outputDir]);
 	buildComponents();
 	rollup.rollup(rollupConfig).then((bundle) => {
