@@ -15,7 +15,9 @@ Note: add --save if you are using npm < 5.0.0
 由于内网暂不支持
 
 <!-- 目前可以通过 unpkg.com/@hyhello/utils 获取到最新版本的资源，在页面上引入 js 和 css 文件即可开始使用。 -->
-<!-- ```nodejs -->
+```nodejs
 <!-- 引入库 -->
-<!-- <script src="https://unpkg.com/@hyhello/utils"></script> -->
-<!-- ``` -->
+<script src="https://cdn.jsdelivr.net/npm/@hyhello/utils@1.0.3/lib/utils.umd.js"></script>
+or
+<script src="https://unpkg.com/@hyhello/utils@1.0.3/lib/utils.umd.js"></script>
+```
