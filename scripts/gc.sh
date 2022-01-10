@@ -10,7 +10,7 @@ CLASS_LIST=()
 CLASSNAME=""
 
 # 待创建的名称
-NAME=""
+NAME=$1
 
 # 获取src下面所有的分类
 function getClassList(){
@@ -25,6 +25,7 @@ function getClassList(){
 
 # 自定义函数名称
 function customName(){
+    if [[ $NAME ]]; then return; fi;
     msg="请输入名称："
     if [ $1 ]; then
         msg=$1
@@ -98,7 +99,7 @@ import $NAME from './$NAME';
 
 describe('#$NAME()', () => {
 	test('$NAME test', () => {
-		expect(now()).toEqual('return value');
+		expect($NAME()).toEqual('return value');
 	});
 });
 EOF
@@ -107,7 +108,7 @@ cat > $NAME/README.md <<EOF
 #### #$NAME
 
 \`\`\`javascript
-    utils.$NAME();
+utils.$NAME();
 \`\`\`
 
 函数的描述
