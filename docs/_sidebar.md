@@ -15,7 +15,6 @@
 
 - Base
   - [get](get.md)
-  - [getStore](getStore.md)
   - [getType](getType.md)
   - [isArray](isArray.md)
   - [isBoolean](isBoolean.md)
@@ -31,8 +30,6 @@
   - [isPromise](isPromise.md)
   - [isString](isString.md)
   - [isUndefined](isUndefined.md)
-  - [removeStore](removeStore.md)
-  - [setStore](setStore.md)
   - [uuid](uuid.md)
 
 - Date
