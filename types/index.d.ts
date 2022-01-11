@@ -27,7 +27,23 @@ interface IURL {
 		[index: number]: string;
 	};
 }
+
+type IStore = {
+	get(name: string, deep?: boolean): string | object | null;
+	set(name: string, value: string | object, deep?: boolean): void;
+	clear(name: string, deep?: boolean): void;
+	clearAll(deep?: boolean): void;
+};
+
+type ICookie = {
+	get(name: string): string | null;
+	set(name: string, value: string, time?: number): void;
+	clear(name: string): void;
+};
+
 declare namespace utils {
+	export const store: IStore;
+	export const cookie: ICookie;
 	export function chunk<T>(input: T[], size?: number): T[] | T[][];
 	export function compact<T>(input: T[]): T[];
 	export function compare(key?: string | number): IFunction;
@@ -89,6 +105,6 @@ declare namespace utils {
 	export function uncapitalize(str: string): string;
 }
 
-declare module 'utils' {
-	export = utils;
-}
+export default utils;
+
+export as namespace utils;

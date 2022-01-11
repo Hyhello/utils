@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs-extra');
 const glob = require('fast-glob');
 const config = require('./config');
-const { json2md, pathResolve } = require('./utils');
+const { del, json2md, pathResolve } = require('./utils');
 
 // 输出目录
 const outputDir = config.docsDir;
@@ -22,6 +22,15 @@ const TPL = [
         ]
     }
 ];
+
+// 清空md文件
+const clearFile = () => {
+    // 待清空文件集合
+    const delList = [outputDir + '/*.md'].concat(['install.md', 'start.md', '_coverpage.md'].map(file => {
+        return '!' + outputDir + '/' + file;
+    }));
+    del(delList, false);
+};
 
 // 复制文件
 const copyFile = (list) => {
@@ -47,6 +56,7 @@ const generatemd = (list) => {
         return arr;
     }, []);
     fs.outputFileSync(MD_NAME, json2md(TPL.concat(data)), { encoding: 'utf8' });
+    console.log("DOCS文件生成完成，请运行 yarn serve:docs 查看效果");
 };
 
 const run = () => {
@@ -65,6 +75,7 @@ const run = () => {
         });
         return list;
     }, []);
+    clearFile();
     copyFile(docList);
     generatemd(docList);
 };
