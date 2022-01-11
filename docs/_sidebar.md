@@ -68,6 +68,10 @@
   - [isTel](isTel.md)
   - [isUrl](isUrl.md)
 
+- Store
+  - [cookie](cookie.md)
+  - [store](store.md)
+
 - String
   - [camelCase](camelCase.md)
   - [capitalize](capitalize.md)
