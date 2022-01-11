@@ -49,7 +49,9 @@
   - [toggleClass](toggleClass.md)
 
 - Function
+  - [debounce](debounce.md)
   - [noop](noop.md)
+  - [throttle](throttle.md)
 
 - Math
   - [max](max.md)

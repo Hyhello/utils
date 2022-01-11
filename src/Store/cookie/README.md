@@ -9,7 +9,7 @@ utils.cookie.set(name, value, [day=30]);
 utils.cookie.clear(name);
 ```
 
-封装 localStorage/sessionStorage。
+封装 document.cookie。
 
 - **引入版本**
 
