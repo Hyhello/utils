@@ -26,7 +26,7 @@ const TPL = [
 // 清空md文件
 const clearFile = () => {
     // 待清空文件集合
-    const delList = [outputDir + '/*.md'].concat(['install.md', 'start.md', '_coverpage.md'].map(file => {
+    const delList = [outputDir + '/*.md'].concat(['install.md', 'start.md', 'README.md', '_coverpage.md'].map(file => {
         return '!' + outputDir + '/' + file;
     }));
     del(delList, false);
