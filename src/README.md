@@ -10,3 +10,4 @@
 - Math
 - RegExp
 - String
+- Store
