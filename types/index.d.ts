@@ -6,6 +6,10 @@ interface IFunction {
 	(arg1: ArgType, arg2: ArgType): number;
 }
 
+type IFunctions = {
+	(this: void, ...args: unknown[]): void;
+};
+
 type IParams = {
 	[propName: string]: unknown;
 };
@@ -44,6 +48,8 @@ type ICookie = {
 declare namespace utils {
 	export const store: IStore;
 	export const cookie: ICookie;
+	export function debounce(func: IFunctions, wait: number, immediate = false): IFunctions;
+	export function throttle(func: IFunctions, wait: number, immediate = false): IFunctions;
 	export function chunk<T>(input: T[], size?: number): T[] | T[][];
 	export function compact<T>(input: T[]): T[];
 	export function compare(key?: string | number): IFunction;
