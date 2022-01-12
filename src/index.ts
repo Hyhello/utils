@@ -3,10 +3,10 @@
  * 时间：2019-07-13
  * 描述：初始化
  */
-import { noop } from './Function';
 import { store, cookie } from './Store';
 import { isLeapYear, formatDate } from './Date';
 import { min, max, toFixed, random } from './Math';
+import { noop, debounce, throttle } from './Function';
 import { isTel, isUrl, isEmail, isIdCard, isChinese, isMobile } from './RegExp';
 import { oneOf, chunk, unique, compare, rangeArr, toArray, compact } from './Array';
 import { on, off, once, offset, addClass, hasClass, scrollTo, maybeAddPx, toggleClass, removeClass } from './Dom';
@@ -87,6 +87,8 @@ export default {
 	isObject,
 	isNumber,
 	isString,
+	debounce,
+	throttle,
 	isBoolean,
 	isInteger,
 	isLeapYear,
@@ -150,6 +152,8 @@ export {
 	isObject,
 	isNumber,
 	isString,
+	debounce,
+	throttle,
 	isBoolean,
 	isInteger,
 	isLeapYear,
