@@ -6,7 +6,7 @@
 import { store, cookie } from './Store';
 import { isLeapYear, formatDate } from './Date';
 import { min, max, toFixed, random } from './Math';
-import { noop, debounce, throttle } from './Function';
+import { noop, after, before, debounce, throttle } from './Function';
 import { isTel, isUrl, isEmail, isIdCard, isChinese, isMobile } from './RegExp';
 import { oneOf, chunk, unique, compare, rangeArr, toArray, compact } from './Array';
 import { on, off, once, offset, addClass, hasClass, scrollTo, maybeAddPx, toggleClass, removeClass } from './Dom';
@@ -62,6 +62,8 @@ export default {
 	split,
 	store,
 	cookie,
+	after,
+	before,
 	scrollTo,
 	unique,
 	isUrl,
@@ -127,6 +129,8 @@ export {
 	split,
 	store,
 	cookie,
+	after,
+	before,
 	scrollTo,
 	unique,
 	isUrl,

@@ -15,7 +15,7 @@ utils.store.clearAll([deep=false]);
 
 - **引入版本**
 
-    1.0.0
+    1.0.5
 
 - **参数**（get, set, clear, clearAll 所有参数进行描述）
 

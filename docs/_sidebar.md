@@ -49,6 +49,8 @@
   - [toggleClass](toggleClass.md)
 
 - Function
+  - [after](after.md)
+  - [before](before.md)
   - [debounce](debounce.md)
   - [noop](noop.md)
   - [throttle](throttle.md)

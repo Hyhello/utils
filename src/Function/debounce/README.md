@@ -8,7 +8,7 @@ utils.debounce(func, wait, immediate);
 
 - **引入版本**
 
-    1.0.0
+    1.0.5
 
 - **参数**
 
@@ -18,7 +18,7 @@ utils.debounce(func, wait, immediate);
 
 - **返回**
 
-    (void): 无返回值。
+    (function): 新的函数。
 
 - **例子**
 
