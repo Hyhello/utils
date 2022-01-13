@@ -1,4 +1,4 @@
-## 1.0.4 (2022-01-10)
+## 1.0.5 (2022-01-10)
 
 * 新增Store分类
 * 新增store、cookie、debounce、throttle方法。
