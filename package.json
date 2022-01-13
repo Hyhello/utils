@@ -16,7 +16,7 @@
     "gc": "bash scripts/gc.sh",
     "prebuild": "npm run lint:fix",
     "serve:docs": "docsify serve ./docs --open",
-    "generate:docs": "node ./scripts/docs.js",
+    "build:docs": "node ./scripts/docs.js",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue src",
     "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx,.vue src",
     "build": "cross-env NODE_ENV=production node scripts/rollup.prod.js",
