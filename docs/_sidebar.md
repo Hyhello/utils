@@ -18,6 +18,7 @@
   - [getType](getType.md)
   - [isArray](isArray.md)
   - [isBoolean](isBoolean.md)
+  - [isBrowser](isBrowser.md)
   - [isElement](isElement.md)
   - [isEmpty](isEmpty.md)
   - [isFunction](isFunction.md)
@@ -38,7 +39,9 @@
 
 - Dom
   - [addClass](addClass.md)
+  - [contains](contains.md)
   - [hasClass](hasClass.md)
+  - [hasFocus](hasFocus.md)
   - [maybeAddPx](maybeAddPx.md)
   - [off](off.md)
   - [offset](offset.md)
@@ -46,6 +49,7 @@
   - [once](once.md)
   - [removeClass](removeClass.md)
   - [scrollTo](scrollTo.md)
+  - [stripHtml](stripHtml.md)
   - [toggleClass](toggleClass.md)
 
 - Function
@@ -56,9 +60,12 @@
   - [throttle](throttle.md)
 
 - Math
+  - [degsToRads](degsToRads.md)
   - [max](max.md)
   - [min](min.md)
+  - [radsToDegs](radsToDegs.md)
   - [random](random.md)
+  - [randomColor](randomColor.md)
   - [toFixed](toFixed.md)
 
 - RegExp
