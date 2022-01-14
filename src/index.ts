@@ -5,10 +5,10 @@
  */
 import { store, cookie } from './Store';
 import { isLeapYear, formatDate } from './Date';
-import { min, max, toFixed, random, randomColor } from './Math';
 import { noop, after, before, debounce, throttle } from './Function';
 import { isTel, isUrl, isEmail, isIdCard, isChinese, isMobile } from './RegExp';
 import { oneOf, chunk, unique, compare, rangeArr, toArray, compact } from './Array';
+import { min, max, toFixed, random, radsToDegs, degsToRads, randomColor } from './Math';
 import {
 	on,
 	off,
@@ -81,6 +81,8 @@ export default {
 	split,
 	store,
 	cookie,
+	radsToDegs,
+	degsToRads,
 	after,
 	before,
 	scrollTo,
@@ -153,6 +155,8 @@ export {
 	split,
 	store,
 	cookie,
+	radsToDegs,
+	degsToRads,
 	after,
 	before,
 	scrollTo,
@@ -164,7 +168,6 @@ export {
 	template,
 	toNumber,
 	isTel,
-	randomColor,
 	isEmail,
 	isMobile,
 	isPromise,
@@ -181,6 +184,7 @@ export {
 	isObject,
 	isNumber,
 	isString,
+	randomColor,
 	debounce,
 	throttle,
 	isBoolean,
