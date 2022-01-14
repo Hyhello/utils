@@ -1,4 +1,4 @@
-## 1.0.6 (2022-01-13)
+## 1.0.7 (2022-01-13)
 
 * 分类Base新增isBrowser方法。
 * 分类Function新增before、after方法。
