@@ -8,6 +8,7 @@ export { default as isString } from './isString/isString';
 export { default as isNative } from './isNative/isNative';
 export { default as isObject } from './isObject/isObject';
 export { default as isNumber } from './isNumber/isNumber';
+export { default as isBrowser } from './isBrowser/isBrowser';
 export { default as isElement } from './isElement/isElement';
 export { default as isBoolean } from './isBoolean/isBoolean';
 export { default as isPromise } from './isPromise/isPromise';
