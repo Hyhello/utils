@@ -6,3 +6,6 @@
 - [min](./min)
 - [random](./random)
 - [toFixed](./toFixed)
+- [degsToRads](./degsToRads)
+- [radsToDegs](./radsToDegs)
+- [randomColor](./randomColor)
