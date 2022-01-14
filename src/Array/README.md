@@ -2,10 +2,10 @@
 
 数组类的工具函数集合
 
+- [oneOf](./oneOf)
 - [chunk](./chunk)
+- [unique](./unique)
 - [compact](./compact)
 - [compare](./compare)
-- [oneOf](./oneOf)
-- [rangeArr](./rangeArr)
 - [toArray](./toArray)
-- [unique](./unique)
+- [rangeArr](./rangeArr)

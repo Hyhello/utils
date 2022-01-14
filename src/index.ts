@@ -3,205 +3,35 @@
  * 时间：2019-07-13
  * 描述：初始化
  */
-import { store, cookie } from './Store';
-import { isLeapYear, formatDate } from './Date';
-import { noop, after, before, debounce, throttle } from './Function';
-import { isTel, isUrl, isEmail, isIdCard, isChinese, isMobile } from './RegExp';
-import { oneOf, chunk, unique, compare, rangeArr, toArray, compact } from './Array';
-import { min, max, toFixed, random, radsToDegs, degsToRads, randomColor } from './Math';
-import {
-	on,
-	off,
-	once,
-	offset,
-	contains,
-	stripHtml,
-	hasFocus,
-	addClass,
-	hasClass,
-	scrollTo,
-	maybeAddPx,
-	toggleClass,
-	removeClass
-} from './Dom';
-import {
-	trim,
-	rtrim,
-	ltrim,
-	split,
-	toNumber,
-	parseUrl,
-	template,
-	camelCase,
-	capitalize,
-	pathResolve,
-	uncapitalize
-} from './String';
-import {
-	get,
-	uuid,
-	getType,
-	isArray,
-	isBrowser,
-	isEmpty,
-	isString,
-	isElement,
-	isNative,
-	isObject,
-	isNumber,
-	isPromise,
-	isBoolean,
-	isFunction,
-	isInteger,
-	isUndefined,
-	isPrimitive,
-	isPlainObject
-} from './Base';
+
+import * as DomMap from './Dom';
+import * as BaseMap from './Base';
+import * as MathMap from './Math';
+import * as DateMap from './Date';
+import * as ArrayMap from './Array';
+import * as StoreMap from './Store';
+import * as StringMap from './String';
+import * as RegExpMap from './RegExp';
+import * as FunctionMap from './Function';
 
 export default {
-	rtrim,
-	ltrim,
-	trim,
-	random,
-	oneOf,
-	noop,
-	get,
-	on,
-	off,
-	once,
-	min,
-	max,
-	uuid,
-	offset,
-	contains,
-	stripHtml,
-	isBrowser,
-	hasFocus,
-	chunk,
-	split,
-	store,
-	cookie,
-	radsToDegs,
-	degsToRads,
-	after,
-	before,
-	scrollTo,
-	unique,
-	isUrl,
-	isIdCard,
-	isEmpty,
-	compare,
-	template,
-	toNumber,
-	isTel,
-	isEmail,
-	isMobile,
-	isPromise,
-	compact,
-	toFixed,
-	parseUrl,
-	isArray,
-	toArray,
-	addClass,
-	hasClass,
-	rangeArr,
-	getType,
-	isNative,
-	isObject,
-	isNumber,
-	isString,
-	randomColor,
-	debounce,
-	throttle,
-	isBoolean,
-	isInteger,
-	isLeapYear,
-	formatDate,
-	isElement,
-	camelCase,
-	isFunction,
-	isChinese,
-	maybeAddPx,
-	pathResolve,
-	capitalize,
-	isUndefined,
-	isPrimitive,
-	toggleClass,
-	removeClass,
-	uncapitalize,
-	isPlainObject
+	...DomMap,
+	...BaseMap,
+	...MathMap,
+	...DateMap,
+	...ArrayMap,
+	...StoreMap,
+	...StringMap,
+	...RegExpMap,
+	...FunctionMap
 };
 
-export {
-	rtrim,
-	ltrim,
-	trim,
-	random,
-	oneOf,
-	noop,
-	get,
-	on,
-	off,
-	once,
-	min,
-	max,
-	uuid,
-	offset,
-	contains,
-	stripHtml,
-	isBrowser,
-	hasFocus,
-	chunk,
-	split,
-	store,
-	cookie,
-	radsToDegs,
-	degsToRads,
-	after,
-	before,
-	scrollTo,
-	unique,
-	isUrl,
-	isIdCard,
-	isEmpty,
-	compare,
-	template,
-	toNumber,
-	isTel,
-	isEmail,
-	isMobile,
-	isPromise,
-	compact,
-	toFixed,
-	parseUrl,
-	isArray,
-	toArray,
-	addClass,
-	hasClass,
-	rangeArr,
-	getType,
-	isNative,
-	isObject,
-	isNumber,
-	isString,
-	randomColor,
-	debounce,
-	throttle,
-	isBoolean,
-	isInteger,
-	isLeapYear,
-	formatDate,
-	isElement,
-	camelCase,
-	isFunction,
-	isChinese,
-	maybeAddPx,
-	pathResolve,
-	capitalize,
-	isUndefined,
-	isPrimitive,
-	toggleClass,
-	removeClass,
-	uncapitalize,
-	isPlainObject
-};
+export * from './Dom';
+export * from './Base';
+export * from './Math';
+export * from './Date';
+export * from './Array';
+export * from './Store';
+export * from './String';
+export * from './RegExp';
+export * from './Function';
