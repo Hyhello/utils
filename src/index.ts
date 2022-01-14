@@ -5,11 +5,25 @@
  */
 import { store, cookie } from './Store';
 import { isLeapYear, formatDate } from './Date';
-import { min, max, toFixed, random } from './Math';
+import { min, max, toFixed, random, randomColor } from './Math';
 import { noop, after, before, debounce, throttle } from './Function';
 import { isTel, isUrl, isEmail, isIdCard, isChinese, isMobile } from './RegExp';
 import { oneOf, chunk, unique, compare, rangeArr, toArray, compact } from './Array';
-import { on, off, once, offset, addClass, hasClass, scrollTo, maybeAddPx, toggleClass, removeClass } from './Dom';
+import {
+	on,
+	off,
+	once,
+	offset,
+	contains,
+	stripHtml,
+	hasFocus,
+	addClass,
+	hasClass,
+	scrollTo,
+	maybeAddPx,
+	toggleClass,
+	removeClass
+} from './Dom';
 import {
 	trim,
 	rtrim,
@@ -28,6 +42,7 @@ import {
 	uuid,
 	getType,
 	isArray,
+	isBrowser,
 	isEmpty,
 	isString,
 	isElement,
@@ -58,6 +73,10 @@ export default {
 	max,
 	uuid,
 	offset,
+	contains,
+	stripHtml,
+	isBrowser,
+	hasFocus,
 	chunk,
 	split,
 	store,
@@ -89,6 +108,7 @@ export default {
 	isObject,
 	isNumber,
 	isString,
+	randomColor,
 	debounce,
 	throttle,
 	isBoolean,
@@ -125,6 +145,10 @@ export {
 	max,
 	uuid,
 	offset,
+	contains,
+	stripHtml,
+	isBrowser,
+	hasFocus,
 	chunk,
 	split,
 	store,
@@ -140,6 +164,7 @@ export {
 	template,
 	toNumber,
 	isTel,
+	randomColor,
 	isEmail,
 	isMobile,
 	isPromise,
