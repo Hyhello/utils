@@ -1,7 +1,7 @@
 ## 1.0.6 (2022-01-13)
 
 * 分类Function新增before、after方法。
-* 分类Dom新增getStyle、setStyle, replaceClass方法。
+* 分类Dom新增getStyle、setStyle、replaceClass、hasFocus方法。
 
 ## 1.0.5 (2022-01-10)
 
