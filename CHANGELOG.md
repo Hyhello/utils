@@ -1,9 +1,9 @@
 ## 1.0.6 (2022-01-13)
 
 * 分类Base新增isBrowser方法。
-* 分类Math新增randomColor方法。
 * 分类Function新增before、after方法。
-* 分类Dom新增getStyle、setStyle、replaceClass、hasFocus、contains、stripHtml方法。
+* 分类Math新增degsToRads、radsToDegs、randomColor方法。
+* 分类Dom新增replaceClass、hasFocus、contains、stripHtml方法。
 
 ## 1.0.5 (2022-01-10)
 
