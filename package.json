@@ -28,7 +28,10 @@
   },
   "keywords": [
     "@hyhello/utils",
-    "@whfed/wh-tools",
+    "@hyhello/tools",
+    "hyhello",
+    "brower",
+    "node",
     "utils",
     "tools"
   ],
