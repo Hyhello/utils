@@ -63,6 +63,9 @@ options can be object.
 }
 ```
 
+> [!WARNING]
+> 使用babel-plugin-import后就不能全部引入，详看[issue](https://github.com/umijs/babel-plugin-import/issues/448);
+
 #### For example, the default behavior
 
 ```nodejs
