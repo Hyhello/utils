@@ -136,6 +136,6 @@ declare namespace utils {
 	export function uncapitalize(str: string): string;
 }
 
-export default utils;
+export = utils;
 
 export as namespace utils;

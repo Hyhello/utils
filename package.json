@@ -126,5 +126,8 @@
   ],
   "directories": {
     "lib": "lib"
+  },
+  "dependencies": {
+    "@hyhello/utils": "^1.0.7"
   }
 }
