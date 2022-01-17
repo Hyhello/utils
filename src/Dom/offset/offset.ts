@@ -1,3 +1,5 @@
+import isBrowser from '../../Base/isBrowser/isBrowser';
+
 type IPos = {
 	x: number;
 	y: number;
@@ -8,6 +10,7 @@ type IPos = {
  * @returns
  */
 export default function offset(el: HTMLElement): IPos {
+	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
 	const pos: IPos = { x: 0, y: 0 };
 	while (el) {
 		pos.x += el.offsetLeft;
