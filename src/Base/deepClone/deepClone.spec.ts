@@ -6,6 +6,7 @@ describe('#deepClone()', () => {
 			a: 1,
 			b: { c: 2 },
 			d: [2],
+			f: new Date(),
 			m() {
 				console.log(1);
 			}

@@ -7,5 +7,5 @@ import isObject from '../isObject/isObject';
  * isElement(document.createElement('div')); => true;
  */
 export default function isElement(el: unknown): boolean {
-	return isObject(el) && (<HTMLElement>el).nodeType === 1;
+	return isObject(el) && (<Node>el).nodeType === 1;
 }

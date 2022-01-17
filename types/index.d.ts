@@ -46,10 +46,7 @@ type ICookie = {
 };
 
 declare namespace utils {
-	export const store: IStore;
-	export const cookie: ICookie;
-	export function debounce(func: IFunctions, wait: number, immediate = false): IFunctions;
-	export function throttle(func: IFunctions, wait: number, immediate = false): IFunctions;
+	// Array
 	export function chunk<T>(input: T[], size?: number): T[] | T[][];
 	export function compact<T>(input: T[]): T[];
 	export function compare(key?: string | number): IFunction;
@@ -57,11 +54,14 @@ declare namespace utils {
 	export function rangeArr<T>(n: number, iteratee?: T | undefined): Array<T | undefined>;
 	export function toArray<T>(likeArr: ArrayLike<T>): Array<T>;
 	export function unique<T>(arr: Array<T>): Array<T>;
+	export function deepClone(data: any): any;
+
+	// Base
 	export function get(obj: object, path: string | Array<string | number>, defaultValue?: unknown): any;
-	export function getStore(name: string, deep?: boolean): string | null;
 	export function getType(v: unknown): string;
 	export function isArray(v: unknown): boolean;
 	export function isBoolean(v: unknown): boolean;
+	export function isBrowser(): boolean;
 	export function isElement(el: unknown): boolean;
 	export function isEmpty(val: unknown): boolean;
 	export function isFunction(input: unknown): boolean;
@@ -73,13 +73,18 @@ declare namespace utils {
 	export function isPrimitive(v?: unknown): boolean;
 	export function isPromise(input: unknown): boolean;
 	export function isUndefined(v?: unknown): boolean;
-	export function removeStore(name: string, deep?: boolean): void;
-	export function setStore(name: string, value: string | unknown, deep?: boolean): void;
+	export function set(obj: object, path: string | Array<string | number>, value: unknown): object;
 	export function uuid(): string;
+
+	// Date
 	export function formatDate(date: number | string | Date, fmt = 'yyyy-MM-dd hh:mm:ss'): string;
 	export function isLeapYear(year: number): boolean;
+
+	// Dom
 	export function addClass(el: HTMLElement, cls: string): void;
+	export function contains(root: Node, el: Node): boolean;
 	export function hasClass(el: HTMLElement, cls: string): boolean;
+	export function hasFocus(el: HTMLElement): boolean;
 	export function maybeAddPx(input: string | number): string;
 	export function off(el: HTMLElement, type: string, listener: EventListenerOrEventListenerObject): void;
 	export function offset(el: HTMLElement): { x: number; y: number };
@@ -87,17 +92,37 @@ declare namespace utils {
 	export function once(el: HTMLElement, type: string, listener: EventListener): void;
 	export function removeClass(el: HTMLElement, cls: string): void;
 	export function scrollTo(el: HTMLElement, end = 0, duration = 500): Promise<void>;
+	export function stripHtml(html: string): string;
 	export function toggleClass(el: HTMLElement, cls: string): void;
+
+	// Function
+	export function after(n: number, func: IFunctions): IFunctions;
+	export function before(n: number, func: IFunctions): IFunctions;
 	export function noop(): void;
+	export function debounce(func: IFunctions, wait: number, immediate = false): IFunctions;
+	export function throttle(func: IFunctions, wait: number, immediate = false): IFunctions;
+
+	// Math
+	export function degsToRads(deg: number): number;
+	export function radsToDegs(rad: number): number;
 	export function max(arr: Array<number>): number;
 	export function min(arr: Array<number>): number;
 	export function random(minVal: number, maxVal: number): number;
+	export function randomColor(): string;
 	export function toFixed(num: number, fixed?: number): string;
+
+	// RegExp
 	export function isChinese(str: string): boolean;
 	export function isEmail(str: string): boolean;
 	export function isIdCard(str: string | number): boolean;
 	export function isTel(str: number | string): boolean;
 	export function isUrl(str: string): boolean;
+
+	// Store
+	export const store: IStore;
+	export const cookie: ICookie;
+
+	// String
 	export function camelCase(str: string, capital?: boolean): string;
 	export function capitalize(str: string): string;
 	export function ltrim(input: string): string;
