@@ -14,6 +14,7 @@
   - [unique](unique.md)
 
 - Base
+  - [deepClone](deepClone.md)
   - [get](get.md)
   - [getType](getType.md)
   - [isArray](isArray.md)
@@ -31,6 +32,7 @@
   - [isPromise](isPromise.md)
   - [isString](isString.md)
   - [isUndefined](isUndefined.md)
+  - [set](set.md)
   - [uuid](uuid.md)
 
 - Date
