@@ -11,6 +11,7 @@
 - [isNative](./isNative)
 - [isNumber](./isNumber)
 - [isObject](./isObject)
+- [deepClone](./deepClone)
 - [isPromise](./isPromise)
 - [isBoolean](./isBoolean)
 - [isBrowser](./isBrowser)
