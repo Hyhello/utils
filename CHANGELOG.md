@@ -1,4 +1,4 @@
-## 1.1.0 (2022-01-17)
+## 1.2.0 (2022-01-17)
 
 * 分类Base新增deepClone、get方法。
 * 完善types，支持Typescript引入。
