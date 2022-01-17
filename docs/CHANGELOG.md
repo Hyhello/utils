@@ -2,6 +2,7 @@
 
 * 分类Base新增deepClone、get方法。
 * 完善types，支持Typescript引入。
+* 修复工具函数在Nodejs下面报错问题。
 
 ## 1.0.7 (2022-01-13)
 
