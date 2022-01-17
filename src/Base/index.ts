@@ -13,6 +13,7 @@ export { default as isElement } from './isElement/isElement';
 export { default as isBoolean } from './isBoolean/isBoolean';
 export { default as isPromise } from './isPromise/isPromise';
 export { default as isInteger } from './isInteger/isInteger';
+export { default as deepClone } from './deepClone/deepClone';
 export { default as isFunction } from './isFunction/isFunction';
 export { default as isUndefined } from './isUndefined/isUndefined';
 export { default as isPrimitive } from './isPrimitive/isPrimitive';
