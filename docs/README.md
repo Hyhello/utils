@@ -24,7 +24,10 @@ Note: add --save if you are using npm < 5.0.0
 Use in a browser(CDN):
 
 ```nodejs
-<script src="utils.umd.js"></script>
+<!-- 引入库 -->
+<script src="https://cdn.jsdelivr.net/npm/@hyhello/utils@1.0.3/lib/utils.umd.js"></script>
+or
+<script src="https://unpkg.com/@hyhello/utils@1.0.3/lib/utils.umd.js"></script>
 ```
 
 Use In Node.js:
