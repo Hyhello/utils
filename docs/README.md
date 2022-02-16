@@ -25,9 +25,9 @@ Use in a browser(CDN):
 
 ```nodejs
 <!-- 引入库 -->
-<script src="https://cdn.jsdelivr.net/npm/@hyhello/utils@1.0.3/lib/utils.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@hyhello/utils/lib/utils.umd.js"></script>
 or
-<script src="https://unpkg.com/@hyhello/utils@1.0.3/lib/utils.umd.js"></script>
+<script src="https://unpkg.com/@hyhello/utils/lib/utils.umd.js"></script>
 ```
 
 Use In Node.js:
