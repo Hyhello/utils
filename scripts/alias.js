@@ -6,7 +6,7 @@
 const { convertSep, pathResolve } = require('./utils');
 
 module.exports = {
-	resolve: ['.js', '.jsx', '.ts', '.tsx', '.json', '.scss'],
+	resolve: ['.js', '.jsx', '.ts', '.tsx'],
 	entries: {
 		'@': convertSep(pathResolve('./src'), '/')
 	}

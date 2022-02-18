@@ -1,7 +1,6 @@
 const json = require('@rollup/plugin-json');
 const alias = require('@rollup/plugin-alias');
 const eslint = require('@rollup/plugin-eslint');
-const { babel } = require('@rollup/plugin-babel');
 const replace = require('@rollup/plugin-replace');
 const commonjs = require('@rollup/plugin-commonjs');
 const { DEFAULT_EXTENSIONS } = require('@babel/core');
@@ -32,7 +31,6 @@ const baseConfig = {
             exclude: 'node_modules/**'
 		}),
 		typescript({ sourceMap: env === 'development', useTsconfigDeclarationDir: true }),
-		babel({ babelHelpers: 'runtime', extensions: [...DEFAULT_EXTENSIONS, '.js', '.ts'] }),
 		replace({
 			preventAssignment: true,
 			values: {
