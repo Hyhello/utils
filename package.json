@@ -12,7 +12,6 @@
   ],
   "scripts": {
     "bootstrap": "yarn || pnpm i",
-    "deploy": "bash scripts/deploy.sh",
     "gc": "bash scripts/gc.sh",
     "prebuild": "npm run lint:fix",
     "serve:docs": "docsify serve ./docs --open",
@@ -20,7 +19,6 @@
     "lint": "eslint --ext .ts src",
     "lint:fix": "eslint --fix --ext .ts src",
     "build": "cross-env NODE_ENV=production node scripts/rollup.prod.js",
-    "commit": "git-cz",
     "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "lint-staged": "pretty-quick --staged",
     "test:coverage": "jest --coverage",
