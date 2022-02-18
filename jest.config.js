@@ -41,8 +41,7 @@ module.exports = {
 	// An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
 	testPathIgnorePatterns: ['\\\\node_modules\\\\'],
 	transform: {
-        '\\.(ts)x?$': 'ts-jest',
-        '\\.(js)x?$': 'babel-jest'
+        '\\.(ts)x?$': 'ts-jest'
 	},
 	// Indicates whether each individual test should be reported during the run
 	verbose: true
