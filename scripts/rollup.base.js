@@ -3,7 +3,6 @@ const alias = require('@rollup/plugin-alias');
 const eslint = require('@rollup/plugin-eslint');
 const replace = require('@rollup/plugin-replace');
 const commonjs = require('@rollup/plugin-commonjs');
-const { DEFAULT_EXTENSIONS } = require('@babel/core');
 const typescript = require('rollup-plugin-typescript2');
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
 
