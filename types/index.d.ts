@@ -77,7 +77,7 @@ declare namespace utils {
 	export function uuid(): string;
 
 	// Date
-	export function formatDate(date: number | string | Date, fmt = 'yyyy-MM-dd hh:mm:ss'): string;
+	export function formatDate(date: number | string | Date, fmt: string): string;
 	export function isLeapYear(year: number): boolean;
 
 	// Dom
@@ -91,7 +91,7 @@ declare namespace utils {
 	export function on(el: HTMLElement, type: string, listener: EventListenerOrEventListenerObject): void;
 	export function once(el: HTMLElement, type: string, listener: EventListener): void;
 	export function removeClass(el: HTMLElement, cls: string): void;
-	export function scrollTo(el: HTMLElement, end = 0, duration = 500): Promise<void>;
+	export function scrollTo(el: HTMLElement, end: number, duration: number): Promise<void>;
 	export function stripHtml(html: string): string;
 	export function toggleClass(el: HTMLElement, cls: string): void;
 
@@ -99,8 +99,8 @@ declare namespace utils {
 	export function after(n: number, func: IFunctions): IFunctions;
 	export function before(n: number, func: IFunctions): IFunctions;
 	export function noop(): void;
-	export function debounce(func: IFunctions, wait: number, immediate = false): IFunctions;
-	export function throttle(func: IFunctions, wait: number, immediate = false): IFunctions;
+	export function debounce(func: IFunctions, wait: number, immediate: boolean): IFunctions;
+	export function throttle(func: IFunctions, wait: number, immediate: boolean): IFunctions;
 
 	// Math
 	export function degsToRads(deg: number): number;
@@ -129,7 +129,7 @@ declare namespace utils {
 	export function parseUrl(url: string): IURL;
 	export function pathResolve(basePath: string, ...args: string[]): string;
 	export function rtrim(input: string): string;
-	export function split(val: number | string, index = 3, separated = ','): string;
+	export function split(val: number | string, index: number, separated: string): string;
 	export function template(str: string, opt: object): string;
 	export function toNumber(str: string): number;
 	export function trim(input: string): string;

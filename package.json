@@ -16,6 +16,7 @@
     "prebuild": "npm run lint:fix",
     "serve:docs": "docsify serve ./docs --open",
     "build:docs": "node ./scripts/docs.js",
+    "lint:tsc": "tsc --noEmit",
     "lint": "eslint --ext .ts src",
     "lint:fix": "eslint --fix --ext .ts src",
     "build": "cross-env NODE_ENV=production node scripts/rollup.prod.js",
