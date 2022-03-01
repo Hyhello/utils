@@ -1,7 +1,7 @@
 #### #after
 
 ```javascript
-utils.after();
+utils.after(n, func);
 ```
 
 utils.before的反向函数;此方法创建一个函数，当他被调用n或更多次之后将马上触发func 。
