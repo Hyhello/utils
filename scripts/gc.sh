@@ -18,7 +18,7 @@ NAME=$1
 function getClassList(){
     for dir in $FILE_PATH/*
     do
-        if [ -d $dir ]; then
+        if [[ -d $dir ]]; then
             CLASS_LIST[$start]=$(basename $dir);
             start=$start+1;
         fi
@@ -27,13 +27,13 @@ function getClassList(){
 
 # 自定义函数名称
 function customName(){
-    if [[ $NAME ]]; then return; fi;
+    if [[ -n $NAME ]]; then return; fi;
     msg="请输入名称："
-    if [ $1 ]; then
+    if [[ -n $1 ]]; then
         msg=$1
     fi
     read -p "$msg" name
-    if [ ! $name ]
+    if [[ -z $name ]]
     then
         customName "名称不能为空，请重新输入名称："
     fi
@@ -43,7 +43,7 @@ function customName(){
 # 选择分类
 function selectClass(){
     msg="请选择分类："
-    if [ $1 ]; then
+    if [[ $1 ]]; then
         msg="输入错误，请重新选择："
     fi
     echo -e "$msg";
@@ -51,7 +51,7 @@ function selectClass(){
     do
         case $class_name in
             *)
-                if [ ! $class_name ]; then
+                if [[ -z $class_name ]]; then
                     selectClass true
                     break
                 fi
@@ -75,7 +75,7 @@ customName
 echo "你创建的名称是：${NAME}"
 # 生成文件
 cd $FILE_PATH/$CLASSNAME
-if [ -d "$NAME" ];
+if [[ -d $NAME ]];
 then
     echo "该方法已经存在，请检查~"
 else
