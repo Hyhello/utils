@@ -1,6 +1,8 @@
 #! /bin/bash
 # 快速生成模板
 
+set -e
+
 FILE_PATH="$(pwd)/src"
 
 # 所有分类集合
@@ -62,7 +64,6 @@ function selectClass(){
 
 # 执行开始 -- start
 # 确保脚本抛出遇到的错误
-set -e
 echo '按下 <CTRL-D> 退出'
 # 获取所有分类集合
 getClassList
