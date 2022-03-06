@@ -14,6 +14,7 @@
     "bootstrap": "yarn || pnpm i",
     "gc": "bash scripts/gc.sh",
     "prebuild": "npm run lint:fix",
+    "release": "bash scripts/release.sh",
     "serve:docs": "docsify serve ./docs --open",
     "build:docs": "node ./scripts/docs.js",
     "lint:tsc": "tsc --noEmit",
