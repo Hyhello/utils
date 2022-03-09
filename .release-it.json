@@ -3,7 +3,7 @@
         "after:bump": ["npm run build", "npm run build:docs"]
     },
     "github": {
-        "release": true
+        "release": false
     },
     "npm": {
         "publishArgs": ["--access=public", "--registry=https://registry.npmjs.org"]
@@ -11,7 +11,7 @@
     "plugins": {
         "@release-it/conventional-changelog": {
             "preset": "angular",
-            "infile": "CHANGELOG.md"
+            "infile": "./CHANGELOG.md"
         }
     }
 }
