@@ -10,7 +10,7 @@ fi
 read -p "Releasing $VERSION - are you sure? (y/n) " -n 1 -r
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-    npm version $VERSION
+    npm version $VERSION --message "build: build $VERSION"
     npm run build
     npm run build:docs
 
