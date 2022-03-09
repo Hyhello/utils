@@ -19,8 +19,6 @@ export default function compare(key?: string | number): IFunction {
 	return function (arg1: ArgType, arg2: ArgType): number {
 		const target1 = hasKey && isObject(arg1) ? arg1[<keyof ArgType>key] : arg1;
 		const target2 = hasKey && isObject(arg2) ? arg2[<keyof ArgType>key] : arg2;
-		if (target1 > target2) return 1;
-		if (target1 < target2) return -1;
-		return 0;
+		return +target1 - +target2;
 	};
 }

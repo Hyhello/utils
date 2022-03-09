@@ -127,7 +127,7 @@ declare namespace utils {
 	export function capitalize(str: string): string;
 	export function ltrim(input: string): string;
 	export function parseUrl(url: string): IURL;
-	export function pathResolve(basePath: string, ...args: string[]): string;
+	export function pathResolve(...args: string[]): string;
 	export function rtrim(input: string): string;
 	export function split(val: number | string, index: number, separated: string): string;
 	export function template(str: string, opt: object): string;
