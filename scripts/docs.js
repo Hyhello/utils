@@ -3,7 +3,11 @@ const path = require('path');
 const fs = require('fs-extra');
 const glob = require('fast-glob');
 const config = require('./config');
+const pkg = require('../package.json');
 const { del, json2md, pathResolve } = require('./utils');
+
+// 标签匹配
+const singleReg = /<(\w+)>.*<\/\1>/gm;
 
 // 输出目录
 const outputDir = config.docsDir;
@@ -30,6 +34,14 @@ const clearFile = () => {
         return '!' + outputDir + '/' + file;
     }));
     del(delList, false);
+};
+
+// 更新版本号
+const updateVersion = () => {
+    const odir = path.resolve(outputDir, '_coverpage.md');
+    let md = fs.readFileSync(odir, { encoding: 'utf8' });
+    md = md.replace(singleReg, `<$1>${pkg.version}</$1>`);
+    fs.writeFileSync(odir, md, { encoding: 'utf8' });
 };
 
 // 复制文件
@@ -76,6 +88,7 @@ const run = () => {
         return list;
     }, []);
     clearFile();
+    updateVersion();
     copyFile(docList);
     generatemd(docList);
 };
