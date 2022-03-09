@@ -1,0 +1,16 @@
+{
+    "hooks": {
+        "before:init": ["npm run lint"],
+        "after:doc:bump": "npm run build:docs",
+        "after:bump": "npm run build"
+    },
+    "github": {
+        "release": false
+    },
+    "plugins": {
+        "@release-it/conventional-changelog": {
+            "preset": "angular",
+            "infile": "CHANGELOG.md"
+        }
+    }
+}
