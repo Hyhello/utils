@@ -1,8 +1,7 @@
 {
     "hooks": {
         "before:init": ["npm run lint"],
-        "after:doc:bump": "npm run build:docs",
-        "after:bump": "npm run build"
+        "after:bump": ["npm run build", "npm run build:docs"]
     },
     "github": {
         "release": false
