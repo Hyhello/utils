@@ -1,7 +1,7 @@
 #### #pathResolve
 
 ```javascript
-utils.pathResolve(basePath, ...args);
+utils.pathResolve(...args);
 ```
 
 功能类似于 path.resolve，但比它简单
@@ -12,8 +12,7 @@ utils.pathResolve(basePath, ...args);
 
 - **参数**
 
-1. basePath (string): 源路径。
-2. args (Array&lt;string&gt;)：待合并路径。
+1. args (Array&lt;string&gt;)：待合并路径。
 
 - **返回**
 
@@ -23,7 +22,7 @@ utils.pathResolve(basePath, ...args);
 
 ```javascript
 utils.pathResolve('/b', '/ad/bc', './c', './a/dddd');
-// => '/b/ad/bc/c/a/dddd'
+// => '/ad/bc/c/a/dddd'
 
 utils.pathResolve('/b', '/ad/bc', '../c');
 // => '/b/ad/c'
