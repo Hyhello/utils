@@ -10,13 +10,13 @@ fi
 read -p "Releasing $VERSION - are you sure? (y/n) " -n 1 -r
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-    #commit
-    git add -A
-    git commit -m "build: build $VERSION"
-
     npm version $VERSION
     npm run build
     npm run build:docs
+
+    #commit
+    git add -A
+    git commit -m "build: build $VERSION"
 
     # publish
     git push origin refs/tags/v"$VERSION"
