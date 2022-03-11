@@ -64,7 +64,7 @@
                 "npm run lint",
                 "npm run test"
             ],
-            "after: bump": [
+            "after:bump": [
                 "npm run build",
                 "npm run build:docs"
             ]
@@ -73,14 +73,11 @@
             "push": true
         },
         "github": {
-            "release": true
+            "release": true,
+            "autoGenerate": true
         },
         "npm": {
-            "publish": true,
-            "publishConfig": {
-                "access": "public",
-                "registry": "https://registry.npmjs.org"
-            }
+            "publish": true
         },
         "plugins": {
             "@release-it/conventional-changelog": {
@@ -88,6 +85,10 @@
                 "infile": "CHANGELOG.md"
             }
         }
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org"
     },
     "engines": {
         "node": ">=4.0.0"
