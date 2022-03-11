@@ -1,19 +1,20 @@
 {
-    "hooks": {
-        "after:bump": ["npm run build", "npm run build:docs"]
+
+    "git": {
+        "push": false
     },
     "github": {
         "release": false
     },
     "npm": {
-        "publish": true,
+        "publish": false,
         "access": "public",
         "registry": "https://registry.npmjs.org"
     },
     "plugins": {
         "@release-it/conventional-changelog": {
             "preset": "angular",
-            "infile": "./CHANGELOG.md"
+            "infile": "CHANGELOG.md"
         }
     }
 }

@@ -15,6 +15,7 @@ export default function throttle(func: IFunction, wait: number, immediate = fals
 		if (immediate) {
 			func.apply(this, args);
 			immediate = false;
+			return;
 		}
 		if (now - last >= wait) {
 			func.apply(this, args);

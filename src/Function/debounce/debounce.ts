@@ -15,6 +15,7 @@ export default function debounce(func: IFunction, wait: number, immediate = fals
 		if (immediate) {
 			func.apply(this, args);
 			immediate = false;
+			return;
 		}
 		if (timer) {
 			window.clearTimeout(timer);

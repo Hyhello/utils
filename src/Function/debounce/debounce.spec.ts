@@ -24,6 +24,6 @@ describe('#debounce()', () => {
 		debouncedFn('param');
 		jest.advanceTimersByTime(1000);
 		expect(fn).toBeCalledWith('param');
-		expect(fn).toBeCalledTimes(2);
+		expect(fn).toBeCalledTimes(1);
 	});
 });
