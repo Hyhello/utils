@@ -1,5 +1,5 @@
 
-## [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
+## [1.2.7](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
 
 
 ### Bug Fixes
