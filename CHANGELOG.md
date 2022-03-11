@@ -1,3 +1,12 @@
+
+## [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
+
+
+### Bug Fixes
+
+* 修复debounce,throttle首次触发执行两次问题 ([8c2b0b4](https://github.com/Hyhello/utils/commit/8c2b0b4b4d06abc6fda0e5267ed6f0b1050d6340))
+* 修改构建后文件注释版本问题 ([620b2eb](https://github.com/Hyhello/utils/commit/620b2ebb14fdf1764d552cc2ed1f520e67160269))
+
 ## 1.2.3 (2022-02-16)
 
 * 修改构建后的包注释的版本问题。
