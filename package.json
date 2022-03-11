@@ -69,15 +69,8 @@
                 "npm run build:docs"
             ]
         },
-        "git": {
-            "push": true
-        },
         "github": {
-            "release": true,
-            "autoGenerate": true
-        },
-        "npm": {
-            "publish": true
+            "release": true
         },
         "plugins": {
             "@release-it/conventional-changelog": {
