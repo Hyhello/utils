@@ -1,6 +1,6 @@
 {
     "name": "@hyhello/utils",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "description": "前端业务常用工具函数库",
     "main": "lib/utils.cjs.js",
     "module": "lib/utils.esm.js",
@@ -60,8 +60,14 @@
     },
     "release-it": {
         "hooks": {
-            "before:init": ["npm run lint", "npm run test"],
-            "after: bump": ["npm run build", "npm run build:docs"]
+            "before:init": [
+                "npm run lint",
+                "npm run test"
+            ],
+            "after: bump": [
+                "npm run build",
+                "npm run build:docs"
+            ]
         },
         "git": {
             "push": true
