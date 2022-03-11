@@ -17,12 +17,10 @@ describe('#throttle()', () => {
 		const fn = jest.fn();
 		const throttledFn = throttle(fn, 1000, true);
 		throttledFn('param');
-		setTimeout(() => {
-			throttledFn('param');
-			expect(fn).toBeCalledWith('param');
-			expect(fn).toBeCalledTimes(2);
-			done();
-		}, 1000);
+		throttledFn('param');
+		expect(fn).toBeCalledWith('param');
+		expect(fn).toBeCalledTimes(1);
+		done();
 	});
 
 	test('should not call function if now - last < wait', () => {
