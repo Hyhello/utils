@@ -72,6 +72,7 @@ declare namespace utils {
 	export function isPlainObject(v: unknown): boolean;
 	export function isPrimitive(v?: unknown): boolean;
 	export function isPromise(input: unknown): boolean;
+	export function isString(input: unknown): boolean;
 	export function isUndefined(v?: unknown): boolean;
 	export function set(obj: object, path: string | Array<string | number>, value: unknown): object;
 	export function uuid(): string;
