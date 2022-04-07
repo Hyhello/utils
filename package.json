@@ -64,11 +64,11 @@
                 "npm run lint",
                 "npm run test"
             ],
+            "before:git": [
+                "npm run build:docs"
+            ],
             "after:bump": [
                 "npm run build"
-            ],
-            "after:conventional-changelog:bump": [
-                "npm run build:docs"
             ]
         },
         "plugins": {
