@@ -5,7 +5,9 @@
 
 ### Bug Fixes
 
-* 修改types 添加isString ([51ada0b](https://github.com/Hyhello/utils/commit/51ada0bbdf0295b4babe94c150d8de811645cd11))## [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
+* 修改types 添加isString ([51ada0b](https://github.com/Hyhello/utils/commit/51ada0bbdf0295b4babe94c150d8de811645cd11))
+
+### [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
 
 
 ### Bug Fixes

@@ -67,7 +67,7 @@
             "after:bump": [
                 "npm run build"
             ],
-            "after:conventional-changelog:release": [
+            "after:beforeRelease": [
                 "npm run build:docs"
             ]
         },
