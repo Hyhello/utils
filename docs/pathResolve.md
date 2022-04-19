@@ -25,5 +25,5 @@ utils.pathResolve('/b', '/ad/bc', './c', './a/dddd');
 // => '/ad/bc/c/a/dddd'
 
 utils.pathResolve('/b', '/ad/bc', '../c');
-// => '/b/ad/c'
+// => '/ad/c'
 ```
