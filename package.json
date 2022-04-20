@@ -47,16 +47,14 @@
                 "npm run test"
             ],
             "after:bump": [
-                "npm run build"
-            ],
-            "after:beforeRelease": [
+                "npm run build",
                 "npm run build:docs"
             ]
         },
         "plugins": {
             "@release-it/conventional-changelog": {
                 "preset": "angular",
-                "infile": "CHANGELOG.md"
+                "infile": "./docs/CHANGELOG.md"
             }
         }
     },
