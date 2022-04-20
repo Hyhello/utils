@@ -2,6 +2,7 @@ export { default as trim } from './trim/trim';
 export { default as ltrim } from './ltrim/ltrim';
 export { default as rtrim } from './rtrim/rtrim';
 export { default as split } from './split/split';
+export { default as toSecret } from './toSecret/toSecret';
 export { default as toNumber } from './toNumber/toNumber';
 export { default as parseUrl } from './parseUrl/parseUrl';
 export { default as template } from './template/template';

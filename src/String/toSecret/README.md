@@ -8,7 +8,7 @@ utils.toSecret(str, [start][, end]);
 
 - **引入版本**
 
-    1.3.0
+    1.3.1
 
 - **参数**
 

@@ -133,6 +133,7 @@ declare namespace utils {
 	export function split(val: number | string, index: number, separated: string): string;
 	export function template(str: string, opt: object): string;
 	export function toNumber(str: string): number;
+	export function toSecret(str: string, ...args: number[]): string;
 	export function trim(input: string): string;
 	export function uncapitalize(str: string): string;
 }
