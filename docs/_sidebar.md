@@ -92,5 +92,6 @@
   - [split](split.md)
   - [template](template.md)
   - [toNumber](toNumber.md)
+  - [toSecret](toSecret.md)
   - [trim](trim.md)
   - [uncapitalize](uncapitalize.md)
