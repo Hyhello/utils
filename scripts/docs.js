@@ -30,7 +30,7 @@ const TPL = [
 // 清空md文件
 const clearFile = () => {
     // 待清空文件集合
-    const delList = [outputDir + '/*.md'].concat(['install.md', 'start.md', 'README.md', '_coverpage.md'].map(file => {
+    const delList = [outputDir + '/*.md'].concat(['install.md', 'start.md', 'README.md', 'CHANGELOG.md', '_coverpage.md'].map(file => {
         return '!' + outputDir + '/' + file;
     }));
     del(delList, false);
@@ -46,8 +46,6 @@ const updateVersion = () => {
 
 // 复制文件
 const copyFile = (list) => {
-    // 复制CHANGELOG
-    fs.copySync('./CHANGELOG.md', pathResolve(outputDir, './CHANGELOG.md'), { overwrite: true });
     list.forEach(info => {
         fs.copySync(info.file, pathResolve(outputDir, info.name), { overwrite: true });
     });
