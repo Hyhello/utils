@@ -1,5 +1,12 @@
 
 
+## [1.3.1](https://github.com/Hyhello/utils/compare/1.3.0...1.3.1) (2022-04-20)
+
+
+### Bug Fixes
+
+* 添加toSecret方法及添加types ([f43145d](https://github.com/Hyhello/utils/commit/f43145d2873319163217ea014c61a2178836f3be))
+
 # [1.3.0](https://github.com/Hyhello/utils/compare/1.2.8...1.3.0) (2022-04-20)
 
 
