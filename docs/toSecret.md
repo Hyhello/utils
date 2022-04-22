@@ -4,7 +4,7 @@
 utils.toSecret(str, [start][, end]);
 ```
 
-函数的描述
+指定位置将字符串转为*
 
 - **引入版本**
 
