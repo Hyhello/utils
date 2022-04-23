@@ -1,0 +1,657 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+    y="0px" width="32px" height="32px" viewBox="0 0 100 100" style="transform-origin: 50px 50px 0px;" xml:space="preserve">
+    <g style="transform-origin: 50px 50px 0px;">
+        <g style="transform-origin: 50px 50px 0px; transform: scale(1);">
+            <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -1s; animation-direction: normal;"
+                class="">
+                <g>
+                    <style type="text/css"
+                        style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -1s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        .st0 {
+                            fill: #77A4BD;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st1 {
+                            fill: #F5E6C8;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st2 {
+                            fill: #E15B64;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st3 {
+                            fill: #F8B26A;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st4 {
+                            opacity: 0.2;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st5 {
+                            fill: #E15B64;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st6 {
+                            fill: #666666;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st7 {
+                            opacity: 0.2;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st8 {
+                            fill: #333333;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st9 {
+                            fill: #E0E0E0;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st10 {
+                            fill: #E0E0E0;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st11 {
+                            fill: none;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st12 {
+                            opacity: 0.2;
+                        }
+
+                        .st13 {
+                            fill: #FFFFFF;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st14 {
+                            fill: none;
+                            stroke: #333333;
+                            stroke-width: 8;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st15 {
+                            fill: #FFFFFF;
+                            stroke: #333333;
+                            stroke-width: 4;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st16 {
+                            fill: none;
+                            stroke: #849B87;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st17 {
+                            fill: none;
+                            stroke: #E15B64;
+                            stroke-width: 4;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st18 {
+                            fill: #666666;
+                        }
+
+                        .st19 {
+                            fill: #E15B64;
+                        }
+
+                        .st20 {
+                            fill: #F8B26A;
+                        }
+
+                        .st21 {
+                            fill: #849B87;
+                        }
+
+                        .st22 {
+                            fill: #C33737;
+                        }
+
+                        .st23 {
+                            fill: #F47E60;
+                        }
+
+                        .st24 {
+                            fill: #F5E6C8;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st25 {
+                            opacity: 0.2;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st26 {
+                            fill: #ABBD81;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st27 {
+                            fill: #849B87;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st28 {
+                            fill: none;
+                            stroke: #333333;
+                            stroke-width: 2;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st29 {
+                            fill: #333333;
+                        }
+
+                        .st30 {
+                            fill: #FFFFFF;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st31 {
+                            fill: #F47E60;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st32 {
+                            fill: none;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st33 {
+                            fill: none;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st34 {
+                            fill: #E0E0E0;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st35 {
+                            fill: #F8B26A;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st36 {
+                            fill: none;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st37 {
+                            fill: #FFFFFF;
+                        }
+
+                        .st38 {
+                            fill: none;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st39 {
+                            fill: #E15B64;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st40 {
+                            opacity: 0.2;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st41 {
+                            fill: #E15B64;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st42 {
+                            fill: #A0C8D7;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st43 {
+                            fill: #A0C8D7;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st44 {
+                            fill: #ABBD81;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st45 {
+                            fill: #F47E60;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st46 {
+                            fill: #F8B26A;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st47 {
+                            fill: #FFFFFF;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st48 {
+                            fill: none;
+                            stroke: #E0E0E0;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st49 {
+                            opacity: 0.2;
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st50 {
+                            opacity: 0.8;
+                            fill: none;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st51 {
+                            fill: #E0E0E0;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st52 {
+                            fill: #E15B64;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st53 {
+                            fill: none;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st54 {
+                            fill: #ABBD81;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st55 {
+                            fill: #F8B26A;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st56 {
+                            fill: #A0C8D7;
+                            stroke: #333333;
+                            stroke-width: 3.5;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st57 {
+                            fill: #77A4BD;
+                            stroke: #77A4BD;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st58 {
+                            opacity: 0.5;
+                            fill: #E0E0E0;
+                        }
+
+                        .st59 {
+                            fill: none;
+                            stroke: #F5E169;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st60 {
+                            fill: none;
+                            stroke: #333333;
+                            stroke-width: 6.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st61 {
+                            fill: #666666;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st62 {
+                            fill: #333333;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st63 {
+                            fill: none;
+                            stroke: #FFFFFF;
+                            stroke-width: 6.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st64 {
+                            fill: none;
+                            stroke: #FFFFFF;
+                            stroke-width: 3.5;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st65 {
+                            fill: none;
+                            stroke: #C33737;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                        .st66 {
+                            stroke: #000000;
+                            stroke-width: 3.5;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                        }
+
+                    </style>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.961538s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st51"
+                            d="M9.249,88.366l14.455-39.813c9.482-8.811,38.619,22.544,29.137,31.356l-40.765,11.5 C10.246,91.925,8.6,90.154,9.249,88.366z"
+                            fill="rgb(224, 224, 224)" stroke="rgb(51, 51, 51)"
+                            style="fill: rgb(224, 224, 224); stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.923077s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st51"
+                            d="M52.841,79.909c2.281-2.119,2.312-5.548,0.935-9.403l-35.243-7.712L14.842,72.96l35.272,7.718L52.841,79.909z"
+                            fill="rgb(224, 224, 224)" stroke="rgb(51, 51, 51)"
+                            style="fill: rgb(224, 224, 224); stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.884615s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st51"
+                            d="M9.249,88.366c-0.649,1.787,0.997,3.559,2.828,3.043l15.494-4.371l-16.526-3.616L9.249,88.366z"
+                            fill="rgb(224, 224, 224)" stroke="rgb(51, 51, 51)"
+                            style="fill: rgb(224, 224, 224); stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.846154s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st51"
+                            d="M23.704,48.553l-1.372,3.779l22.751,4.978C37.836,49.637,28.381,44.207,23.704,48.553z"
+                            fill="rgb(224, 224, 224)" stroke="rgb(51, 51, 51)"
+                            style="fill: rgb(224, 224, 224); stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.807692s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st52"
+                            d="M45.083,57.31l-22.751-4.978l-3.798,10.462l35.243,7.712C52.252,66.238,48.995,61.452,45.083,57.31z"
+                            stroke="rgb(51, 51, 51)" fill="rgb(225, 91, 100)"
+                            style="stroke: rgb(51, 51, 51); fill: rgb(225, 91, 100);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.769231s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <polygon class="st52" points="14.842,72.96 11.044,83.422 27.57,87.038 50.114,80.678 "
+                            stroke="rgb(51, 51, 51)" fill="rgb(225, 91, 100)"
+                            style="stroke: rgb(51, 51, 51); fill: rgb(225, 91, 100);"></polygon>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.730769s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st53"
+                            d="M32.79,40.466c3.701-5.514,6.382-12.246,4.96-18.733c-0.397-1.812-1.375-3.794-3.19-4.178 c-1.151-0.244-2.332,0.239-3.343,0.841c-1.269,0.755-2.494,1.844-2.745,3.299c-0.097,0.561-0.032,1.163,0.261,1.651 c0.582,0.969,1.948,1.241,3.009,0.848s1.851-1.295,2.455-2.25c2.445-3.865,2.451-8.733,2.378-13.307"
+                            stroke="rgb(51, 51, 51)" style="stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.692308s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st53" d="M41.944,43.19c2.944-7.403,5.265-15.055,6.928-22.847"
+                            stroke="rgb(51, 51, 51)" style="stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.653846s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st53" d="M54.557,34.897c3.989-6.302,9.355-11.727,15.612-15.785"
+                            stroke="rgb(51, 51, 51)" style="stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.615385s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st53" d="M52.491,54.936c6.274-5.09,14.434-7.797,22.506-7.466"
+                            stroke="rgb(51, 51, 51)" style="stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.576923s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <path class="st53"
+                            d="M60.528,63.579c4.615-1.438,9.958-0.223,13.497,3.069c1.068,0.994,1.999,2.203,2.348,3.62 s0.014,3.062-1.096,4.009c-1.338,1.141-3.358,0.992-5.018,0.41c-1.618-0.568-3.352-2.111-2.707-3.699 c0.411-1.011,1.594-1.439,2.661-1.668c6.513-1.396,13.656,0.592,18.511,5.152"
+                            stroke="rgb(51, 51, 51)" style="stroke: rgb(51, 51, 51);"></path>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.538462s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <circle class="st56" cx="83.507" cy="39.155" r="7.388" stroke="rgb(51, 51, 51)"
+                            fill="rgb(160, 200, 215)" style="stroke: rgb(51, 51, 51); fill: rgb(160, 200, 215);">
+                        </circle>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.5s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <circle class="st55" cx="52.491" cy="13.63" r="5.13" stroke="rgb(51, 51, 51)"
+                            fill="rgb(248, 178, 106)" style="stroke: rgb(51, 51, 51); fill: rgb(248, 178, 106);">
+                        </circle>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.461538s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <circle class="st54" cx="62.905" cy="26.166" r="4.889" stroke="rgb(51, 51, 51)"
+                            fill="rgb(171, 189, 129)" style="stroke: rgb(51, 51, 51); fill: rgb(171, 189, 129);">
+                        </circle>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.423077s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <circle class="st55" cx="70.925" cy="60.082" r="5.727" stroke="rgb(51, 51, 51)"
+                            fill="rgb(248, 178, 106)" style="stroke: rgb(51, 51, 51); fill: rgb(248, 178, 106);">
+                        </circle>
+                    </g>
+                    <g style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.384615s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <circle class="st54" cx="20.57" cy="29.17" r="5.727" stroke="rgb(51, 51, 51)"
+                            fill="rgb(171, 189, 129)" style="stroke: rgb(51, 51, 51); fill: rgb(171, 189, 129);">
+                        </circle>
+                    </g>
+                    <metadata xmlns:d="https://loading.io/stock/"
+                        style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.346154s; animation-direction: normal;"
+                        class="ld ld-breath">
+                        <d:name
+                            style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.307692s; animation-direction: normal;"
+                            class="ld ld-breath">party</d:name>
+                        <d:tags
+                            style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.269231s; animation-direction: normal;"
+                            class="ld ld-breath">party,celebrate,cracker
+                            snap,pop,bang,firecracker,wedding,ceremony,festival</d:tags>
+                        <d:license
+                            style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.230769s; animation-direction: normal;"
+                            class="ld ld-breath">cc-by</d:license>
+                        <d:slug
+                            style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.192308s; animation-direction: normal;"
+                            class="ld ld-breath">wzfdam</d:slug>
+                    </metadata>
+                </g>
+            </g>
+        </g>
+    </g>
+    <style type="text/css"
+        style="transform-origin: 50px 50px 0px; animation-duration: 1s; animation-delay: -0.153846s; animation-direction: normal;"
+        class="ld ld-breath">
+        @keyframes ld-breath {
+            0% {
+                -webkit-transform: scale(0.86);
+                transform: scale(0.86);
+            }
+
+            50% {
+                -webkit-transform: scale(1.06);
+                transform: scale(1.06);
+            }
+
+            100% {
+                -webkit-transform: scale(0.86);
+                transform: scale(0.86);
+            }
+        }
+
+        @-webkit-keyframes ld-breath {
+            0% {
+                -webkit-transform: scale(0.86);
+                transform: scale(0.86);
+            }
+
+            50% {
+                -webkit-transform: scale(1.06);
+                transform: scale(1.06);
+            }
+
+            100% {
+                -webkit-transform: scale(0.86);
+                transform: scale(0.86);
+            }
+        }
+
+        .ld.ld-breath {
+            -webkit-animation: ld-breath 1s infinite;
+            animation: ld-breath 1s infinite;
+        }
+
+    </style>
+</svg>

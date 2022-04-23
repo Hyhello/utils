@@ -1,6 +1,7 @@
-![logo](https://docsify.js.org/_media/icon.svg)
+![logo](./_images/icon.svg)
 
-# 前端业务工具函数库<small>v1.3.1</small>
+# <image src="./_images/cracker.svg" /> 前端业务工具函数库 <image src="./_images/cracker.svg" /> <small>v1.3.1</small>
+
 ### 目的：高效率完成前端业务代码
 
 [Github](https://github.com/Hyhello/utils)

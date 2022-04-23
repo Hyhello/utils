@@ -1,0 +1,73 @@
+<svg xml:space="preserve" width="120px" height="120px" viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg"
+    style="background: none;">
+    <g class="ldl-scale" style="transform-origin: 50% 50%;">
+        <g class="ldl-ani">
+            <g class="ldl-layer">
+                <g class="ldl-ani">
+                    <g>
+                        <g class="ldl-layer">
+                            <g class="ldl-ani"
+                                style="transform-origin: 50px 50px; animation: 1.11111s linear -0.694444s infinite normal forwards running breath;">
+                                <path stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round"
+                                    stroke-width="3.5" stroke="#333" fill="#e0e0e0"
+                                    d="M50.429 18.035c-7.779-3.799-13.753-4.328-19.977 1.72L20.38 29.828l.441.441a3.383 3.383 0 0 1 0 4.784l-.504.504a3.383 3.383 0 0 1-4.784 0h0L11 40.089l10.828 10.828 4.533-4.533a3.383 3.383 0 0 1 0-4.784l.504-.504a3.383 3.383 0 0 1 4.784 0l.441.441 2.392-2.392 11.961 11.961 4.784-4.784L39.265 34.36l2.896-2.896-5.274-5.274c5.833-5.473 8.741-4.934 13.507-5.867 1.11-.218 1.132-1.752.035-2.288z"
+                                    style="fill: rgb(224, 224, 224); stroke: rgb(51, 51, 51);"></path>
+                            </g>
+                        </g>
+                        <g class="ldl-layer">
+                            <g class="ldl-ani"
+                                style="transform-origin: 50px 50px; animation: 1.11111s linear -0.833333s infinite normal forwards running breath;">
+                                <path stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round"
+                                    stroke-width="3.5" stroke="#333" fill="#e15b64"
+                                    d="M83.801 78.4l-5.029 5.029a1.553 1.553 0 0 1-2.197 0L41.221 48.073a1.553 1.553 0 0 1 0-2.197l5.029-5.029a1.553 1.553 0 0 1 2.197 0l35.355 35.355a1.555 1.555 0 0 1-.001 2.198z"
+                                    style="fill: rgb(225, 91, 100); stroke: rgb(51, 51, 51);"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g class="ldl-layer">
+                <g class="ldl-ani">
+                    <g>
+                        <g class="ldl-layer">
+                            <g class="ldl-ani"
+                                style="transform-origin: 50px 50px; animation: 1.11111s linear -0.972222s infinite normal forwards running breath;">
+                                <path stroke-miterlimit="10" stroke-linejoin="round" stroke-width="3.5" stroke="#333"
+                                    fill="#e0e0e0"
+                                    d="M44.544 68.945l26.112-26.112c4.294 1.976 9.195 1.451 13.068-2.422 3.922-3.922 6.145-7.792 4.954-11.564l-9.901 7.001c-1.96 1.96-8.481-4.56-6.521-6.521l10.104-7.145c-5.294-2.945-12.458-3.811-16.567.298-3.874 3.874-4.398 8.775-2.422 13.068L37.26 61.661c-4.294-1.976-9.195-1.451-13.068 2.422-3.922 3.922-6.144 7.792-4.954 11.564l9.901-7.001c1.96-1.96 8.481 4.56 6.521 6.521l-10.104 7.145c5.294 2.945 12.458 3.811 16.567-.298 3.872-3.874 4.397-8.776 2.421-13.069z"
+                                    style="fill: rgb(224, 224, 224); stroke: rgb(51, 51, 51);"></path>
+                            </g>
+                        </g>
+                        <g class="ldl-layer">
+                            <g class="ldl-ani"
+                                style="transform-origin: 50px 50px; animation: 1.11111s linear -1.11111s infinite normal forwards running breath;">
+                                <path d="M65.675 40.529L42.241 63.964" stroke-miterlimit="10" stroke-linejoin="round"
+                                    stroke-linecap="round" stroke-width="3.5" stroke="#333" fill="none"
+                                    style="stroke: rgb(51, 51, 51);"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <style type="text/css">
+                @keyframes breath {
+                    0% {
+                        animation-timing-function: cubic-bezier(0.9647, 0.2413, -0.0705, 0.7911);
+                        transform: scale(0.9099999999999999);
+                    }
+
+                    51% {
+                        animation-timing-function: cubic-bezier(0.9226, 0.2631, -0.0308, 0.7628);
+                        transform: scale(1.02994);
+                    }
+
+                    100% {
+                        transform: scale(0.9099999999999999);
+                    }
+                }
+
+            </style>
+        </g>
+    </g>
+</svg>
