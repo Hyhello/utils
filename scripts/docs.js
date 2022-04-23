@@ -40,7 +40,7 @@ const clearFile = () => {
 const updateVersion = () => {
     const odir = path.resolve(outputDir, '_coverpage.md');
     let md = fs.readFileSync(odir, { encoding: 'utf8' });
-    md = md.replace(singleReg, `<$1>${pkg.version}</$1>`);
+    md = md.replace(singleReg, `<$1>v${pkg.version}</$1>`);
     fs.writeFileSync(odir, md, { encoding: 'utf8' });
 };
 
