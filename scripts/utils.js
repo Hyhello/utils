@@ -14,10 +14,6 @@ exports.toCamel = str => {
     });
 };
 
-exports.convertSep = (str, sep) => {
-    return str.replace(new RegExp(`\\${path.sep}`, 'g'), sep);
-};
-
 // 删除文件夹
 exports.del = (dirList, log = true) => {
     try {
@@ -47,4 +43,15 @@ exports.json2md = (list = [], level = 0) => {
         }
     });
     return str;
+};
+
+// 管道
+exports.pipe = (...list) => {
+    return async (input) => {
+        let currentInput = input;
+        for (let func of list) {
+            currentInput = await func(input);
+        }
+        return currentInput;
+    };
 };

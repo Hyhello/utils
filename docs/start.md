@@ -6,10 +6,7 @@
 
 ```nodejs
 <!-- 引入库 -->
-<script src="https://cdn.jsdelivr.net/npm/@hyhello/utils/lib/utils.umd.js"></script>
-or
-<script src="https://unpkg.com/@hyhello/utils/lib/utils.umd.js"></script>
-```
+<script src="https://cdn.jsdelivr.net/npm/@hyhello/utils/lib/index.min.js"></script>
 
 ##### Use In Node.js:
 
