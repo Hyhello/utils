@@ -61,6 +61,11 @@
         "access": "public",
         "registry": "https://registry.npmjs.org"
     },
+    "lint-staged": {
+        "packages/**/*.{js,ts}": [
+            "npm run lint --fix"
+        ]
+    },
     "engines": {
         "node": ">=4.0.0"
     },
@@ -72,7 +77,6 @@
         "@types/node": "*",
         "@typescript-eslint/eslint-plugin": "^4.29.3",
         "@typescript-eslint/parser": "^4.29.3",
-        "chalk": "^4.1.2",
         "del": "^6.1.0",
         "docsify-cli": "^4.4.3",
         "eslint": "7.5.0",
@@ -87,6 +91,7 @@
         "husky": "^7.0.2",
         "jest": "^27.0.6",
         "jest-environment-jsdom": "^27.0.6",
+        "lint-staged": "^12.4.1",
         "prettier": "^2.3.2",
         "release-it": "^14.12.5",
         "rollup": "^2.59.0",
