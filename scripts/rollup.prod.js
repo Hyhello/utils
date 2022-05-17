@@ -38,41 +38,38 @@ const terserPlugin = terser({
 rollupConfig.plugins.push(terserPlugin, filesize());
 
 // 构建componets
-function buildComponents() {
-	Object.keys(components).forEach((name) => {
-		rollup
-			.rollup({
-				...rollupConfig,
-				input: components[name]
-			})
-			.then((bundle) => {
-				bundle.write({
-					format: 'esm',
-					name,
-					file: `${config.prod.outputDir}/${name}.js`,
-					sourcemap: false
-				});
-			});
-	});
+const buildComponents = async () => {
+    const componentsList = Object.keys(components);
+    for (let name of componentsList) {
+        const bundle = await rollup.rollup({
+            ...rollupConfig,
+            input: components[name]
+        });
+        bundle.write({
+            format: 'esm',
+            name,
+            file: `${config.prod.outputDir}/${name}.js`,
+            sourcemap: false
+        });
+    }
 }
 
 // 构建所有
-function buildEntry() {
+async function buildEntry() {
 	const { outputDir, outputTypeList } = config.prod;
 	const name = packageJson.name.replace(/^.*\/(\w+)$/, '$1');
 	del([outputDir]);
-	buildComponents();
-	rollup.rollup(rollupConfig).then((bundle) => {
-		outputTypeList.forEach((type) => {
-			bundle.write({
-				format: type,
-				name,
-				file: `${outputDir}/utils.${type}.js`,
-				sourcemap: false,
-				banner,
-                exports: 'named'
-			});
-		});
-	});
+	await buildComponents();
+    const bundle = await rollup.rollup(rollupConfig);
+    outputTypeList.forEach((type) => {
+        bundle.write({
+            format: type,
+            name,
+            file: `${outputDir}/utils.${type}.js`,
+            sourcemap: false,
+            banner,
+            exports: 'named'
+        });
+    });
 }
 buildEntry();
