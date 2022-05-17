@@ -9,5 +9,5 @@ const nToFixed = Number.prototype.toFixed;
  * toFixed(1.2, 3);  1.2 <string>
  */
 export default function toFixed(num: number, fixed?: number): string {
-	return nToFixed.call(num, fixed).replace(/\.?0+$/, '');
+	return nToFixed.call(num, fixed).replace(/\.0+$/, '');
 }
