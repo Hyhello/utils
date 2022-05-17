@@ -1,6 +1,5 @@
 const json = require('@rollup/plugin-json');
 const alias = require('@rollup/plugin-alias');
-const eslint = require('@rollup/plugin-eslint');
 const replace = require('@rollup/plugin-replace');
 const commonjs = require('@rollup/plugin-commonjs');
 const typescript = require('rollup-plugin-typescript2');
@@ -23,11 +22,6 @@ const baseConfig = {
 		commonjs(),
 		json({
 			exclude: ['node_modules/**']
-		}),
-        eslint({
-			formatter: require('eslint-friendly-formatter'),
-			include: ['src/**/*.ts'],
-            exclude: 'node_modules/**'
 		}),
 		typescript({ sourceMap: env === 'development', useTsconfigDeclarationDir: true }),
 		replace({
