@@ -33,7 +33,7 @@ const clearFile = () => {
     const delList = [outputDir + '/*.md'].concat(['install.md', 'start.md', 'README.md', 'CHANGELOG.md', '_coverpage.md'].map(file => {
         return '!' + outputDir + '/' + file;
     }));
-    del(delList, false);
+    del(delList, true);
 };
 
 // 更新版本号

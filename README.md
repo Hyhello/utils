@@ -17,7 +17,7 @@ Note: add --save if you are using npm < 5.0.0
 Use in a browser(CDN):
 
 ```nodejs
-<script src="utils.umd.js"></script>
+<script src="index.min.js"></script>
 ```
 
 Use In Node.js:
