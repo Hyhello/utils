@@ -6,6 +6,6 @@ describe('#isPromise()', () => {
 		expect(isPromise(Promise.resolve)).toBeFalsy();
 		// expect(isPromise(Promise.reject(new Error('error')))).toBeTruthy();
 		expect(isPromise(Promise.resolve())).toBeTruthy();
-		expect(isPromise(new Promise((resolve) => resolve()))).toBeTruthy();
+		expect(isPromise(new Promise((resolve) => resolve(true)))).toBeTruthy();
 	});
 });
