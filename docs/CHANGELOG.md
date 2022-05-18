@@ -1,5 +1,12 @@
 
 
+## [1.3.2](https://github.com/Hyhello/utils/compare/1.3.1...1.3.2) (2022-05-18)
+
+
+### Bug Fixes
+
+* 修复toFixed在纯数字200等情况下会转换为2的情况 ([8ff9024](https://github.com/Hyhello/utils/commit/8ff902479fad36a7f04bb9da89946c53f3b4272e))
+
 ## [1.3.1](https://github.com/Hyhello/utils/compare/1.3.0...1.3.1) (2022-04-20)
 
 
