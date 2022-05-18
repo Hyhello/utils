@@ -15,3 +15,6 @@ Note: add --save if you are using npm < 5.0.0
 ```nodejs
 <!-- 引入库 -->
 <script src="https://cdn.jsdelivr.net/npm/@hyhello/utils/lib/index.min.js"></script>
+or
+<script src="https://unpkg.com/@hyhello/utils/lib/index.min.js"></script>
+```
