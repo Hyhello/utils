@@ -12,7 +12,7 @@
         "test": "jest",
         "release": "release-it",
         "gc": "bash scripts/gc.sh",
-        "postinstall": "husky install",
+        "prepare": "husky install",
         "build": "node scripts/build.js",
         "test:coverage": "jest --coverage",
         "lint": "tsc && eslint --ext .ts src",
