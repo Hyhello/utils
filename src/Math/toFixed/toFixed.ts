@@ -9,7 +9,7 @@ const nToFixed = Number.prototype.toFixed;
  * toFixed(1.2, 3);  1.2 <string>
  */
 export default function toFixed(num: number, fixed?: number): string {
-    const val = nToFixed.call(num, fixed);
-    if (num === +val) return String(num);
+	const val = nToFixed.call(num, fixed);
+	if (num === +val) return String(num);
 	return val;
 }
