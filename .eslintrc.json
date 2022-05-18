@@ -1,84 +1,71 @@
 {
-	"root": true,
-	"env": {
-		"browser": true,
-		"es6": true,
-		"commonjs": true,
-		"node": true
-	},
-	"extends": [
-		"airbnb-base",
+    "root": true,
+    "env": {
+        "browser": true,
+        "es6": true,
+        "commonjs": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-		"plugin:prettier/recommended"
-	],
-	"globals": {
-		"T": "readonly",
-		"arguments": "readonly",
-		"Atomics": "readonly",
-		"SharedArrayBuffer": "readonly"
-	},
-	"plugins": ["@typescript-eslint"],
-	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
+        "plugin:prettier/recommended"
+    ],
+    "globals": {
+        "T": "readonly",
+        "arguments": "readonly",
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "plugins": ["@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
         "project": ["./tsconfig.json"]
-	},
-	"rules": {
-		"prettier/prettier": "error",
-		"indent": ["error", "tab", { "SwitchCase": 1 }],
-		"global-require": 0,
-		"import/prefer-default-export": 0,
-		"linebreak-style": 0,
-		"no-console": 0,
-		"no-plusplus": 0,
-		"quotes": ["error", "single"],
-		"semi": ["error", "always"],
-		"generator-star-spacing": "off",
-		"eol-last": 0,
-		"no-tabs": 0,
-		"one-var": 0,
-		"func-names": 0,
-		"no-underscore-dangle": 0,
-		"no-param-reassign": 0,
-		"consistent-return": 0,
-		"no-mixed-spaces-and-tabs": 0,
-		"no-restricted-syntax": ["error", "WithStatement"],
-		"import/no-dynamic-require": 0,
-		"no-useless-return": 0,
-		"no-multi-spaces": ["error", { "ignoreEOLComments": true }],
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-              "js": "never",
-              "jsx": "never",
-              "ts": "never",
-              "tsx": "never"
-            }
-        ]
-	},
-	"settings": {
-		"import/resolver": {
-			"alias": {
-				"map": [
-					["@", "./src"]
-				],
-				"extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
-			}
-		}
-	},
-	"overrides": [
-		{
-			"files": ["**/*.spac.ts"],
-			"env": {
-				"jest": true
-			},
-            "extends": [
-                "airbnb-base",
-                "plugin:jest/recommended",
-                "plugin:@typescript-eslint/recommended",
-                "plugin:prettier/recommended"
-            ],
-            "plugins": ["@typescript-eslint", "jest"]
-		}
-	]
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "indent": ["error", "tab", {
+            "SwitchCase": 1
+        }],
+        "global-require": 0,
+        "import/prefer-default-export": 0,
+        "linebreak-style": 0,
+        "no-console": 0,
+        "no-plusplus": 0,
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "generator-star-spacing": "off",
+        "eol-last": 0,
+        "no-tabs": 0,
+        "one-var": 0,
+        "func-names": 0,
+        "no-underscore-dangle": 0,
+        "no-param-reassign": 0,
+        "consistent-return": 0,
+        "no-mixed-spaces-and-tabs": 0,
+        "no-restricted-syntax": ["error", "WithStatement"],
+        "import/no-dynamic-require": 0,
+        "no-useless-return": 0,
+        "no-multi-spaces": ["error", {
+            "ignoreEOLComments": true
+        }],
+        "@typescript-eslint/no-explicit-any": 0,
+        "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/no-loss-of-precision": 0
+    },
+    "overrides": [{
+        "files": ["**/*.spac.ts"],
+        "env": {
+            "jest": true
+        },
+        "extends": [
+            "eslint:recommended",
+            "plugin:jest/recommended",
+            "plugin:@typescript-eslint/recommended",
+            "plugin:prettier/recommended"
+        ],
+        "plugins": ["@typescript-eslint", "jest"]
+    }]
 }
