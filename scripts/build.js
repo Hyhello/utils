@@ -72,6 +72,6 @@ async function buildEntry() {
         file: `${outputDir}/index.min.js`
     });
     // 生成types
-    generateTypes();
+    genTypes();
 }
 buildEntry();
