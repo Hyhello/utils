@@ -6,7 +6,9 @@ utils.store.get(name, [deep=false]);
 // 设置/更新localStorage/sessionStorage里面存储的值
 utils.store.set(name, value, [deep=false]);
 // 删除localStorage/sessionStorage里面存储的值
-utils.store.clear(name, [deep=false]);
+utils.store.remove(name, [deep=false]);;
+// 删除localStorage/sessionStorage里面存储的值
+utils.store.clear(name, [deep=false]); // 废弃
 // 清空localStorage/sessionStorage里面存储的所有值
 utils.store.clearAll([deep=false]);
 ```
@@ -17,7 +19,7 @@ utils.store.clearAll([deep=false]);
 
     1.0.5
 
-- **参数**（get, set, clear, clearAll 所有参数进行描述）
+- **参数**（get, set, clear, remove, clearAll 所有参数进行描述）
 
 1. name (string): 存储对象中第 n 个键的名称。
 2. value (string | unknown): 存储对象中的值。
@@ -27,7 +29,7 @@ utils.store.clearAll([deep=false]);
 
     【get】(any): 返回指定键的值。
 
-    【set、clear、clearAll】(void): 无返回值。
+    【set、clear、remove、clearAll】(void): 无返回值。
 
 - **例子**
 
@@ -57,13 +59,13 @@ utils.store.clearAll([deep=false]);
         // => '2'
         ```
 
-    - store.clear
+    - store.remove | store.clear
 
         ```javascript
         window.locationStorage.setItem('test_a', '1');
         window.sessionStorage.setItem('test_a', '2');
-        utils.store.clear('test_a', true);
-        utils.store.clear('test_a');
+        utils.store.remove('test_a', true);
+        utils.store.remove('test_a');
 
         utils.store.get('test_a', true);
         // => null

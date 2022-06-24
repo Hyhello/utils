@@ -1,5 +1,12 @@
 
 
+# [1.4.0](https://github.com/Hyhello/utils/compare/1.3.3...1.4.0) (2022-06-24)
+
+
+### Features
+
+* store 添加remove方法，废弃clear方法 ([5106b5f](https://github.com/Hyhello/utils/commit/5106b5f16bb9ad2259f8f51d326bd59ea470a662))
+
 ## [1.3.3](https://github.com/Hyhello/utils/compare/1.3.2...1.3.3) (2022-05-18)
 
 
