@@ -3,6 +3,7 @@ type IStore = {
 	get(name: string, deep?: boolean): string | object | null;
 	set(name: string, value: string | object, deep?: boolean): void;
 	clear(name: string, deep?: boolean): void;
+	remove(name: string, deep?: boolean): void;
 	clearAll(deep?: boolean): void;
 };
 
@@ -24,6 +25,10 @@ const store: IStore = {
 			value = JSON.stringify(value);
 		}
 		storage.setItem(name, value);
+	},
+	remove(name: string, deep = false): void {
+		const storage = deep ? window.localStorage : window.sessionStorage;
+		storage.removeItem(name);
 	},
 	clear(name: string, deep = false): void {
 		const storage = deep ? window.localStorage : window.sessionStorage;
