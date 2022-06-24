@@ -2,6 +2,7 @@
 const fs = require('fs-extra');
 const rollup = require('rollup');
 const config = require('./config');
+const genTypes = require('./genTypes');
 const components = require('./components');
 const packageJson = require('../package.json');
 const { terser } = require('rollup-plugin-terser');
@@ -35,7 +36,7 @@ const rollupConfig = {
             extensions: ['.ts']
         }),
         commonjs(),
-        typescript({ sourceMap: false, useTsconfigDeclarationDir: true }),
+        typescript({ sourceMap: false }),
         terserPlugin,
         filesize()
     ]
@@ -52,24 +53,25 @@ const buildComponents = async () => {
         bundle.write({
             format: 'esm',
             name,
-            file: `${config.prod.outputDir}/${name}.js`
+            file: `${config.outputDir}/${name}.js`
         });
     }
 }
 
 // 构建所有
 async function buildEntry() {
-    const { outputDir, outputType } = config.prod;
-    const name = packageJson.name.replace(/^.*\/(\w+)$/, '$1');
+    const { pkgName, outputDir, outputType } = config;
     del([outputDir], false);
     await buildComponents();
     const bundle = await rollup.rollup(rollupConfig);
     bundle.write({
         format: outputType,
-        name,
+        name: pkgName,
         banner,
         exports: 'named',
         file: `${outputDir}/index.min.js`
     });
+    // 生成types
+    generateTypes();
 }
 buildEntry();

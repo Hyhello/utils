@@ -8,12 +8,6 @@ const path = require('path');
 
 exports.pathResolve = (...args) => path.resolve(__dirname, '../', ...args);
 
-exports.toCamel = str => {
-    return str.replace(/(?:^|-)(\w)/g, (_, $1) => {
-        return $1.toUpperCase();
-    });
-};
-
 // 删除文件夹
 exports.del = (dirList, log = true) => {
     try {
