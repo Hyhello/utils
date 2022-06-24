@@ -6,13 +6,11 @@
         "allowJs": false, // 是否编辑js文件
         "strict": true, // 严格模式
         "noEmit": true,
-        "importHelpers": true,
         "noUnusedLocals": true,
         "removeComments": true,
         "esModuleInterop": true
     },
     "include": [
-        "src",
-        "types" // 导入目录
+        "src"
     ]
 }

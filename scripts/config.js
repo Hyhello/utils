@@ -1,7 +1,6 @@
 module.exports = {
+    pkgName: 'utils',
     docsDir: './docs',
-	prod: {
-        outputDir: 'lib',
-        outputType: 'umd'
-	}
+    outputDir: 'lib',
+    outputType: 'umd'
 };
