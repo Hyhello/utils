@@ -2,6 +2,7 @@ import toSecret from './toSecret';
 
 describe('#toSecret()', () => {
 	test('toSecret', () => {
+		expect(toSecret('')).toEqual('');
 		expect(toSecret('1')).toEqual('1');
 		expect(toSecret('11')).toEqual('11');
 		expect(toSecret('22', -2, -1)).toEqual('*2');

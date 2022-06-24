@@ -1,5 +1,5 @@
 export { default as get } from './get/get';
-// export { default as set } from './set';
+export { default as set } from './set/set';
 export { default as uuid } from './uuid/uuid';
 export { default as isEmpty } from './isEmpty/isEmpty';
 export { default as getType } from './getType/getType';

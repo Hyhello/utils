@@ -41,13 +41,16 @@ describe('#store', () => {
 		});
 	});
 
-	describe('store clear', () => {
+	describe('store clear、remove、clearAll', () => {
 		const value = 'jest-test';
 		const valueObj = { a: 1 };
 		beforeEach(() => {
 			window.sessionStorage.setItem('jest-test1', value);
 			window.localStorage.setItem('jest-test2', value);
 			window.sessionStorage.setItem('jest-test3', JSON.stringify(valueObj));
+			window.sessionStorage.setItem('jest-test4', value);
+			window.localStorage.setItem('jest-test5', value);
+			window.sessionStorage.setItem('jest-test6', JSON.stringify(valueObj));
 		});
 		test('store clear(session)', () => {
 			store.clear('jest-test1');
@@ -60,6 +63,18 @@ describe('#store', () => {
 		test('store clear(object)', () => {
 			store.clear('jest-test3');
 			expect(window.sessionStorage.getItem('jest-test3')).toEqual(null);
+		});
+		test('store remove(session)', () => {
+			store.remove('jest-test4');
+			expect(window.sessionStorage.getItem('jest-test4')).toEqual(null);
+		});
+		test('store remove(location)', () => {
+			store.remove('jest-test5', true);
+			expect(window.localStorage.getItem('jest-test5')).toEqual(null);
+		});
+		test('store remove(object)', () => {
+			store.remove('jest-test6');
+			expect(window.sessionStorage.getItem('jest-test6')).toEqual(null);
 		});
 		test('store clear all', () => {
 			window.sessionStorage.setItem('jest-test1 all', value);

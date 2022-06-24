@@ -10,5 +10,6 @@ describe('#pathResolve()', () => {
 		expect(pathResolve('a/.b', '../b/.adb')).toEqual('a/b/.adb');
 		expect(pathResolve('./a/.b', '../b/.adb')).toEqual('a/b/.adb');
 		expect(pathResolve('././a/.b', '../b/.adb')).toEqual('a/b/.adb');
+		expect(pathResolve('../a/b', './b/.adb')).toEqual('/a/b/b/.adb');
 	});
 });
