@@ -80,6 +80,10 @@ then
     echo "该方法已经存在，请检查~"
 else
 
+# 在当前分类下面修改index.ts (追加抛出)
+echo "export { default as ${NAME} } from './${NAME}/${NAME}';" >> index.ts
+echo "- [${NAME}](./${NAME})" >> README.md
+
 # 创建文件夹
 mkdir -p $NAME
 
