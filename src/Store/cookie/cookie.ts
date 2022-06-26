@@ -3,6 +3,7 @@ type ICookie = {
 	get(name: string): string | null;
 	set(name: string, value: string, time?: number): void;
 	clear(name: string): void;
+	remove(name: string): void;
 };
 /**
  * 前端 cookie。
