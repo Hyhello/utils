@@ -4,7 +4,7 @@
 utils.maybeAddPx(input);
 ```
 
-可能将值（input）添加后缀 px
+可能将值（input）添加后缀 px。
 
 - **引入版本**
 

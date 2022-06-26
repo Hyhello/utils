@@ -4,7 +4,7 @@
 utils.pathResolve(...args);
 ```
 
-功能类似于 path.resolve，但比它简单
+功能类似于 path.resolve，但比它简单。
 
 - **引入版本**
 
@@ -12,7 +12,7 @@ utils.pathResolve(...args);
 
 - **参数**
 
-1. args (Array&lt;string&gt;)：待合并路径。
+1. args (Array&lt;string&gt;): 待合并路径。
 
 - **返回**
 

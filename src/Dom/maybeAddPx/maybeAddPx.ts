@@ -1,11 +1,10 @@
-import isBrowser from '../../Base/isBrowser/isBrowser';
+import { isBrowser } from '@/Base';
+
 /**
- * 是否添加px
- * @param input
- * @returns
- * maybeAddPx('auto'); => 'auto'
- * maybeAddPx('100%'); => '100%'
- * maybeAddPx('100'); => '100px'
+ * 可能将值（input）添加后缀 px。
+ * @param input 待处理的值。
+ * @returns {string} 可能返回一个后缀为 px 的字符串。
+ * @see {@link https://hyhello.github.io/utils/#/maybeAddPx 在线文档}
  */
 export default function maybeAddPx(input: string | number): string {
 	if (!isBrowser()) throw new Error('This method is not supported in the current environment');

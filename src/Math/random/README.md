@@ -4,7 +4,7 @@
 utils.random(min, max);
 ```
 
-产生一个包括 min 与 min 之间的数。
+产生一个包括 min 与 max 之间的数。
 
 - **引入版本**
 

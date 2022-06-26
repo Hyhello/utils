@@ -4,7 +4,7 @@
 utils.noop();
 ```
 
-这个方法返回一个 undefined
+noop方法。
 
 - **引入版本**
 

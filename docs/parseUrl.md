@@ -4,7 +4,7 @@
 utils.parseUrl(url);
 ```
 
-解析 url
+解析 url。
 
 - **引入版本**
 

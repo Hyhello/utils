@@ -1,13 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/ban-types */
 import isNumber from '../isNumber/isNumber';
+
 /**
- * set 设置/更新对象/数组里面的值
- * @returns
- * @example
- *
+ * 根据 obj 对象的 path 路径设置/更新值(value)。
+ * @param obj 要设置的对象。
+ * @param path 属性的路径。
+ * @param value 需设置的值。
+ * @returns {object} 返回处理后的值。
+ * @see {@link https://hyhello.github.io/utils/#/set 在线文档}
  */
-// TODO: 此处类型没有整清晰
 export default function set(obj: object, path: string | Array<string | number>, value: unknown): object {
 	const pathList: any[] = !Array.isArray(path) ? path.replace(/\[/g, '.').replace(/\]/g, '').split('.') : path;
 	const len = pathList.length;

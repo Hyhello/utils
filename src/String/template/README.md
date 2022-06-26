@@ -4,7 +4,7 @@
 utils.toNumber(str, obj);
 ```
 
-最简单的 template，类似于 artTemplate，但比它简单
+最简单的 template，类似于 artTemplate，但比它简单。
 
 - **引入版本**
 
@@ -13,7 +13,7 @@ utils.toNumber(str, obj);
 - **参数**
 
 1. str (string): 待处理的字符串变量。
-2. object (object)。
+2. object (object): 变量值对象。
 
 - **返回**
 

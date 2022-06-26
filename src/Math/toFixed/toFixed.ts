@@ -1,12 +1,10 @@
 const nToFixed = Number.prototype.toFixed;
 /**
- * 重写toFixed，解决后面多余0的问题
- * @param num
- * @param fixed
- * @returns string
- * @example
- * toFixed(1, 3); 1 <string>
- * toFixed(1.2, 3);  1.2 <string>
+ * 重写 toFixed，解决后面多余 0 的问题。
+ * @param num 待处理的值。
+ * @param fixed 保留多少位。
+ * @returns {string} 返回处理后的值。
+ * @see {@link https://hyhello.github.io/utils/#/toFixed 在线文档}
  */
 export default function toFixed(num: number, fixed?: number): string {
 	const val = nToFixed.call(num, fixed);

@@ -8,7 +8,10 @@
         "noEmit": true,
         "noUnusedLocals": true,
         "removeComments": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "paths": {
+            "@/*": ["src/*"]
+        }
     },
     "include": [
         "src"

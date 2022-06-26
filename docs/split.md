@@ -13,8 +13,8 @@ utils.split(str, [index = 3], [separated = ,]);
 - **参数**
 
 1. str (number | string): 待处理的字符串变量。
-2. index (number)：指定位置。
-3. separated (string)：分隔符。
+2. index (number): 指定位置。
+3. separated (string): 分隔符。
 
 - **返回**
 

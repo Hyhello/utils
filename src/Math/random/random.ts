@@ -1,15 +1,11 @@
 /**
- * 获取随机值
- * @param min 最小值
- * @param max 最大值
- * @return 随机值
- * @example
- * // 获取1~10之间的随机数
- * random(1, 10)
+ * 产生一个包括 min 与 max 之间的数。
+ * @param min 下限。
+ * @param max 上限。
+ * @return {number} 返回随机数。
+ * @see {@link https://hyhello.github.io/utils/#/random 在线文档}
  */
-const random = function (min: number, max: number): number {
+export default function random(min: number, max: number): number {
 	const diff = Math.abs(max - min);
 	return Math.random() * diff + Math.min(min, max);
-};
-
-export default random;
+}

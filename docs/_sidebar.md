@@ -42,6 +42,7 @@
 - Dom
   - [addClass](addClass.md)
   - [contains](contains.md)
+  - [getStyle](getStyle.md)
   - [hasClass](hasClass.md)
   - [hasFocus](hasFocus.md)
   - [maybeAddPx](maybeAddPx.md)
@@ -51,6 +52,7 @@
   - [once](once.md)
   - [removeClass](removeClass.md)
   - [scrollTo](scrollTo.md)
+  - [setStyle](setStyle.md)
   - [stripHtml](stripHtml.md)
   - [toggleClass](toggleClass.md)
 
@@ -85,6 +87,7 @@
 - String
   - [camelCase](camelCase.md)
   - [capitalize](capitalize.md)
+  - [kebabCase](kebabCase.md)
   - [ltrim](ltrim.md)
   - [parseUrl](parseUrl.md)
   - [pathResolve](pathResolve.md)

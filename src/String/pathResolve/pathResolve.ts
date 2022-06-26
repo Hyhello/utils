@@ -1,11 +1,8 @@
 /**
- * 功能类似于 path.resolve
- * @param basePath
- * @param args
- * @returns path
- * @example
- * pathResolve('/b', '/ad/bc', './c', './a/dddd'); => '/ad/bc/c/a/dddd'
- * pathResolve('/b', '/ad/bc', '../c'); => '/b/ad/c'
+ * 功能类似于 path.resolve，但比它简单。
+ * @param args 待合并路径。
+ * @returns path 返回处理后的路径。
+ * @see {@link https://hyhello.github.io/utils/#/pathResolve 在线文档}
  */
 export default function pathResolve(...args: string[]): string {
 	// 分隔符

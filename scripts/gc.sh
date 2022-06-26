@@ -89,10 +89,10 @@ mkdir -p $NAME
 
 cat > $NAME/$NAME.ts <<EOF
 /**
- *
+ * 函数的描述
+ * @param
  * @returns
- * @example
- *
+ * @see {@link https://hyhello.github.io/utils/#/$NAME 在线文档}
  */
 export default function $NAME() {
 
