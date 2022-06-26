@@ -66,7 +66,7 @@ const generatemd = (list) => {
         return arr;
     }, []);
     fs.outputFileSync(MD_NAME, json2md(TPL.concat(data)), { encoding: 'utf8' });
-    console.log("DOCS文件生成完成，请运行 yarn serve:docs 查看效果");
+    console.log("\nDOCS文件生成完成，请运行 yarn serve:docs 查看效果\n");
 };
 
 const run = () => {
