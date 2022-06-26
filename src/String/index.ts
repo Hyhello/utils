@@ -10,3 +10,4 @@ export { default as camelCase } from './camelCase/camelCase';
 export { default as capitalize } from './capitalize/capitalize';
 export { default as pathResolve } from './pathResolve/pathResolve';
 export { default as uncapitalize } from './uncapitalize/uncapitalize';
+export { default as kebabCase } from './kebabCase/kebabCase';

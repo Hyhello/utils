@@ -13,3 +13,4 @@
 - [split](./split)
 - [template](./template)
 - [toNumber](./toNumber)
+- [kebabCase](./kebabCase)
