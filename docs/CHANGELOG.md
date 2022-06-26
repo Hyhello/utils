@@ -1,5 +1,14 @@
 
 
+# [1.5.0](https://github.com/Hyhello/utils/compare/1.4.0...1.5.0) (2022-06-26)
+
+
+### Features
+
+* Dom 分类新增 getStyle、setStyle方法 ([c8fbbc1](https://github.com/Hyhello/utils/commit/c8fbbc16377b084381dd2e7ebf4e885519e88942))
+* Store 分类 cookie 新增 remove方法 ([e31cd5e](https://github.com/Hyhello/utils/commit/e31cd5ed0fbbc6fa9c7b114f5231c060a3a224ad))
+* String 分类新增 kebabCase方法 ([e292063](https://github.com/Hyhello/utils/commit/e292063945d43505b2efb8cfae39e611bcaa95b5))
+
 # [1.4.0](https://github.com/Hyhello/utils/compare/1.3.3...1.4.0) (2022-06-24)
 
 
