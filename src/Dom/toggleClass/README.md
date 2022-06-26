@@ -12,7 +12,7 @@ utils.toggleClass(el, cls);
 
 - **参数**
 
-1. el (HTMLElement): 待处理的 HTML 元素。
+1. el (Element): 待处理的 HTML 元素。
 2. cls (string)：待移除/添加的 className
 
 - **返回**

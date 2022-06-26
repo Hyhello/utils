@@ -2,12 +2,11 @@
 const reg = /-/g;
 
 /**
- * 格式化日期
- * @param date
- * @param fmt
- * @returns
- * @example
- * formateDate(new Date()) => 2021-12-07 15:42:36
+ * 根据参数 fmt 格式化 date 日期。
+ * @param date 待处理的日期。
+ * @param fmt 格式化模板。
+ * @returns {string} 返回格式化后的日期。
+ * @see {@link https://hyhello.github.io/utils/#/formatDate 在线文档}
  */
 export default function formatDate(date: number | string | Date, fmt = 'yyyy-MM-dd hh:mm:ss'): string {
 	// 解决ios下面-无法被new Date问题

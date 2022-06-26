@@ -5,10 +5,8 @@ type ICookie = {
 	clear(name: string): void;
 };
 /**
- * document cookie 存取。
- * @returns
- * @example
- *
+ * 前端 cookie。
+ * @see {@link https://hyhello.github.io/utils/#/cookie 在线文档}
  */
 const cookie: ICookie = {
 	get(name: string): string | null {
@@ -23,6 +21,9 @@ const cookie: ICookie = {
 		document.cookie = `${name}=${value}; expires=${new Date().getTime() + day * 24 * 60 * 60 * 1000}; path=/;`;
 	},
 	clear(name: string): void {
+		this.set(name, '', -1);
+	},
+	remove(name: string): void {
 		this.set(name, '', -1);
 	}
 };

@@ -1,10 +1,9 @@
 /**
- * 最简单的template，类似于artTemplate，但比它简单
- * @param str
- * @param opt
- * @returns
- * @example
- * template('<a href="{url}">{title}</a>', {url: 'http://www.a.com', title: '标题'}); => <a href="http://www.a.com">标题</a>
+ * 最简单的 template，类似于 artTemplate，但比它简单。
+ * @param str 待处理的字符串变量。
+ * @param opt 变量值对象。
+ * @returns {string} 返回处理后的结果。
+ * @see {@link https://hyhello.github.io/utils/#/template 在线文档}
  */
 // eslint-disable-next-line @typescript-eslint/ban-types
 export default function template(str: string, opt: object): string {

@@ -4,7 +4,7 @@
 utils.toArray(likeArr);
 ```
 
-将类数组（likeArr）转为真正的数组。（注：类数组，包含 length, 且 index 从 0 开始）
+将类数组（likeArr）转为真正的数组。（注：类数组，包含 length, 且 index 从 0 开始）。
 
 - **引入版本**
 
@@ -12,7 +12,7 @@ utils.toArray(likeArr);
 
 - **参数**
 
-1. likeArr (ArrayLike): 类数组
+1. likeArr (ArrayLike): 类数组。
 
 - **返回**
 

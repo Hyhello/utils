@@ -1,8 +1,7 @@
 /**
- * 获取uuid
- * @returns string
- * @example
- * uuid() => cb1e9d5a-7e6b-4b54-c4b5-ed91ad360674
+ * 获取一个 uuid（xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx）
+ * @returns {string} 返回一个 uuid。
+ * @see {@link https://hyhello.github.io/utils/#/uuid 在线文档}
  */
 export default function uuid(): string {
 	let d = new Date().getTime();

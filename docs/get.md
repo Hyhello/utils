@@ -4,7 +4,7 @@
 utils.get(obj, path, [defaultValue]);
 ```
 
-根据 obj 对象的 path 路径获取值。 如果解析 value 是 undefined 会以 defaultValue 取代。
+根据 obj 对象的 path 路径获取值。如果解析 value 是 undefined 会以 defaultValue 取代。
 
 - **引入版本**
 

@@ -4,7 +4,7 @@
 utils.toNumber(str);
 ```
 
-将字符串（str）转换为 number
+将字符串（str）转换为 number。
 
 - **引入版本**
 

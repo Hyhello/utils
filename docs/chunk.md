@@ -12,8 +12,8 @@ utils.chunk(array, [size]);
 
 - **参数**
 
-1. array (Array): 需要处理的数组
-2. [size] (number): 每个数组区块的长度
+1. array (Array): 需要处理的数组。
+2. [size] (number): 每个数组区块的长度。
 
 - **返回**
 

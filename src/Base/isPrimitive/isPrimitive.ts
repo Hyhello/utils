@@ -1,21 +1,8 @@
 /**
- * 检测是否原始数据类型（Primitive data types）
- * @param v
- * @returns true / false
- * @example
- *  console.log(isPrimitive(false));  true
- *  console.log(isPrimitive(true));   true
- *  console.log(isPrimitive(null));   true
- *  console.log(isPrimitive());       true
- *  console.log(isPrimitive(42));     true
- *  console.log(isPrimitive('abc'));  true
- *  console.log(isPrimitive(Symbol())); true
- *  console.log('--------------------------------------');
- *  console.log(isPrimitive({}));     false
- *  console.log(isPrimitive([]));     false
- *  console.log(isPrimitive(function () {}));  false
- *  console.log(isPrimitive(new Date()));  false
- *
+ * 检测变量（v）是否是基本类型。
+ * @param v 待检测类型的变量。
+ * @returns {boolean} 如果 v 为一个基本类型，那么返回 true，否则返回 false。
+ * @see {@link https://hyhello.github.io/utils/#/isPrimitive 在线文档}
  */
 export default function isPrimitive(v?: unknown): boolean {
 	return Object(v) !== v;

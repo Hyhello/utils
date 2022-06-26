@@ -1,11 +1,3 @@
-/**
- * 转换待转义URL地址
- * @param str
- * @returns
- * @example
- * *
- */
-
 type IParams = {
 	[propName: string]: unknown;
 };
@@ -28,6 +20,12 @@ interface IURL {
 	};
 }
 
+/**
+ * 解析 url。
+ * @param url 待解析 url。
+ * @returns {object} 返回处理后的 结果。
+ * @see {@link https://hyhello.github.io/utils/#/parseUrl 在线文档}
+ */
 export default function parseUrl(url: string): IURL {
 	const eTagA = document.createElement('a');
 	eTagA.href = window.decodeURIComponent(url);

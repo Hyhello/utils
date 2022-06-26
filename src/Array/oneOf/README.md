@@ -13,12 +13,12 @@ utils.oneOf(target, array);
 
 - **参数**
 
-1. target (number | string): 待判断的元素
-2. array (Array): 数组
+1. target (number | string): 待判断的元素。
+2. array (Array): 数组。
 
 - **返回**
 
-    (Boolean): 返回一个 boolean 值。
+    (Boolean): 数组（array）包含元素（target）则为true，否则为false。
 
 - **例子**
 

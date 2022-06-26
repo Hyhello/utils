@@ -1,12 +1,10 @@
 /**
- * 拆分
- * @param val
- * @param index
- * @param separated
- * @returns
- * @example
- * split('aaaa'); => a,aaa
- * split(1000); => 1,000
+ * 创建新的字符串，在字符串/数值（str）指定位置（index）插入分隔符（separated）。
+ * @param val 待处理的字符串变量。
+ * @param index 指定位置。
+ * @param separated 分隔符。
+ * @returns {string} 返回处理后的结果。
+ * @see {@link https://hyhello.github.io/utils/#/split 在线文档}
  */
 export default function split(val: number | string, index = 3, separated = ','): string {
 	if (!val) return String(val);

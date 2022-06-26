@@ -4,7 +4,7 @@
 utils.debounce(func, wait, immediate);
 ```
 
-防抖函数，当函数（func）重复调用时，函数(func)在最后一次调用时刻的wait毫秒后执行
+防抖函数，当函数（func）重复调用时，函数(func)在最后一次调用时刻的wait毫秒后执行。
 
 - **引入版本**
 

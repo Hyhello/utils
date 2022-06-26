@@ -9,6 +9,7 @@ type IStore = {
 
 /**
  * 前端存储（window.localStorage | window.sessionStorage)
+ * @see {@link https://hyhello.github.io/utils/#/store 在线文档}
  */
 const store: IStore = {
 	get(name: string, deep = false): string | object | null {

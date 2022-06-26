@@ -4,7 +4,7 @@
 utils.compare([key]);
 ```
 
-用于数组排序。
+服务于sort，用于排序。
 
 - **引入版本**
 
@@ -12,7 +12,7 @@ utils.compare([key]);
 
 - **参数**
 
-1. key (number | string): 需要排序的数组
+1. key (number | string): 需要排序的数组。
 
 - **返回**
 

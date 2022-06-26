@@ -1,12 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const hasOwn = Object.prototype.hasOwnProperty;
 /**
- * 深拷贝
- * @returns
- * @example
- *
+ * 对象深拷贝。
+ * @param data 待拷贝的值。
+ * @returns {any} 深拷贝后的值。
+ * @see {@link https://hyhello.github.io/utils/#/deepClone 在线文档}
  */
-// TODO: 此处应该用泛型，但是没有找到比较好的递归泛型表达
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default function deepClone(data: any): any {
 	let result: any;

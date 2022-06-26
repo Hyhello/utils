@@ -4,7 +4,7 @@
 utils.deepClone(data);
 ```
 
-深拷贝
+对象深拷贝。
 
 - **引入版本**
 
@@ -12,11 +12,11 @@ utils.deepClone(data);
 
 - **参数**
 
-1. data(T) 待处理值。
+1. data(any): 待拷贝的值。
 
 - **返回**
 
-    data(T) 处理后的值。
+    data(any): 深拷贝后的值。
 
 - **例子**
 

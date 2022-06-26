@@ -4,7 +4,7 @@
 utils.unique(array);
 ```
 
-创建一个去重后的新数组
+创建一个去重后的新数组。
 
 - **引入版本**
 
@@ -12,7 +12,7 @@ utils.unique(array);
 
 - **参数**
 
-1. array (Array): 待处理的数组
+1. array (Array): 待处理的数组。
 
 - **返回**
 

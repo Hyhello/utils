@@ -9,7 +9,7 @@ utils.cookie.set(name, value, [day=30]);
 utils.cookie.clear(name);
 ```
 
-封装 document.cookie。
+前端 cookie。
 
 - **引入版本**
 
@@ -44,6 +44,17 @@ utils.cookie.clear(name);
         utils.cookie.set('token', 'uuid_111', 7);
 
         utils.cookie.clear('token');
+
+        utils.cookie.get('token');
+        // => null
+        ```
+
+    - cookie.remove
+
+        ```javascript
+        utils.cookie.set('token', 'uuid_111', 7);
+
+        utils.cookie.remove('token');
 
         utils.cookie.get('token');
         // => null

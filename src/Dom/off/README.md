@@ -4,7 +4,7 @@
 utils.off(el, type, listener);
 ```
 
-给指定 HTML 元素（el）移除已绑定的事件（type）
+给指定 HTML 元素（el）移除已绑定的事件（type）。
 
 - **引入版本**
 

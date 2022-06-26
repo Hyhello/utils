@@ -4,7 +4,7 @@
 utils.removeClass(el, cls);
 ```
 
-移除指定 HTML 元素（el）的 className（cls）
+移除指定元素（el）的 className（cls）。
 
 - **引入版本**
 
@@ -12,8 +12,8 @@ utils.removeClass(el, cls);
 
 - **参数**
 
-1. el (HTMLElement): 待处理的 HTML 元素。
-2. cls (string)：待移除的 className
+1. el (Element): 待处理的 HTML 元素。
+2. cls (string)：待移除的 className。
 
 - **返回**
 

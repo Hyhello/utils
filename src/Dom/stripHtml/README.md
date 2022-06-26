@@ -4,7 +4,7 @@
 utils.stripHtml(html);
 ```
 
-从给定文本(html)中去除 HTML
+从给定文本（html）中去除 HTML。
 
 - **引入版本**
 

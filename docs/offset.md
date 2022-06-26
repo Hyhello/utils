@@ -4,7 +4,7 @@
 utils.offset(el);
 ```
 
-获取元素（el）距离文档（document.documentElement || document.body）的距离
+获取元素（el）距离文档（document.documentElement || document.body）的距离。
 
 - **引入版本**
 

@@ -4,7 +4,7 @@
 utils.hasClass(el, cls);
 ```
 
-判定 HTML 元素（el）是否包含指定 className（cls）
+判定 HTML 元素（el）是否包含指定 className（cls）。
 
 - **引入版本**
 
@@ -12,8 +12,8 @@ utils.hasClass(el, cls);
 
 - **参数**
 
-1. el (HTMLElement): 待处理的 HTML 元素。
-2. cls (string)：待判断的 className
+1. el (Element): 待处理的 HTML 元素。
+2. cls (string)：待判断的 className。
 
 - **返回**
 

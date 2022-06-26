@@ -1,13 +1,15 @@
-import isBrowser from '../../Base/isBrowser/isBrowser';
+import { isBrowser } from '@/Base';
 
 type IPos = {
 	x: number;
 	y: number;
 };
+
 /**
- * 获取距离文档顶部的offset
- * @param el
- * @returns
+ * 获取元素（el）距离文档（document.documentElement || document.body）的距离。
+ * @param el 待处理的 HTML 元素。
+ * @returns {IPos} 返回元素el，距离左上角的x，y值。
+ * @see {@link https://hyhello.github.io/utils/#/offset 在线文档}
  */
 export default function offset(el: HTMLElement): IPos {
 	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
