@@ -1,7 +1,7 @@
 #### #setStyle
 
 ```javascript
-utils.setStyle();
+utils.setStyle(el, property[, value]);
 ```
 
 设置指定元素的 CSS 样式。
