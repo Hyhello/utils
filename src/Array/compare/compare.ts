@@ -9,7 +9,7 @@ interface IFunction {
  * 服务于sort，用于排序
  * @param key 需要排序的数组。
  * @returns {Function} 返回排序后的数组。
- * @see {@link https://hyhello.github.io/utils/#/compact 在线文档}
+ * @see {@link https://hyhello.github.io/utils/#/compare 在线文档}
  */
 export default function compare(key?: string | number): IFunction {
 	const hasKey = !isUndefined(key);

@@ -7,7 +7,7 @@ type IFunction = {
  * @param n 函数（func）允许调用的最大次数。
  * @param func 执行函数。
  * @returns {function} 新的函数。
- * @see {@link https://hyhello.github.io/utils/#/after 在线文档}
+ * @see {@link https://hyhello.github.io/utils/#/before 在线文档}
  */
 export default function before(n: number, func: IFunction): IFunction {
 	let times = 0;
