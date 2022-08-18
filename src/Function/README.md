@@ -7,3 +7,4 @@
 - [before](./before)
 - [debounce](./debounce)
 - [throttle](./throttle)
+- [curry](./curry)
