@@ -8,3 +8,4 @@
 - [debounce](./debounce)
 - [throttle](./throttle)
 - [curry](./curry)
+- [pipe](./pipe)
