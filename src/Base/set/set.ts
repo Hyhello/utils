@@ -14,7 +14,7 @@ export default function set(obj: object, path: string | Array<string | number>, 
 	const pathList: any[] = !Array.isArray(path) ? path.replace(/\[/g, '.').replace(/\]/g, '').split('.') : path;
 	const len = pathList.length;
 
-	return pathList.reduce((o, k, i, _) => {
+	pathList.reduce((o, k, i, _) => {
 		const index = i + 1;
 		if (len === index) {
 			o[k] = value;
