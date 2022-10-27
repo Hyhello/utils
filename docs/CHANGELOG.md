@@ -1,5 +1,18 @@
 # 更新日志
 
+# [1.6.0](https://github.com/Hyhello/utils/compare/1.5.0...1.6.0) (2022-10-27)
+
+
+### Bug Fixes
+
+* 修复Set方法返回值问题 ([7ebffa2](https://github.com/Hyhello/utils/commit/7ebffa22e3217923b83a7b821406899d2acb523b))
+
+
+### Features
+
+* 新增curry及pipe方法 ([c1f3837](https://github.com/Hyhello/utils/commit/c1f38373e3640f03a8501df50432e04926bbbfee))
+* Function 分类新增 curry 方法 ([b5e6971](https://github.com/Hyhello/utils/commit/b5e6971e95e694fcc54ca4d9e4fe2b19381a2885))
+
 # [1.5.0](https://github.com/Hyhello/utils/compare/1.4.0...1.5.0) (2022-06-26)
 
 
