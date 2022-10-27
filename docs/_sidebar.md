@@ -59,8 +59,10 @@
 - Function
   - [after](after.md)
   - [before](before.md)
+  - [curry](curry.md)
   - [debounce](debounce.md)
   - [noop](noop.md)
+  - [pipe](pipe.md)
   - [throttle](throttle.md)
 
 - Math

@@ -1,4 +1,4 @@
-
+# 更新日志
 
 # [1.5.0](https://github.com/Hyhello/utils/compare/1.4.0...1.5.0) (2022-06-26)
 
@@ -16,21 +16,21 @@
 
 * store 添加remove方法，废弃clear方法 ([5106b5f](https://github.com/Hyhello/utils/commit/5106b5f16bb9ad2259f8f51d326bd59ea470a662))
 
-## [1.3.3](https://github.com/Hyhello/utils/compare/1.3.2...1.3.3) (2022-05-18)
+# [1.3.3](https://github.com/Hyhello/utils/compare/1.3.2...1.3.3) (2022-05-18)
 
 
 ### Bug Fixes
 
 * 修复toFixed在纯数字200等情况下会转换为2的情况 ([8ff9024](https://github.com/Hyhello/utils/commit/8ff902479fad36a7f04bb9da89946c53f3b4272e))
 
-## [1.3.1](https://github.com/Hyhello/utils/compare/1.3.0...1.3.1) (2022-04-20)
+# [1.3.1](https://github.com/Hyhello/utils/compare/1.3.0...1.3.1) (2022-04-20)
 
 
 ### Bug Fixes
 
 * 添加toSecret方法及添加types ([f43145d](https://github.com/Hyhello/utils/commit/f43145d2873319163217ea014c61a2178836f3be))
 
-## [1.3.0](https://github.com/Hyhello/utils/compare/1.2.8...1.3.0) (2022-04-20)
+# [1.3.0](https://github.com/Hyhello/utils/compare/1.2.8...1.3.0) (2022-04-20)
 
 
 ### Bug Fixes
@@ -42,14 +42,14 @@
 
 * toSecret 字符串转"*"涉密方法 ([44e21c2](https://github.com/Hyhello/utils/commit/44e21c2de41c07ead245d599921cdae483da4fc2))
 
-## [1.2.8](https://github.com/Hyhello/utils/compare/1.2.7...1.2.8) (2022-04-02)
+# [1.2.8](https://github.com/Hyhello/utils/compare/1.2.7...1.2.8) (2022-04-02)
 
 
 ### Bug Fixes
 
 * 修改types 添加isString ([51ada0b](https://github.com/Hyhello/utils/commit/51ada0bbdf0295b4babe94c150d8de811645cd11))
 
-## [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
+# [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
 
 
 ### Bug Fixes
