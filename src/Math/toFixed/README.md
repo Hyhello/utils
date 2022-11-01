@@ -1,7 +1,7 @@
 #### #toFixed
 
 ```javascript
-utils.toFixed(num, [fixed]);
+utils.toFixed(num[, fixed]);
 ```
 
 重写 toFixed，解决后面多余 0 的问题。

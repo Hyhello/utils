@@ -1,7 +1,7 @@
 #### #rangeArr
 
 ```javascript
-utils.rangeArr(n, [iteratee]);
+utils.rangeArr(n[, iteratee]);
 ```
 
 创建一个长度为（n）的数组，数组每个值为（iteratee）（注：默认为 undefined）。

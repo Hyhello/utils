@@ -5,8 +5,8 @@
 utils.store.get(name, [deep=false]);
 // 设置/更新localStorage/sessionStorage里面存储的值
 utils.store.set(name, value, [deep=false]);
-// 删除localStorage/sessionStorage里面存储的值
-utils.store.remove(name, [deep=false]);;
+// 删除localStorage/sessionStorage里面存储的值, 引入版本：v1.4.0
+utils.store.remove(name, [deep=false]);
 // 删除localStorage/sessionStorage里面存储的值
 utils.store.clear(name, [deep=false]); // 废弃
 // 清空localStorage/sessionStorage里面存储的所有值
@@ -73,6 +73,8 @@ utils.store.clearAll([deep=false]);
         utils.store.get('test_a');
         // => null
         ```
+
+        > 注意：store.remove方法，在版本v1.4.0后引入
 
     - store.clearAll
 

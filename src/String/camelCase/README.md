@@ -1,7 +1,7 @@
 #### #camelCase
 
 ```javascript
-utils.camelCase(str, [(capital = false)]);
+utils.camelCase(str[, (capital = false)]);
 ```
 
 将字符串变量转为驼峰。

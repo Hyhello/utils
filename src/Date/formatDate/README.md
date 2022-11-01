@@ -1,7 +1,7 @@
 #### #formatDate
 
 ```javascript
-utils.formatDate(date, [(fmt = 'yyyy-MM-dd hh:mm:ss')]);
+utils.formatDate(date[, (fmt = 'yyyy-MM-dd hh:mm:ss')]);
 ```
 
 根据参数 fmt 格式化 date 日期。
