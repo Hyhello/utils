@@ -1,7 +1,7 @@
 #### #scrollTo
 
 ```javascript
-utils.scrollTo(el, [(end = 0)], [(duration = 500)]);
+utils.scrollTo(el[, (end = 0)][, (duration = 500)]);
 ```
 
 单位时间（duration）内滑动指定 HTML 元素（el）到指定位置（end）。

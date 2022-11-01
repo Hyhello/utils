@@ -1,7 +1,7 @@
 #### #curry
 
 ```javascript
-utils.curry(func, [...args]);
+utils.curry(func[, ...args]);
 ```
 
 函数柯里化

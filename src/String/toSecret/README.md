@@ -1,7 +1,7 @@
 #### #toSecret
 
 ```javascript
-utils.toSecret(str, [start][, end]);
+utils.toSecret(str[, start][, end]);
 ```
 
 指定位置将字符串转为 *。

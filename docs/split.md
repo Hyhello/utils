@@ -1,7 +1,7 @@
 #### #split
 
 ```javascript
-utils.split(str, [index = 3], [separated = ,]);
+utils.split(str[, index = 3][, separated = ,]);
 ```
 
 创建新的字符串，在字符串/数值（str）指定位置（index）插入分隔符（separated）。
