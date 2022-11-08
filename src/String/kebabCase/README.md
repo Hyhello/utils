@@ -1,7 +1,7 @@
 #### #kebabCase
 
 ```javascript
-utils.kebabCase();
+utils.kebabCase(str);
 ```
 
 转换字符串string为kebab case。
@@ -21,5 +21,12 @@ utils.kebabCase();
 - **例子**
 
 ```javascript
+utils.kebabCase('Foo Bar')
+// => foo-bar
 
+utils.kebabCase('fooBar')
+// => foo-bar
+
+utils.kebabCase('__FOO_BAR')
+// => foo-bar
 ```
