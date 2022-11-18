@@ -9,3 +9,4 @@
 - [compare](./compare)
 - [toArray](./toArray)
 - [rangeArr](./rangeArr)
+- [flatten](./flatten)
