@@ -18,7 +18,7 @@ utils.oneOf(target, array);
 
 - **返回**
 
-    (Boolean): 数组（array）包含元素（target）则为true，否则为false。
+    (boolean): 数组（Array）包含元素（target）则为true，否则为false。
 
 - **例子**
 
