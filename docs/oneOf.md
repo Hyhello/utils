@@ -5,7 +5,7 @@
 utils.oneOf(target, array);
 ```
 
-判断数组（array）是否包含元素（target）。
+判断数组 list 是否包含元素 target。
 
 - **引入版本**
 
@@ -14,11 +14,11 @@ utils.oneOf(target, array);
 - **参数**
 
 1. target (number | string): 待判断的元素。
-2. array (Array): 数组。
+2. list (Array): 数组。
 
 - **返回**
 
-    (Boolean): 数组（array）包含元素（target）则为true，否则为false。
+    (boolean): 数组（Array）包含元素（target）则为true，否则为false。
 
 - **例子**
 

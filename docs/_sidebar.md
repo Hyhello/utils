@@ -8,6 +8,7 @@
   - [chunk](chunk.md)
   - [compact](compact.md)
   - [compare](compare.md)
+  - [flatten](flatten.md)
   - [oneOf](oneOf.md)
   - [rangeArr](rangeArr.md)
   - [toArray](toArray.md)
@@ -67,6 +68,7 @@
 
 - Math
   - [degsToRads](degsToRads.md)
+  - [inRange](inRange.md)
   - [max](max.md)
   - [min](min.md)
   - [radsToDegs](radsToDegs.md)
