@@ -25,7 +25,7 @@ function _flatten<T extends any[]>(arr: T, depth?: number): ReturnType<T> {
 }
 
 /**
- * 数组扁平化处理
+ * 将数组扁 arr 平化处理。
  * @param 待处理集合
  * @returns 扁平化处理后的结果
  * @see {@link https://hyhello.github.io/utils/#/flatten 在线文档}

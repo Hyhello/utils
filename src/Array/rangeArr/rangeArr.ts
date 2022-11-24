@@ -6,7 +6,6 @@
  * @returns {Array<T | undefined>} 创建一个长度为（n）的数组，数组每个值为（iteratee）。
  * @see {@link https://hyhello.github.io/utils/#/rangeArr 在线文档}
  */
-
 export default function rangeArr<T>(n: number, iteratee?: T | undefined): Array<T | undefined> {
 	// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 	// @ts-ignore
