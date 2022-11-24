@@ -4,7 +4,7 @@
 utils.flatten(arr[, depth]);
 ```
 
-扁平化处理数组
+将数组扁 arr 平化处理。
 
 - **引入版本**
 
