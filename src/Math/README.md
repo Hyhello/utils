@@ -9,3 +9,4 @@
 - [degsToRads](./degsToRads)
 - [radsToDegs](./radsToDegs)
 - [randomColor](./randomColor)
+- [inRange](./inRange)
