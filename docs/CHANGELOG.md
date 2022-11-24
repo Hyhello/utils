@@ -1,5 +1,18 @@
 # 更新日志
 
+# [1.7.0](https://github.com/Hyhello/utils/compare/1.6.0...1.7.0) (2022-11-24)
+
+
+### Bug Fixes
+
+* 分类Array新增flatten扁平化函数添加depth参数 ([0dd3e1c](https://github.com/Hyhello/utils/commit/0dd3e1c97759d135010dcce1d190749dac52309a))
+
+
+### Features
+
+* 分类Array新增flatten扁平化函数 ([42a3e62](https://github.com/Hyhello/utils/commit/42a3e625c1755d0721ea50cbd5796e8d28a39a0a))
+* 分类Math新增inRange方法。 ([e25be1c](https://github.com/Hyhello/utils/commit/e25be1c318c90029e64b53de51a69dfa375d7ad6))
+
 # [1.6.0](https://github.com/Hyhello/utils/compare/1.5.0...1.6.0) (2022-10-27)
 
 
