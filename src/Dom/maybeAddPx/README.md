@@ -12,7 +12,7 @@ utils.maybeAddPx(input);
 
 - **参数**
 
-1. input(number | string): 待处理的值。
+    1. input(number | string): 待处理的值。
 
 - **返回**
 

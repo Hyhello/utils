@@ -12,8 +12,8 @@ utils.toNumber(str, obj);
 
 - **参数**
 
-1. str (string): 待处理的字符串变量。
-2. object (object): 变量值对象。
+    1. str (string): 待处理的字符串变量。
+    2. object (object): 变量值对象。
 
 - **返回**
 

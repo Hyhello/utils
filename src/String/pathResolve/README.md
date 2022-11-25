@@ -12,7 +12,7 @@ utils.pathResolve(...args);
 
 - **参数**
 
-1. args (Array&lt;string&gt;): 待合并路径。
+    1. args (Array&lt;string&gt;): 待合并路径。
 
 - **返回**
 

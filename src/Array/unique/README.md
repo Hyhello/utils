@@ -12,7 +12,7 @@ utils.unique(array);
 
 - **参数**
 
-1. array (Array): 待处理的数组。
+    1. array (Array): 待处理的数组。
 
 - **返回**
 

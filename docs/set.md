@@ -12,9 +12,9 @@ utils.set(obj, path, value);
 
 - **参数**
 
-1. obj (object): 要设置的对象。
-2. path (Array|string): 属性的路径。
-3. value (any): 需设置的值。
+    1. obj (object): 要设置的对象。
+    2. path (Array|string): 属性的路径。
+    3. value (any): 需设置的值。
 
 - **返回**
 

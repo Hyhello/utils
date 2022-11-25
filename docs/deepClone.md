@@ -12,7 +12,7 @@ utils.deepClone(data);
 
 - **参数**
 
-1. data(any): 待拷贝的值。
+    1. data(any): 待拷贝的值。
 
 - **返回**
 

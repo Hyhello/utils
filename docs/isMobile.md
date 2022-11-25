@@ -12,7 +12,7 @@ utils.isMobile(str);
 
 - **参数**
 
-1. str (string | number): 待检测的变量。
+    1. str (string | number): 待检测的变量。
 
 - **返回**
 

@@ -12,7 +12,7 @@ utils.compact(array);
 
 - **参数**
 
-1. array (Array): 需要处理的数组。
+    1. array (Array): 需要处理的数组。
 
 - **返回**
 

@@ -12,7 +12,7 @@ utils.degsToRads(deg);
 
 - **参数**
 
-1. deg(number): 待处理的角度。
+    1. deg(number): 待处理的角度。
 
 - **返回**
 

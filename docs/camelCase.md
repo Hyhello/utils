@@ -12,8 +12,8 @@ utils.camelCase(str[, (capital = false)]);
 
 - **参数**
 
-1. str (string): 待处理的字符串变量。
-2. capital (boolean): 是否大小驼峰。
+    1. str (string): 待处理的字符串变量。
+    2. capital (boolean): 是否大小驼峰。
 
 - **返回**
 

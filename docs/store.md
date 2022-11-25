@@ -21,9 +21,9 @@ utils.store.clearAll([deep=false]);
 
 - **参数**（get, set, clear, remove, clearAll 所有参数进行描述）
 
-1. name (string): 存储对象中第 n 个键的名称。
-2. value (string | unknown): 存储对象中的值。
-3. [deep] (boolean): 如果 deep 为 true，则存储到 localStorage 里面，否则存储到 sessionStorage 里面。
+    1. name (string): 存储对象中第 n 个键的名称。
+    2. value (string | unknown): 存储对象中的值。
+    3. [deep] (boolean): 如果 deep 为 true，则存储到 localStorage 里面，否则存储到 sessionStorage 里面。
 
 - **返回**
 

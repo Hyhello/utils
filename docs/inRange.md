@@ -12,9 +12,9 @@ utils.inRange(n[, start][, end]);
 
 - **参数**
 
-1. n (number): 要检查的值。
-2. start (number): 可选。 开始检查的范围。
-3. end (number): 必须。 结束范围。
+    1. n (number): 要检查的值。
+    2. start (number): 可选。 开始检查的范围。
+    3. end (number): 必须。 结束范围。
 
 - **返回**
 

@@ -13,8 +13,8 @@ utils.oneOf(target, array);
 
 - **参数**
 
-1. target (number | string): 待判断的元素。
-2. list (Array): 数组。
+    1. target (number | string): 待判断的元素。
+    2. list (Array): 数组。
 
 - **返回**
 

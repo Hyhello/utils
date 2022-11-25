@@ -12,7 +12,7 @@ utils.kebabCase(str);
 
 - **参数**
 
-1. str (string): 待转换的字符串。
+    1. str (string): 待转换的字符串。
 
 - **返回**
 

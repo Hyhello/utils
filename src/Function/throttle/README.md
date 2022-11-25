@@ -12,9 +12,9 @@ utils.throttle(func, wait, immediate);
 
 - **参数**
 
-1. func (function): 执行函数。
-2. wait (number): 时间间隔。
-3. immediate (boolean): immediate为true, throttle会在wait时间间隔的开始时立即调用这个函数（func）。
+    1. func (function): 执行函数。
+    2. wait (number): 时间间隔。
+    3. immediate (boolean): immediate为true, throttle会在wait时间间隔的开始时立即调用这个函数（func）。
 
 - **返回**
 

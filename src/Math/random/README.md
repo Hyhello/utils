@@ -12,8 +12,8 @@ utils.random(min, max);
 
 - **参数**
 
-1. min (number): 下限。
-2. max (number): 上限。
+    1. min (number): 下限。
+    2. max (number): 上限。
 
 - **返回**
 

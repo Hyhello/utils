@@ -12,7 +12,7 @@ utils.isNative(v);
 
 - **参数**
 
-1. v (Function): 待检测类型的函数。
+    1. v (Function): 待检测类型的函数。
 
 - **返回**
 

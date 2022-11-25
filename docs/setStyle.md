@@ -12,9 +12,9 @@ utils.setStyle(el, property[, value]);
 
 - **参数**
 
-1. el(HTMLElement): 必需，待设置 CSS 样式的元素。
-2. property(string | object): 必须，待设置 CSS 属性名称。
-3. value?: 选填，待设置 CSS 属性值。
+    1. el(HTMLElement): 必需，待设置 CSS 样式的元素。
+    2. property(string | object): 必须，待设置 CSS 属性名称。
+    3. value?: 选填，待设置 CSS 属性值。
 
 - **返回**
 

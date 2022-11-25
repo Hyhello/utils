@@ -12,7 +12,7 @@ utils.stripHtml(html);
 
 - **参数**
 
-1. html(string): 待处理的文本。
+    1. html(string): 待处理的文本。
 
 - **返回**
 

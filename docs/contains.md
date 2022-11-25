@@ -12,8 +12,8 @@ utils.contains(root, el);
 
 - **参数**
 
-1. root(Node): 父元素节点。
-2. el(Node): 子元素节点。
+    1. root(Node): 父元素节点。
+    2. el(Node): 子元素节点。
 
 - **返回**
 
