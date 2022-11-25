@@ -12,7 +12,7 @@ utils.rtrim(str);
 
 - **参数**
 
-1. str (string): 待处理的字符串变量。
+    1. str (string): 待处理的字符串变量。
 
 - **返回**
 

@@ -12,8 +12,8 @@ utils.flatten(arr[, depth]);
 
 - **参数**
 
-1. arr (Array): 待处理数组。
-2. depth (number | boolean): 扁平化处理深度。
+    1. arr (Array): 待处理数组。
+    2. depth (number | boolean): 扁平化处理深度。
 
 - **返回**
 

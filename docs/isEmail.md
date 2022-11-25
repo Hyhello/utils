@@ -12,7 +12,7 @@ utils.isEmail(str);
 
 - **参数**
 
-1. str (string): 待检测的变量。
+    1. str (string): 待检测的变量。
 
 - **返回**
 

@@ -12,9 +12,9 @@ utils.get(obj, path[, defaultValue]);
 
 - **参数**
 
-1. obj (object): 要检索的对象。
-2. path (Array|string): 要获取属性的路径。
-3. [defaultValue] (any): 如果解析值是 undefined ，这值会被返回。
+    1. obj (object): 要检索的对象。
+    2. path (Array|string): 要获取属性的路径。
+    3. [defaultValue] (any): 如果解析值是 undefined ，这值会被返回。
 
 - **返回**
 

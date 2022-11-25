@@ -17,9 +17,9 @@ utils.cookie.clear(name);
 
 - **参数**（get, set, clear 所有参数进行描述）
 
-1. name (string): 存储对象中第 n 个键的名称。
-2. value (string): 存储对象中的值。
-3. [day] (number): 存储的过期时间，默认30天。
+    1. name (string): 存储对象中第 n 个键的名称。
+    2. value (string): 存储对象中的值。
+    3. [day] (number): 存储的过期时间，默认30天。
 
 - **返回**
 

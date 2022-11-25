@@ -12,8 +12,8 @@ utils.rangeArr(n[, iteratee]);
 
 - **参数**
 
-1. n (number): 数组的长度。
-2. iteratee (any): 数组包含的默认值。
+    1. n (number): 数组的长度。
+    2. iteratee (any): 数组包含的默认值。
 
 - **返回**
 

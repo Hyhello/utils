@@ -12,8 +12,8 @@ utils.toFixed(num[, fixed]);
 
 - **参数**
 
-1. num (number): 待处理的值。
-2. fixed (number): 保留多少位。
+    1. num (number): 待处理的值。
+    2. fixed (number): 保留多少位。
 
 - **返回**
 

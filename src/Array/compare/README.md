@@ -12,7 +12,7 @@ utils.compare([key]);
 
 - **参数**
 
-1. key (number | string): 需要排序的数组。
+    1. key (number | string): 需要排序的数组。
 
 - **返回**
 

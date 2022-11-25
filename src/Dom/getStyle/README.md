@@ -12,8 +12,8 @@ utils.getStyle(el, property);
 
 - **参数**
 
-1. el(HTMLElement): 必需，要获取样式的元素。
-2. property(string): 必须，需要查询的 CSS 属性名称。
+    1. el(HTMLElement): 必需，要获取样式的元素。
+    2. property(string): 必须，需要查询的 CSS 属性名称。
 
 - **返回**
 

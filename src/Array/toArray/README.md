@@ -12,7 +12,7 @@ utils.toArray(likeArr);
 
 - **参数**
 
-1. likeArr (ArrayLike): 类数组。
+    1. likeArr (ArrayLike): 类数组。
 
 - **返回**
 

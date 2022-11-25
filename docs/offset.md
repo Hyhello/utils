@@ -12,7 +12,7 @@ utils.offset(el);
 
 - **参数**
 
-1. el (HTMLElement): 待处理的 HTML 元素。
+    1. el (HTMLElement): 待处理的 HTML 元素。
 
 - **返回**
 

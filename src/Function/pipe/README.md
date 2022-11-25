@@ -12,7 +12,7 @@ utils.pipe(...list);
 
 - **参数**
 
-1. list: 函数（function）集合。
+    1. list: 函数（function）集合。
 
 - **返回**
 

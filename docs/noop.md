@@ -19,4 +19,7 @@ noop方法。
 ```javascript
 utils.rangeArr(2, utils.noop);
 // => [undefined, undefined]
+
+utils.noop();
+// => undefined
 ```

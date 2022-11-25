@@ -12,10 +12,12 @@ utils.hasFocus(el);
 
 - **参数**
 
-1. el(HTMLElement): 待判断的html元素。
+    1. el(HTMLElement): 待判断的html元素。
 
 - **返回**
+
     (boolean): 一个指示指定的元素（el）是否为焦点元素。
+
 - **例子**
 
 ```javascript

@@ -12,8 +12,8 @@ utils.formatDate(date[, (fmt = 'yyyy-MM-dd hh:mm:ss')]);
 
 - **参数**
 
-1. date (number | string | Date): 待处理的日期。
-2. fmt (string): 格式化模板。
+    1. date (number | string | Date): 待处理的日期。
+    2. fmt (string): 格式化模板。
 
 - **返回**
 

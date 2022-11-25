@@ -12,7 +12,7 @@ utils.isLeapYear(year);
 
 - **参数**
 
-1. year (number): 待检测的变量。
+    1. year (number): 待检测的变量。
 
 - **返回**
 

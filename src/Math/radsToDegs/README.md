@@ -12,7 +12,7 @@ utils.radsToDegs(rad);
 
 - **参数**
 
-1. rad(number): 待处理的弧度。
+    1. rad(number): 待处理的弧度。
 
 - **返回**
 

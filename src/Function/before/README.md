@@ -12,8 +12,8 @@ utils.before(n, func);
 
 - **参数**
 
-1. n: 函数（func）允许调用的最大次数。
-2. func (function): 执行函数。
+    1. n: 函数（func）允许调用的最大次数。
+    2. func (function): 执行函数。
 
 - **返回**
 

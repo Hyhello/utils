@@ -12,8 +12,8 @@ utils.curry(func[, ...args]);
 
 - **参数**
 
-1. func: 执行函数。
-2. args 函数（func）参数集合。
+    1. func: 执行函数。
+    2. args 函数（func）参数集合。
 
 - **返回**
 

@@ -12,7 +12,7 @@ utils.parseUrl(url);
 
 - **参数**
 
-1. url (string): 待解析 url。
+    1. url (string): 待解析 url。
 
 - **返回**
 
