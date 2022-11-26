@@ -34,8 +34,8 @@ const reg = /-/g; // 横杠
 
 /**
  * 人性化/美化时间。
- * @param
- * @returns
+ * @param date 待处理的时间。
+ * @returns {string} 返回美化后的时间。
  * @see {@link https://hyhello.github.io/utils/#/beautifyTime 在线文档}
  */
 export default function beautifyTime(date: number | string | Date): string {

@@ -6,3 +6,4 @@ export { default as degsToRads } from './degsToRads/degsToRads';
 export { default as radsToDegs } from './radsToDegs/radsToDegs';
 export { default as randomColor } from './randomColor/randomColor';
 export { default as inRange } from './inRange/inRange';
+export { default as padZero } from './padZero/padZero';
