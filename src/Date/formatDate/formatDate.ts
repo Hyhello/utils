@@ -9,6 +9,7 @@ const reg = /-/g;
  * @see {@link https://hyhello.github.io/utils/#/formatDate 在线文档}
  */
 export default function formatDate(date: number | string | Date, fmt = 'yyyy-MM-dd hh:mm:ss'): string {
+	if (date == null) return new Date(NaN).toString();
 	// 解决ios下面-无法被new Date问题
 	if (typeof date === 'string' && reg.test(date)) {
 		date = date.replace(reg, '/');

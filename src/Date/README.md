@@ -4,3 +4,4 @@
 
 - [formatDate](./formatDate)
 - [isLeapYear](./isLeapYear)
+- [beautifyTime](./beautifyTime)
