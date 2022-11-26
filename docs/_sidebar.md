@@ -37,6 +37,7 @@
   - [uuid](uuid.md)
 
 - Date
+  - [beautifyTime](beautifyTime.md)
   - [formatDate](formatDate.md)
   - [isLeepYear](isLeepYear.md)
 
@@ -71,6 +72,7 @@
   - [inRange](inRange.md)
   - [max](max.md)
   - [min](min.md)
+  - [padZero](padZero.md)
   - [radsToDegs](radsToDegs.md)
   - [random](random.md)
   - [randomColor](randomColor.md)
