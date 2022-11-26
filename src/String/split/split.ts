@@ -9,5 +9,7 @@
 export default function split(val: number | string, index = 3, separated = ','): string {
 	if (!val) return String(val);
 	const reg = new RegExp(`\\B(?=(?:\\w{${index}})+\\b)`, 'g');
-	return String(val).replace(reg, separated);
+	const splitList = String(val).split('.');
+	splitList[0] = splitList[0].replace(reg, separated);
+	return splitList.join('.');
 }
