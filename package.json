@@ -42,11 +42,11 @@
         "hooks": {
             "before:init": [
                 "npm run lint",
-                "npm run test"
+                "npm run test",
+                "npm run build:docs"
             ],
             "after:bump": [
-                "npm run build",
-                "npm run build:docs"
+                "npm run build"
             ]
         },
         "plugins": {
