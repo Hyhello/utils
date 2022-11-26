@@ -1,5 +1,18 @@
 # 更新日志
 
+# [1.8.0](https://github.com/Hyhello/utils/compare/1.7.0...1.8.0) (2022-11-26)
+
+
+### Bug Fixes
+
+* 修复split函数浮点数格式化达不到预期问题。 ([d0257d8](https://github.com/Hyhello/utils/commit/d0257d89b4d7331e1b9f5ca9e66e81513903f281))
+
+
+### Features
+
+* 分类Date新增beautifyTime方法。 ([ec22e25](https://github.com/Hyhello/utils/commit/ec22e25ab1f62b524ef25b91d35243b05b454669))
+* 分类Math新增padZero方法。 ([459be7f](https://github.com/Hyhello/utils/commit/459be7fa3b2a42372fcb773d65eda310d9f9959a))
+
 # [1.7.0](https://github.com/Hyhello/utils/compare/1.6.0...1.7.0) (2022-11-24)
 
 
