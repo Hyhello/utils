@@ -19,7 +19,7 @@ const cookie: ICookie = {
 	set(name: string, value: string, day = 30): void {
 		name = window.encodeURIComponent(name);
 		value = window.encodeURIComponent(value);
-		document.cookie = `${name}=${value}; expires=${new Date().getTime() + day * 24 * 60 * 60 * 1000}; path=/;`;
+		document.cookie = `${name}=${value}; expires=${new Date(Date.now() + day * 24 * 60 * 60 * 1000)}; path=/;`;
 	},
 	clear(name: string): void {
 		this.set(name, '', -1);
