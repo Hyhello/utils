@@ -1,5 +1,12 @@
 # 更新日志
 
+## [1.8.1](https://github.com/Hyhello/utils/compare/1.8.0...1.8.1) (2022-11-27)
+
+
+### Bug Fixes
+
+* 修复cookie.set方法设置时长失效问题 ([00f720f](https://github.com/Hyhello/utils/commit/00f720fd697f6f8c4fceaaaee582e90eef76a1c8))
+
 # [1.8.0](https://github.com/Hyhello/utils/compare/1.7.0...1.8.0) (2022-11-26)
 
 
