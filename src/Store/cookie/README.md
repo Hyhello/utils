@@ -31,7 +31,7 @@ utils.store.remove(name, [deep=false]);
 
 - **例子**
 
-    - cookie.get / cookie.get
+    - cookie.set / cookie.get
 
         ```javascript
         utils.cookie.set('token', 'uuid_111', 7);
@@ -40,7 +40,7 @@ utils.store.remove(name, [deep=false]);
         // => 'uuid_111'
         ```
 
-    - cookie.remove | cookie.clear
+    - cookie.clear
 
         ```javascript
         utils.cookie.set('token', 'uuid_111', 7);
@@ -50,8 +50,6 @@ utils.store.remove(name, [deep=false]);
         utils.cookie.get('token');
         // => null
         ```
-
-        > 注意：store.remove方法，在版本v1.4.0后引入
 
     - cookie.remove
 
@@ -63,3 +61,5 @@ utils.store.remove(name, [deep=false]);
         utils.cookie.get('token');
         // => null
         ```
+
+        > 注意：store.remove方法，在版本v1.4.0后引入

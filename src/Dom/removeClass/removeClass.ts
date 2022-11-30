@@ -11,5 +11,5 @@ export default function removeClass(el: Element, cls: string): void {
 	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
 	if (!hasClass(el, cls)) return;
 	const reg = new RegExp(`\\b${cls}\\b`);
-	el.className = el.className.replace(reg, '').split(/\s+/).join(' ');
+	el.className = el.className.replace(reg, '').trim().split(/\s+/).join(' ');
 }
