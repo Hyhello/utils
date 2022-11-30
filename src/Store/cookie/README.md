@@ -7,6 +7,8 @@ utils.cookie.get(name);
 utils.cookie.set(name, value, [day=30]);
 // 删除document.cookie里面存储的值
 utils.cookie.clear(name);
+// 删除document.cookie里面存储的值, 引入版本：v1.4.0
+utils.store.remove(name, [deep=false]);
 ```
 
 前端 cookie。
@@ -38,7 +40,7 @@ utils.cookie.clear(name);
         // => 'uuid_111'
         ```
 
-    - cookie.clear
+    - cookie.remove | cookie.clear
 
         ```javascript
         utils.cookie.set('token', 'uuid_111', 7);
@@ -48,6 +50,8 @@ utils.cookie.clear(name);
         utils.cookie.get('token');
         // => null
         ```
+
+        > 注意：store.remove方法，在版本v1.4.0后引入
 
     - cookie.remove
 
