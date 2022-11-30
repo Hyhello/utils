@@ -62,4 +62,4 @@ utils.store.remove(name, [deep=false]);
         // => null
         ```
 
-        > 注意：store.remove方法，在版本v1.4.0后引入
+        > 注意：cookie.remove方法，在版本v1.4.0后引入
