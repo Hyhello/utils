@@ -4,7 +4,7 @@
 
 #### Use in a browser(CDN):
 
-```nodejs
+```javascript
 <!-- 引入库 -->
 <script src="https://cdn.jsdelivr.net/npm/@hyhello/utils/lib/index.min.js"></script>
 or
@@ -13,7 +13,7 @@ or
 
 ##### Use In Node.js:
 
-```nodejs
+```javascript
 // Load the full build.
 var utils = require('@hyhello/utils');
 
@@ -25,7 +25,7 @@ var { isArray } = require('@hyhello/utils');
 
 #### Use In ES6:
 
-```nodejs
+```javascript
 // Load the full build.
 import utils from '@hyhello/utils';
 
@@ -39,13 +39,13 @@ import { isArray } from '@hyhello/utils';
 
 #### Usage
 
-```nodejs
+```javascript
 npm install babel-plugin-import --save-dev
 ```
 
 Via .babelrc or babel-loader.
 
-```nodejs
+```javascript
 {
   "plugins": [["import", options]]
 }
@@ -55,7 +55,7 @@ Via .babelrc or babel-loader.
 
 options can be object.
 
-```nodejs
+```javascript
 {
   "libraryName": "@hyhello/utils",
   "libraryDirectory": "lib",
@@ -68,7 +68,7 @@ options can be object.
 
 #### For example, the default behavior
 
-```nodejs
+```javascript
 import { isArray } from '@hyhello/utils';
 ↓ ↓ ↓ ↓ ↓ ↓
 var isArray = require('@hyhello/utils/lib/isArray');

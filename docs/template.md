@@ -1,7 +1,7 @@
 #### #template
 
 ```javascript
-utils.toNumber(str, obj);
+utils.template(str, obj);
 ```
 
 最简单的 template，类似于 artTemplate，但比它简单。
