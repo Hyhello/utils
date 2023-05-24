@@ -2,6 +2,7 @@
 const fs = require('fs-extra');
 const rollup = require('rollup');
 const config = require('./config');
+const { del } = require('./utils');
 const genTypes = require('./genTypes');
 const components = require('./components');
 const packageJson = require('../package.json');
@@ -9,7 +10,6 @@ const { terser } = require('rollup-plugin-terser');
 const filesize = require('rollup-plugin-filesize');
 const commonjs = require('@rollup/plugin-commonjs');
 const typescript = require('rollup-plugin-typescript2');
-const { del, pipe, write, pathResolve } = require('./utils');
 const { nodeResolve } = require('@rollup/plugin-node-resolve');
 
 // banner

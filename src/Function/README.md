@@ -9,3 +9,4 @@
 - [throttle](./throttle)
 - [curry](./curry)
 - [pipe](./pipe)
+- [cacheFn](./cacheFn)
