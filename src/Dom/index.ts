@@ -13,3 +13,4 @@ export { default as toggleClass } from './toggleClass/toggleClass';
 export { default as removeClass } from './removeClass/removeClass';
 export { default as getStyle } from './getStyle/getStyle';
 export { default as setStyle } from './setStyle/setStyle';
+export { default as download } from './download/download';

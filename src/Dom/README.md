@@ -17,3 +17,4 @@ DOM 类的工具函数集合
 - [toggleClass](./toggleClass)
 - [getStyle](./getStyle)
 - [setStyle](./setStyle)
+- [download](./download)

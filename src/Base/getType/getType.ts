@@ -1,4 +1,4 @@
-const { toString } = Object.prototype;
+const toString = Object.prototype.toString;
 /**
  * 检测变量（v）的数据类型。
  * @param v 待检测类型的变量。
