@@ -34,8 +34,9 @@ interface IBlobPropertyBag extends BlobPropertyBag {
 
 /**
  * 附件下载
- * @param
- * @returns
+ * @param content 需下载的资源
+ * @param options 需下载资源配置
+ * @returns void
  * @see {@link https://hyhello.github.io/utils/#/download 在线文档}
  */
 export default function download(content: BlobPart, options: IBlobPropertyBag = {}): void {
