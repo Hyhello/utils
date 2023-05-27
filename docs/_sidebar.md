@@ -44,6 +44,7 @@
 - Dom
   - [addClass](addClass.md)
   - [contains](contains.md)
+  - [download](download.md)
   - [getStyle](getStyle.md)
   - [hasClass](hasClass.md)
   - [hasFocus](hasFocus.md)
@@ -61,6 +62,7 @@
 - Function
   - [after](after.md)
   - [before](before.md)
+  - [cacheFn](cacheFn.md)
   - [curry](curry.md)
   - [debounce](debounce.md)
   - [noop](noop.md)
