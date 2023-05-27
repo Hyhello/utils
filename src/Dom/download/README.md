@@ -21,15 +21,17 @@ utils.download(content, options);
 
 - **类型**
 
-```typescript
-    type BlobPart = BufferSource | Blob | string;
+```javascript
+// 需下载的资源
+type BlobPart = BufferSource | Blob | string;
 
-    interface IOptions {
-        endings?: "native" | "transparent";
-        type?: string; // 文件类型，default: "application/octet-stream"
-        bom?: string;  // 是否
-        filename?: string; // 文件名称
-    }
+// 需下载资源配置
+interface IOptions {
+    endings?: "native" | "transparent";
+    type?: string; // 文件类型，default: "application/octet-stream"
+    bom?: string;  // 是否
+    filename?: string; // 文件名称
+}
 ```
 
 - **例子**
