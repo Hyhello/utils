@@ -1,5 +1,12 @@
 # 更新日志
 
+## [1.9.1](https://github.com/Hyhello/utils/compare/1.9.0...1.9.1) (2023-09-08)
+
+
+### Bug Fixes
+
+* 修复cookie.get获取问题，如token匹配到third-token中的token ([c8a247a](https://github.com/Hyhello/utils/commit/c8a247a125e691941da17da23ad3711a02d884a4))
+
 # 1.9.0 (2023-05-27)
 
 

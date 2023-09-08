@@ -1,6 +1,6 @@
 {
     "name": "@hyhello/utils",
-    "version": "1.9.0",
+    "version": "1.9.1",
     "description": "前端业务常用工具函数库",
     "main": "lib/index.min.js",
     "types": "lib/index.d.ts",
