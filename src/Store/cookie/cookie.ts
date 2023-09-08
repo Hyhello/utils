@@ -12,14 +12,14 @@ type ICookie = {
 const cookie: ICookie = {
 	get(name: string): string | null {
 		name = window.decodeURIComponent(name);
-		const match = new RegExp(`\\b${name}=([^;]*)\\b`).exec(document.cookie);
+		const match = new RegExp(`;\\s${name}=([^;]*)\\b`).exec('; ' + document.cookie);
 		if (!match) return null;
 		return window.decodeURIComponent(match[1]);
 	},
 	set(name: string, value: string, day = 30): void {
 		name = window.encodeURIComponent(name);
 		value = window.encodeURIComponent(value);
-		document.cookie = `${name}=${value}; expires=${new Date(Date.now() + day * 24 * 60 * 60 * 1000)}; path=/;`;
+		document.cookie = `${name}=${value}; expires=${new Date(Date.now() + day * 864e5)}; path=/;`;
 	},
 	clear(name: string): void {
 		this.set(name, '', -1);
