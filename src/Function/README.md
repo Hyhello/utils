@@ -10,3 +10,5 @@
 - [curry](./curry)
 - [pipe](./pipe)
 - [cacheFn](./cacheFn)
+- [forEach](./forEach)
+- [merge](./merge)

@@ -6,3 +6,5 @@ export { default as debounce } from './debounce/debounce';
 export { default as curry } from './curry/curry';
 export { default as pipe } from './pipe/pipe';
 export { default as cacheFn } from './cacheFn/cacheFn';
+export { default as forEach } from './forEach/forEach';
+export { default as merge } from './merge/merge';
