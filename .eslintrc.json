@@ -26,9 +26,6 @@
     },
     "rules": {
         "prettier/prettier": "error",
-        "indent": ["error", "tab", {
-            "SwitchCase": 1
-        }],
         "global-require": 0,
         "import/prefer-default-export": 0,
         "linebreak-style": 0,
