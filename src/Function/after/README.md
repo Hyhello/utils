@@ -1,7 +1,7 @@
 #### #after
 
 ```javascript
-utils.after(n, func);
+utils.after(n, func[, context]);
 ```
 
 utils.before的反向函数;此方法创建一个函数，当他被调用n或更多次之后将马上触发func 。
@@ -14,6 +14,7 @@ utils.before的反向函数;此方法创建一个函数，当他被调用n或更
 
     1. n: 方法应该在调用多少次后才执行。
     2. func (function): 执行函数。
+    3. context (object): 可选，上下文。
 
 - **返回**
 
