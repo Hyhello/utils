@@ -9,6 +9,6 @@
  * @see {@link https://hyhello.github.io/utils/#/get 在线文档}
  */
 export default function get(obj: object, path: string | Array<string | number>, defaultValue?: unknown): any {
-	const pathList: any[] = !Array.isArray(path) ? path.replace(/\[/g, '.').replace(/\]/g, '').split('.') : path;
-	return pathList.reduce((o, k) => o && o[k], obj) || defaultValue;
+    const pathList: any[] = !Array.isArray(path) ? path.replace(/\[/g, '.').replace(/\]/g, '').split('.') : path;
+    return pathList.reduce((o, k) => o && o[k], obj) || defaultValue;
 }

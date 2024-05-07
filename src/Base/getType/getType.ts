@@ -6,5 +6,5 @@ const toString = Object.prototype.toString;
  * @see {@link https://hyhello.github.io/utils/#/getType 在线文档}
  */
 export default function getType(v: unknown): string {
-	return toString.call(v).slice(8, -1).toLowerCase();
+    return toString.call(v).slice(8, -1).toLowerCase();
 }

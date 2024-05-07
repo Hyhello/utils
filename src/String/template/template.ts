@@ -7,8 +7,8 @@
  */
 // eslint-disable-next-line @typescript-eslint/ban-types
 export default function template(str: string, opt: object): string {
-	return str.replace(/\{\s*(\w+?)\s*\}/gi, function (_, $1) {
-		// eslint-disable-next-line @typescript-eslint/ban-types
-		return opt[<keyof typeof opt>$1] || '';
-	});
+    return str.replace(/\{\s*(\w+?)\s*\}/gi, function (_, $1) {
+        // eslint-disable-next-line @typescript-eslint/ban-types
+        return opt[<keyof typeof opt>$1] || '';
+    });
 }

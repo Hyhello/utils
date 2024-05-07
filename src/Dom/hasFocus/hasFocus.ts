@@ -7,6 +7,6 @@ import { isBrowser } from '@/Base';
  * @see {@link https://hyhello.github.io/utils/#/hasFocus 在线文档}
  */
 export default function hasFocus(el: HTMLElement): boolean {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	return el === document.activeElement;
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    return el === document.activeElement;
 }

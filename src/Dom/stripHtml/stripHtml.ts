@@ -7,6 +7,6 @@ import { isBrowser } from '@/Base';
  * @see {@link https://hyhello.github.io/utils/#/stripHtml 在线文档}
  */
 export default function stripHtml(html: string): string {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	return new DOMParser().parseFromString(html, 'text/html').body.textContent || '';
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    return new DOMParser().parseFromString(html, 'text/html').body.textContent || '';
 }

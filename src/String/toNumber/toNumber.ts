@@ -5,6 +5,6 @@
  * @see {@link https://hyhello.github.io/utils/#/toNumber 在线文档}
  */
 export default function toNumber(str: string): number {
-	const n = parseFloat(str);
-	return Number.isNaN(n) ? NaN : n;
+    const n = parseFloat(str);
+    return Number.isNaN(n) ? NaN : n;
 }

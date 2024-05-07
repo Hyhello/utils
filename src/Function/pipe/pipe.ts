@@ -5,11 +5,11 @@
  * @see {@link https://hyhello.github.io/utils/#/pipe 在线文档}
  */
 export default function pipe<T extends unknown[]>(...list: Array<(...args: T) => Promise<any>>) {
-	return async (...args: T) => {
-		let currentInput;
-		for (const func of list) {
-			currentInput = await func(...args);
-		}
-		return currentInput;
-	};
+    return async (...args: T) => {
+        let currentInput;
+        for (const func of list) {
+            currentInput = await func(...args);
+        }
+        return currentInput;
+    };
 }

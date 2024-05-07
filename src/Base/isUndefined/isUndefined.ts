@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isUndefined 在线文档}
  */
 export default function isUndefined(v?: unknown): boolean {
-	return v === undefined || v === null;
+    return v === undefined || v === null;
 }

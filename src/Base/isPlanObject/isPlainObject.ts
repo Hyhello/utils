@@ -6,5 +6,5 @@ import getType from '../getType/getType';
  * @see {@link https://hyhello.github.io/utils/#/isPlainObject 在线文档}
  */
 export default function isPlainObject(v: unknown): boolean {
-	return getType(v) === 'object';
+    return getType(v) === 'object';
 }

@@ -2,7 +2,7 @@ import isObject from '../isObject/isObject';
 import isFunction from '../isFunction/isFunction';
 
 type IObj = {
-	then?: unknown;
+    then?: unknown;
 };
 
 /**
@@ -12,6 +12,6 @@ type IObj = {
  * @see {@link https://hyhello.github.io/utils/#/isPromise 在线文档}
  */
 export default function isPromise(input: unknown): boolean {
-	// isObject(input) || isFunction(input); 初始promise 或者 promise.then返回的
-	return !!input && (isObject(input) || isFunction(input)) && isFunction((<IObj>input).then);
+    // isObject(input) || isFunction(input); 初始promise 或者 promise.then返回的
+    return !!input && (isObject(input) || isFunction(input)) && isFunction((<IObj>input).then);
 }

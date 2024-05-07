@@ -6,5 +6,5 @@
  */
 // eslint-disable-next-line @typescript-eslint/ban-types
 export default function isNative(ctor: Function): boolean {
-	return typeof ctor === 'function' && /native code/.test(ctor.toString());
+    return typeof ctor === 'function' && /native code/.test(ctor.toString());
 }

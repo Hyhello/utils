@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isUrl 在线文档}
  */
 export default function isUrl(str: string): boolean {
-	return /^(((ht|f)tps?):\/\/)?([^!@#$%^&*?.\s-]([^!@#$%^&*?.\s]{0,63}[^!@#$%^&*?.\s])?\.)+[a-z]{2,6}\/?/.test(str);
+    return /^(((ht|f)tps?):\/\/)?([^!@#$%^&*?.\s-]([^!@#$%^&*?.\s]{0,63}[^!@#$%^&*?.\s])?\.)+[a-z]{2,6}\/?/.test(str);
 }

@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/min 在线文档}
  */
 export default function min(arr: Array<number>): number {
-	return Math.min.apply(null, arr);
+    return Math.min.apply(null, arr);
 }

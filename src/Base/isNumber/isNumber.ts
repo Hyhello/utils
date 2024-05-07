@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isNumber 在线文档}
  */
 export default function isNumber(v: unknown): boolean {
-	return typeof v === 'number' && !Number.isNaN(v) && v !== Infinity;
+    return typeof v === 'number' && !Number.isNaN(v) && v !== Infinity;
 }

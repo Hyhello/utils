@@ -5,9 +5,9 @@
  * @see {@link https://hyhello.github.io/utils/#/kebabCase 在线文档}
  */
 export default function kebabCase(str: string): string {
-	return str
-		.replace(/^[-_.\W\s]+|[-_.\W\s]+$/, '')
-		.replace(/[-_.\W\s]+/g, '-')
-		.replace(/([a-z])([A-Z])/g, '$1-$2')
-		.toLowerCase();
+    return str
+        .replace(/^[-_.\W\s]+|[-_.\W\s]+$/, '')
+        .replace(/[-_.\W\s]+/g, '-')
+        .replace(/([a-z])([A-Z])/g, '$1-$2')
+        .toLowerCase();
 }

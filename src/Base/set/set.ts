@@ -11,18 +11,18 @@ import isNumber from '../isNumber/isNumber';
  * @see {@link https://hyhello.github.io/utils/#/set 在线文档}
  */
 export default function set(obj: object, path: string | Array<string | number>, value: unknown): object {
-	const pathList: any[] = !Array.isArray(path) ? path.replace(/\[/g, '.').replace(/\]/g, '').split('.') : path;
-	const len = pathList.length;
+    const pathList: any[] = !Array.isArray(path) ? path.replace(/\[/g, '.').replace(/\]/g, '').split('.') : path;
+    const len = pathList.length;
 
-	pathList.reduce((o, k, i, _) => {
-		const index = i + 1;
-		if (len === index) {
-			o[k] = value;
-			return null;
-		}
-		if (k in o) return o[k];
-		o[k] = isNumber(+_[index]) ? [] : {};
-		return o[k];
-	}, obj);
-	return obj;
+    pathList.reduce((o, k, i, _) => {
+        const index = i + 1;
+        if (len === index) {
+            o[k] = value;
+            return null;
+        }
+        if (k in o) return o[k];
+        o[k] = isNumber(+_[index]) ? [] : {};
+        return o[k];
+    }, obj);
+    return obj;
 }

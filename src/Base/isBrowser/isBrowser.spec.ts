@@ -1,7 +1,7 @@
 import isBrowser from './isBrowser';
 
 describe('#isBrowser()', () => {
-	test('isBrowser test', () => {
-		expect(isBrowser()).toBeTruthy();
-	});
+    test('isBrowser test', () => {
+        expect(isBrowser()).toBeTruthy();
+    });
 });

@@ -7,9 +7,9 @@
  * @see {@link https://hyhello.github.io/utils/#/chunk 在线文档}
  */
 export default function chunk<T>(input: T[], size?: number): T[] | T[][] {
-	if (!size) return input.slice();
-	const len: number = Math.ceil(input.length / size);
-	// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-	// @ts-ignore
-	return Array.apply(null, { length: len }).map((x, i) => input.slice(i * size, (i + 1) * size));
+    if (!size) return input.slice();
+    const len: number = Math.ceil(input.length / size);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    return Array.apply(null, { length: len }).map((x, i) => input.slice(i * size, (i + 1) * size));
 }

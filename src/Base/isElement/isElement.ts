@@ -6,5 +6,5 @@ import isObject from '../isObject/isObject';
  * @see {@link https://hyhello.github.io/utils/#/isElement 在线文档}
  */
 export default function isElement(el: unknown): boolean {
-	return isObject(el) && (<Node>el).nodeType === 1;
+    return isObject(el) && (<Node>el).nodeType === 1;
 }

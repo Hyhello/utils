@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isEmail 在线文档}
  */
 export default function isEmail(str: string): boolean {
-	return /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/.test(str);
+    return /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/.test(str);
 }

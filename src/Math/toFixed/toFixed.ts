@@ -7,7 +7,7 @@ const nToFixed = Number.prototype.toFixed;
  * @see {@link https://hyhello.github.io/utils/#/toFixed 在线文档}
  */
 export default function toFixed(num: number, fixed?: number): string {
-	const val = nToFixed.call(num, fixed);
-	if (num === +val) return String(num);
-	return val;
+    const val = nToFixed.call(num, fixed);
+    if (num === +val) return String(num);
+    return val;
 }

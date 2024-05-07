@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isPrimitive 在线文档}
  */
 export default function isPrimitive(v?: unknown): boolean {
-	return Object(v) !== v;
+    return Object(v) !== v;
 }

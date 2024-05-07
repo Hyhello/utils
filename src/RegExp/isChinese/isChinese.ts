@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isChinese 在线文档}
  */
 export default function isChinese(str: string): boolean {
-	return /^[\u4E00-\u9FA5]+$/.test(str);
+    return /^[\u4E00-\u9FA5]+$/.test(str);
 }

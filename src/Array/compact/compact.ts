@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/compact 在线文档}
  */
 export default function compact<T>(input: T[]): T[] {
-	return input.filter(Boolean);
+    return input.filter(Boolean);
 }

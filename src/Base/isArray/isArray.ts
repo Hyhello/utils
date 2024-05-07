@@ -5,9 +5,9 @@
  * @see {@link https://hyhello.github.io/utils/#/isArray 在线文档}
  */
 export default function isArray(v: unknown): boolean {
-	try {
-		return Array.isArray(v);
-	} catch (e) {
-		return v instanceof Array;
-	}
+    try {
+        return Array.isArray(v);
+    } catch (e) {
+        return v instanceof Array;
+    }
 }

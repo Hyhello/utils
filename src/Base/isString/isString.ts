@@ -6,5 +6,5 @@ import getType from '../getType/getType';
  * @see {@link https://hyhello.github.io/utils/#/isString 在线文档}
  */
 export default function isString(input: unknown): boolean {
-	return getType(input) === 'string';
+    return getType(input) === 'string';
 }

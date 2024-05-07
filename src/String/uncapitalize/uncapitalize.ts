@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/uncapitalize 在线文档}
  */
 export default function uncapitalize(str: string): string {
-	return str.charAt(0).toLowerCase() + str.substr(1);
+    return str.charAt(0).toLowerCase() + str.substr(1);
 }

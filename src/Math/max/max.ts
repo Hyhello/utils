@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/max 在线文档}
  */
 export default function max(arr: Array<number>): number {
-	return Math.max.apply(null, arr);
+    return Math.max.apply(null, arr);
 }

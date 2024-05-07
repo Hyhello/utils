@@ -6,9 +6,9 @@ const nTrim = String.prototype.trim;
  * @see {@link https://hyhello.github.io/utils/#/trim 在线文档}
  */
 export default function trim(input: string): string {
-	try {
-		return nTrim.call(input);
-	} catch (e) {
-		return input.replace(/^\s*|\s*$/g, '');
-	}
+    try {
+        return nTrim.call(input);
+    } catch (e) {
+        return input.replace(/^\s*|\s*$/g, '');
+    }
 }

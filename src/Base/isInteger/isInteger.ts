@@ -7,10 +7,10 @@ import isNumber from '../isNumber/isNumber';
  * @see {@link https://hyhello.github.io/utils/#/isInteger 在线文档}
  */
 export default function isInteger(n: unknown): boolean {
-	try {
-		return Number.isInteger(n);
-	} catch (e) {
-		if (!isNumber(n)) return false;
-		return typeof n === 'number' && Math.floor(n) === n;
-	}
+    try {
+        return Number.isInteger(n);
+    } catch (e) {
+        if (!isNumber(n)) return false;
+        return typeof n === 'number' && Math.floor(n) === n;
+    }
 }

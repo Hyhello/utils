@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/rtrim 在线文档}
  */
 export default function rtrim(input: string): string {
-	return input.replace(/\s*$/g, '');
+    return input.replace(/\s*$/g, '');
 }

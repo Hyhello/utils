@@ -8,10 +8,10 @@ import { camelCase, kebabCase } from '@/String';
  * @see {@link https://hyhello.github.io/utils/#/getStyle 在线文档}
  */
 export default function getStyle(el: HTMLElement, property: string): string | undefined {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	try {
-		return document.defaultView?.getComputedStyle(el, null).getPropertyValue(kebabCase(property));
-	} catch (e) {
-		return (<any>el).currentStyle[camelCase(property)];
-	}
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    try {
+        return document.defaultView?.getComputedStyle(el, null).getPropertyValue(kebabCase(property));
+    } catch (e) {
+        return (<any>el).currentStyle[camelCase(property)];
+    }
 }

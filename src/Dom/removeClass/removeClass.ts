@@ -8,8 +8,8 @@ import hasClass from '../hasClass/hasClass';
  * @see {@link https://hyhello.github.io/utils/#/removeClass 在线文档}
  */
 export default function removeClass(el: Element, cls: string): void {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	if (!hasClass(el, cls)) return;
-	const reg = new RegExp(`\\b${cls}\\b`);
-	el.className = el.className.replace(reg, '').trim().split(/\s+/).join(' ');
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    if (!hasClass(el, cls)) return;
+    const reg = new RegExp(`\\b${cls}\\b`);
+    el.className = el.className.replace(reg, '').trim().split(/\s+/).join(' ');
 }

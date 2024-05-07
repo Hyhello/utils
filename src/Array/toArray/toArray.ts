@@ -7,5 +7,5 @@ const { slice } = Array.prototype;
  * @see {@link https://hyhello.github.io/utils/#/toArray 在线文档}
  */
 export default function toArray<T>(likeArr: ArrayLike<T>): Array<T> {
-	return slice.call(likeArr);
+    return slice.call(likeArr);
 }

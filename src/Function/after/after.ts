@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 type IFunction = {
-	(this: void, ...args: unknown[]): any;
+    (this: void, ...args: unknown[]): any;
 };
 /**
  * utils.before的反向函数;此方法创建一个函数，当他被调用n或更多次之后将马上触发func 。
@@ -10,10 +10,10 @@ type IFunction = {
  * @see {@link https://hyhello.github.io/utils/#/after 在线文档}
  */
 export default function after(n: number, func: IFunction): IFunction {
-	let times = 0;
-	return function (...args: unknown[]) {
-		if (times++ >= n) {
-			func.apply(this, args);
-		}
-	};
+    let times = 0;
+    return function (...args: unknown[]) {
+        if (times++ >= n) {
+            func.apply(this, args);
+        }
+    };
 }

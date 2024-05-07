@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isObject 在线文档}
  */
 export default function isObject(arg: unknown): boolean {
-	return arg !== null && typeof arg === 'object';
+    return arg !== null && typeof arg === 'object';
 }

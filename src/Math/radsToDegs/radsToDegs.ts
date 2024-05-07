@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/radsToDegs 在线文档}
  */
 export default function radsToDegs(rad: number): number {
-	return (rad * 180) / Math.PI;
+    return (rad * 180) / Math.PI;
 }

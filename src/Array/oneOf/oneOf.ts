@@ -6,5 +6,5 @@
  * @see {@link https://hyhello.github.io/utils/#/oneOf 在线文档}
  */
 export default function oneOf<T>(target: T, list: Array<T>): boolean {
-	return list.some((item) => target === item);
+    return list.some((item) => target === item);
 }

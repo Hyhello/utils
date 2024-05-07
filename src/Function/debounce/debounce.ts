@@ -1,5 +1,5 @@
 type IFunction = {
-	(this: void, ...args: unknown[]): void;
+    (this: void, ...args: unknown[]): void;
 };
 
 /**
@@ -11,20 +11,20 @@ type IFunction = {
  * @see {@link https://hyhello.github.io/utils/#/debounce 在线文档}
  */
 export default function debounce(func: IFunction, wait: number, immediate = false): IFunction {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	let timer: any = null;
-	return function (...args: unknown[]): void {
-		if (immediate) {
-			func.apply(this, args);
-			immediate = false;
-			return;
-		}
-		if (timer) {
-			window.clearTimeout(timer);
-			timer = null;
-		}
-		timer = window.setTimeout(() => {
-			func.apply(this, args);
-		}, wait || 0);
-	};
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let timer: any = null;
+    return function (...args: unknown[]): void {
+        if (immediate) {
+            func.apply(this, args);
+            immediate = false;
+            return;
+        }
+        if (timer) {
+            window.clearTimeout(timer);
+            timer = null;
+        }
+        timer = window.setTimeout(() => {
+            func.apply(this, args);
+        }, wait || 0);
+    };
 }

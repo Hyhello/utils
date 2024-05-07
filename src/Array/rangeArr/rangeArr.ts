@@ -7,7 +7,7 @@
  * @see {@link https://hyhello.github.io/utils/#/rangeArr 在线文档}
  */
 export default function rangeArr<T>(n: number, iteratee?: T | undefined): Array<T | undefined> {
-	// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-	// @ts-ignore
-	return Array.apply(null, { length: n }).map(() => iteratee);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    return Array.apply(null, { length: n }).map(() => iteratee);
 }

@@ -9,7 +9,7 @@ import hasClass from '../hasClass/hasClass';
  * @see {@link https://hyhello.github.io/utils/#/addClass 在线文档}
  */
 export default function addClass(el: Element, cls: string): void {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	if (hasClass(el, cls)) return;
-	el.className = trim(`${el.className} ${cls}`);
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    if (hasClass(el, cls)) return;
+    el.className = trim(`${el.className} ${cls}`);
 }

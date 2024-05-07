@@ -7,6 +7,6 @@ import { isBrowser } from '@/Base';
  * @see {@link https://hyhello.github.io/utils/#/maybeAddPx 在线文档}
  */
 export default function maybeAddPx(input: string | number): string {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	return Number.isNaN(+input) ? String(input) : `${input}px`;
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    return Number.isNaN(+input) ? String(input) : `${input}px`;
 }

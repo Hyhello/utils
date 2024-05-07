@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/degsToRads 在线文档}
  */
 export default function degsToRads(deg: number): number {
-	return (deg * Math.PI) / 180;
+    return (deg * Math.PI) / 180;
 }

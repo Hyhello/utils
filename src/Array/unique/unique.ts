@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/unique 在线文档}
  */
 export default function unique<T>(arr: Array<T>): Array<T> {
-	return arr.filter((item, index) => arr.indexOf(item, 0) === index);
+    return arr.filter((item, index) => arr.indexOf(item, 0) === index);
 }

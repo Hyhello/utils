@@ -6,5 +6,5 @@ import getType from '../getType/getType';
  * @see {@link https://hyhello.github.io/utils/#/isBoolean 在线文档}
  */
 export default function isBoolean(v: unknown): boolean {
-	return getType(v) === 'boolean';
+    return getType(v) === 'boolean';
 }

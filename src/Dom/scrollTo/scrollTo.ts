@@ -12,21 +12,21 @@ const easeInOutCubic = (value: number): number => (value < 0.5 ? cubic(value * 2
  * @see {@link https://hyhello.github.io/utils/#/scrollTo 在线文档}
  */
 export default function scrollTo(el: Element, end = 0, duration = 500): Promise<void> {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	return new Promise((resolve) => {
-		const beginTime = Date.now();
-		const beginValue = el.scrollTop;
-		const diff = beginValue - end;
-		const frameFunc = () => {
-			const progress = (Date.now() - beginTime) / duration;
-			if (progress < 1) {
-				el.scrollTop = beginValue - easeInOutCubic(progress) * diff;
-				window.requestAnimationFrame(frameFunc);
-			} else {
-				el.scrollTop = end;
-				resolve();
-			}
-		};
-		window.requestAnimationFrame(frameFunc);
-	});
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    return new Promise((resolve) => {
+        const beginTime = Date.now();
+        const beginValue = el.scrollTop;
+        const diff = beginValue - end;
+        const frameFunc = () => {
+            const progress = (Date.now() - beginTime) / duration;
+            if (progress < 1) {
+                el.scrollTop = beginValue - easeInOutCubic(progress) * diff;
+                window.requestAnimationFrame(frameFunc);
+            } else {
+                el.scrollTop = end;
+                resolve();
+            }
+        };
+        window.requestAnimationFrame(frameFunc);
+    });
 }

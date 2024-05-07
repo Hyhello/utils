@@ -15,10 +15,10 @@ import removeClass from '../removeClass/removeClass';
  * @see {@link https://hyhello.github.io/utils/#/toggleClass 在线文档}
  */
 export default function toggleClass(el: Element, cls: string): void {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	if (hasClass(el, cls)) {
-		removeClass(el, cls);
-	} else {
-		addClass(el, cls);
-	}
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    if (hasClass(el, cls)) {
+        removeClass(el, cls);
+    } else {
+        addClass(el, cls);
+    }
 }

@@ -3,13 +3,13 @@ import off from '../off/off';
 import { isBrowser } from '@/Base';
 
 const _once = (el: Element, type: string, listener: EventListener, capture = false): void => {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	const cb = (...args: [Event]) => {
-		// eslint-disable-next-line no-unused-expressions
-		listener && listener.apply(el, args);
-		off(el, type, cb, capture);
-	};
-	on(el, type, cb, capture);
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    const cb = (...args: [Event]) => {
+        // eslint-disable-next-line no-unused-expressions
+        listener && listener.apply(el, args);
+        off(el, type, cb, capture);
+    };
+    on(el, type, cb, capture);
 };
 
 /**
@@ -21,11 +21,11 @@ const _once = (el: Element, type: string, listener: EventListener, capture = fal
  * @see {@link https://hyhello.github.io/utils/#/once 在线文档}
  */
 export default function once(
-	el: Element,
-	type: string | Array<string>,
-	listener: EventListener,
-	capture = false
+    el: Element,
+    type: string | Array<string>,
+    listener: EventListener,
+    capture = false
 ): void {
-	const typeList = Array.isArray(type) ? type : [type];
-	typeList.forEach((_type) => _once(el, _type, listener, capture));
+    const typeList = Array.isArray(type) ? type : [type];
+    typeList.forEach((_type) => _once(el, _type, listener, capture));
 }

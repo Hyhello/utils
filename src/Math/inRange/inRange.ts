@@ -7,10 +7,10 @@
  * @see {@link https://hyhello.github.io/utils/#/inRange 在线文档}
  */
 export default function inRange(n: number, ...args: number[]): boolean {
-	let [start = 0, end] = args;
-	if (end == null) {
-		end = start;
-		start = 0;
-	}
-	return n >= Math.min(start, end) && n < Math.max(start, end);
+    let [start = 0, end] = args;
+    if (end == null) {
+        end = start;
+        start = 0;
+    }
+    return n >= Math.min(start, end) && n < Math.max(start, end);
 }

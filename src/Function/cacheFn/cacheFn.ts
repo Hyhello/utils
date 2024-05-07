@@ -7,8 +7,8 @@
 // 参考了vue2.0的 cached方法。
 // eslint-disable-next-line @typescript-eslint/ban-types
 export default function cacheFn(fn: Function): Function {
-	const cache = Object.create(null);
-	return function (key: string) {
-		return cache[key] || (cache[key] = fn(key));
-	};
+    const cache = Object.create(null);
+    return function (key: string) {
+        return cache[key] || (cache[key] = fn(key));
+    };
 }

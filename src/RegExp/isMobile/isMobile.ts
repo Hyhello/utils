@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isMobile 在线文档}
  */
 export default function isMobile(str: number | string): boolean {
-	return /^(\+?0?86-?)?1[3456789]\d{9}$/.test(String(str));
+    return /^(\+?0?86-?)?1[3456789]\d{9}$/.test(String(str));
 }

@@ -1,5 +1,5 @@
 type IFunction = {
-	(this: void, ...args: unknown[]): void;
+    (this: void, ...args: unknown[]): void;
 };
 
 /**
@@ -11,17 +11,17 @@ type IFunction = {
  * @see {@link https://hyhello.github.io/utils/#/throttle 在线文档}
  */
 export default function throttle(func: IFunction, wait: number, immediate = false): IFunction {
-	let last = new Date().getTime();
-	return function (...args: unknown[]): void {
-		const now = new Date().getTime();
-		if (immediate) {
-			func.apply(this, args);
-			immediate = false;
-			return;
-		}
-		if (now - last >= wait) {
-			func.apply(this, args);
-			last = now;
-		}
-	};
+    let last = new Date().getTime();
+    return function (...args: unknown[]): void {
+        const now = new Date().getTime();
+        if (immediate) {
+            func.apply(this, args);
+            immediate = false;
+            return;
+        }
+        if (now - last >= wait) {
+            func.apply(this, args);
+            last = now;
+        }
+    };
 }

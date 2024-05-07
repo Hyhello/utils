@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/capitalize 在线文档}
  */
 export default function capitalize(str: string): string {
-	return str.charAt(0).toUpperCase() + str.substr(1);
+    return str.charAt(0).toUpperCase() + str.substr(1);
 }

@@ -14,15 +14,15 @@ import * as RegExpMap from './RegExp';
 import * as FunctionMap from './Function';
 
 export default {
-	...DomMap,
-	...BaseMap,
-	...MathMap,
-	...DateMap,
-	...ArrayMap,
-	...StoreMap,
-	...StringMap,
-	...RegExpMap,
-	...FunctionMap
+    ...DomMap,
+    ...BaseMap,
+    ...MathMap,
+    ...DateMap,
+    ...ArrayMap,
+    ...StoreMap,
+    ...StringMap,
+    ...RegExpMap,
+    ...FunctionMap
 };
 
 export * from './Dom';

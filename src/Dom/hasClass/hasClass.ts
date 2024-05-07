@@ -7,7 +7,7 @@ import { isBrowser } from '@/Base';
  * @see {@link https://hyhello.github.io/utils/#/hasClass 在线文档}
  */
 export default function hasClass(el: Element, cls: string): boolean {
-	if (!isBrowser()) throw new Error('This method is not supported in the current environment');
-	const reg = new RegExp(`\\b${cls}\\b`);
-	return reg.test(el.className);
+    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+    const reg = new RegExp(`\\b${cls}\\b`);
+    return reg.test(el.className);
 }

@@ -7,9 +7,9 @@
  * @see {@link https://hyhello.github.io/utils/#/split 在线文档}
  */
 export default function split(val: number | string, index = 3, separated = ','): string {
-	if (!val) return String(val);
-	const reg = new RegExp(`\\B(?=(?:\\w{${index}})+\\b)`, 'g');
-	const splitList = String(val).split('.');
-	splitList[0] = splitList[0].replace(reg, separated);
-	return splitList.join('.');
+    if (!val) return String(val);
+    const reg = new RegExp(`\\B(?=(?:\\w{${index}})+\\b)`, 'g');
+    const splitList = String(val).split('.');
+    splitList[0] = splitList[0].replace(reg, separated);
+    return splitList.join('.');
 }
