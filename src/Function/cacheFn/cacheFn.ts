@@ -1,6 +1,6 @@
 /**
  * 缓存函数，参考的vue中的cached方法。
- * @param key
+ * @param key 待缓存的字符串。
  * @returns 新的函数。
  * @see {@link https://hyhello.github.io/utils/#/cacheFn 在线文档}
  */

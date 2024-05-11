@@ -11,6 +11,7 @@ describe('#trim()', () => {
         String.prototype.trim = nTrim;
     });
     test('remove both space', () => {
-        expect(trim('   aaa   ')).toEqual('aaa');
+        expect(trim('   aaa   ')).toEqual(nTrim.call('   aaa   '));
+        expect(trim('   aaa   ')).toEqual(nTrim.call('   aaa'));
     });
 });

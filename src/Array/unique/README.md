@@ -1,7 +1,7 @@
 #### #unique
 
 ```javascript
-utils.unique(array);
+utils.unique(arr);
 ```
 
 创建一个去重后的新数组。
@@ -12,7 +12,7 @@ utils.unique(array);
 
 - **参数**
 
-    1. array (Array): 待处理的数组。
+    1. arr (Array): 待处理的数组。
 
 - **返回**
 

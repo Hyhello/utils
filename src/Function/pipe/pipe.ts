@@ -4,7 +4,7 @@
  * @returns {Promise} 待执行函数（闭包Promise）。
  * @see {@link https://hyhello.github.io/utils/#/pipe 在线文档}
  */
-export default function pipe<T extends unknown[]>(...list: Array<(...args: T) => Promise<any>>) {
+export default function pipe<T extends any[]>(...list: Array<(...args: T) => Promise<any>>) {
     return async (...args: T) => {
         let currentInput;
         for (const func of list) {

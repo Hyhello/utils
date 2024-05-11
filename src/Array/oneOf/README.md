@@ -2,7 +2,7 @@
 #### #oneOf
 
 ```javascript
-utils.oneOf(target, array);
+utils.oneOf(target, list);
 ```
 
 判断数组 list 是否包含元素 target。

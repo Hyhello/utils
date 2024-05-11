@@ -2,4 +2,4 @@
 
 ## Reporting a Vulnerability
 
-Please report security issues to 673089899@qq.com
+Please report security issues to `673089899@qq.com`

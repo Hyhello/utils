@@ -30,9 +30,11 @@ utils.inRange(4, 2, 4);
 // => false
 
 utils.inRange(4, 8);
+// 类似于 utils.inRange(4, 0, 8);
 // => true
 
 utils.inRange(4, 2);
+// 类似于 utils.inRange(4, 0, 2);
 // => false
 
 utils.inRange(-3, -2, -3);
