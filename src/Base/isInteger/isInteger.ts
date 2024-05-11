@@ -2,15 +2,18 @@ import isNumber from '../isNumber/isNumber';
 
 /**
  * 检测变量（v）是否是整数。
- * @param n 待检测类型的变量。
- * @returns {boolean} 一个指示指定的变量是否为 整数。
+ * @param v 待检测类型的变量。
+ * @returns {boolean} 一个指定的变量是否为整数。
  * @see {@link https://hyhello.github.io/utils/#/isInteger 在线文档}
  */
-export default function isInteger(n: unknown): boolean {
+export default function isInteger(v: unknown): v is number {
     try {
-        return Number.isInteger(n);
+        return Number.isInteger(v);
     } catch (e) {
-        if (!isNumber(n)) return false;
-        return typeof n === 'number' && Math.floor(n) === n;
+        if (isNumber(v)) {
+            // 此处 NaN % 1 = NaN, Infinity % 1 = NaN; 此处屏蔽了 NaN, Infinity等特殊值
+            return v % 1 === 0;
+        }
+        return false;
     }
 }
