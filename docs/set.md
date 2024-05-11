@@ -18,7 +18,7 @@ utils.set(obj, path, value);
 
 - **返回**
 
-    (object): 返回处理后的值。
+    (any): 返回处理后的值。
 
 - **例子**
 
@@ -26,5 +26,8 @@ utils.set(obj, path, value);
 const object = { a: [{ b: { c: 3 } }] };
 
 utils.set(object, 'a[0].b.c', 2);
+// => { a: [{ b: { c: 2 } }] }
+
+utils.set(object, ['a', '0', 'b', 'c'], 2);
 // => { a: [{ b: { c: 2 } }] }
 ```

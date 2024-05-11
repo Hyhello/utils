@@ -1,5 +1,23 @@
 # 更新日志
 
+# [1.10.0](https://github.com/Hyhello/utils/compare/1.9.1...1.10.0) (2024-05-11)
+
+
+### Bug Fixes
+
+* 调整isFunction判定，去掉不必要的判定 ([e736a62](https://github.com/Hyhello/utils/commit/e736a628576fc990e8a406436f0cad295f5ea462))
+* 修复isNumber 判定没有包含NaN，Infinity问题 ([12f0a93](https://github.com/Hyhello/utils/commit/12f0a93f7b095c09975f2d93b1f979000e3b260a))
+* 修正部分函数类型问题，完善类型缩小 ([de82800](https://github.com/Hyhello/utils/commit/de8280034be0a23841654c34e908c2ac31d95db4))
+* 优化isInteger函数实现 ([9e729cd](https://github.com/Hyhello/utils/commit/9e729cd3e78aeee94ca4c186e93020b9bd630eb6))
+* 优化toFixed实现 ([153ed83](https://github.com/Hyhello/utils/commit/153ed839e2057f0f0bea4b7bcb3d5305c33f9c19))
+* Dom分类下所有方法去除isBrowser判定，此处有些多余，并优化部分类型，使类型更精准 ([9c2ad6a](https://github.com/Hyhello/utils/commit/9c2ad6a19ba4c1913d4d8908d7f00026bbda1a4a))
+
+
+### Features
+
+* after、before添加context参数 ([b7cb549](https://github.com/Hyhello/utils/commit/b7cb54991dd7f39066e21b061cfb32865cf7c94a))
+* deepClone 添加对Set、Map、WeakMap 深度复制 ([d95d133](https://github.com/Hyhello/utils/commit/d95d133b165ec10e3e7d7f37651ec0c5ad511bd2))
+
 ## [1.9.1](https://github.com/Hyhello/utils/compare/1.9.0...1.9.1) (2023-09-08)
 
 

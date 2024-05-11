@@ -1,7 +1,7 @@
 #### #deepClone
 
 ```javascript
-utils.deepClone(data);
+utils.deepClone(v);
 ```
 
 对象深拷贝。
@@ -12,11 +12,11 @@ utils.deepClone(data);
 
 - **参数**
 
-    1. data(any): 待拷贝的值。
+    1. v(any): 待拷贝的值。
 
 - **返回**
 
-    data(any): 深拷贝后的值。
+    v(any): 深拷贝后的值。
 
 - **例子**
 

@@ -12,11 +12,11 @@ utils.padZero(n);
 
 - **参数**
 
-    1. n (number): 待处理的值。
+    1. n (number): 需要补零的数值。
 
 - **返回**
 
-    (string): 补零后的值。
+    (string): 返回补零后的值。
 
 - **例子**
 
