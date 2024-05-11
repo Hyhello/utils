@@ -1,13 +1,9 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import { isBrowser } from '@/Base';
-
 const _off = (
-    el: Element,
+    el: HTMLElement,
     type: string,
     listener: EventListenerOrEventListenerObject,
     options?: boolean | EventListenerOptions
 ) => {
-    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
     if (el.removeEventListener) {
         el.removeEventListener(type, listener, options);
     } else if ((<any>el).detachEvent) {
@@ -24,7 +20,7 @@ const _off = (
  * @see {@link https://hyhello.github.io/utils/#/off 在线文档}
  */
 export default function off(
-    el: Element,
+    el: HTMLElement,
     type: string | Array<string>,
     listener: EventListenerOrEventListenerObject,
     options?: boolean | EventListenerOptions

@@ -1,14 +1,10 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import { isBrowser } from '@/Base';
-
 // 绑定
 const _on = (
-    el: Element,
+    el: HTMLElement,
     type: string,
     listener: EventListenerOrEventListenerObject,
     options?: boolean | AddEventListenerOptions
 ) => {
-    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
     if (el.addEventListener) {
         el.addEventListener(type, listener, options);
     } else if ((<any>el).attachEvent) {
@@ -26,7 +22,7 @@ const _on = (
  * @see {@link https://hyhello.github.io/utils/#/on 在线文档}
  */
 export default function on(
-    el: Element,
+    el: HTMLElement,
     type: string | Array<string>,
     listener: EventListenerOrEventListenerObject,
     options?: boolean | AddEventListenerOptions

@@ -1,4 +1,3 @@
-import { isBrowser } from '@/Base';
 import { camelCase, kebabCase } from '@/String';
 /**
  * 获取指定元素的 CSS 样式。
@@ -8,7 +7,6 @@ import { camelCase, kebabCase } from '@/String';
  * @see {@link https://hyhello.github.io/utils/#/getStyle 在线文档}
  */
 export default function getStyle(el: HTMLElement, property: string): string | undefined {
-    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
     try {
         return document.defaultView?.getComputedStyle(el, null).getPropertyValue(kebabCase(property));
     } catch (e) {

@@ -1,4 +1,3 @@
-import { isBrowser } from '@/Base';
 import hasClass from '../hasClass/hasClass';
 
 /**
@@ -7,8 +6,7 @@ import hasClass from '../hasClass/hasClass';
  * @param cls 待移除的 className。
  * @see {@link https://hyhello.github.io/utils/#/removeClass 在线文档}
  */
-export default function removeClass(el: Element, cls: string): void {
-    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+export default function removeClass(el: HTMLElement, cls: string): void {
     if (!hasClass(el, cls)) return;
     const reg = new RegExp(`\\b${cls}\\b`);
     el.className = el.className.replace(reg, '').trim().split(/\s+/).join(' ');

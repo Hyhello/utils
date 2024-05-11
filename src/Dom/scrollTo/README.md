@@ -12,7 +12,7 @@ utils.scrollTo(el[, (end = 0)][, (duration = 500)]);
 
 - **参数**
 
-    1. el (Element): 待滑动 HTML 元素。
+    1. el (HTMLElement): 待滑动 HTML 元素。
     2. end (number)：滑动元素到指定位置。
     3. duration (number)：滑动持续时长{毫秒}。
 

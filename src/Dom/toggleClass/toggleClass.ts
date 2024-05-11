@@ -1,4 +1,3 @@
-import { isBrowser } from '@/Base';
 import hasClass from '../hasClass/hasClass';
 import addClass from '../addClass/addClass';
 import removeClass from '../removeClass/removeClass';
@@ -14,8 +13,7 @@ import removeClass from '../removeClass/removeClass';
  * @param cls 待移除/添加的 className
  * @see {@link https://hyhello.github.io/utils/#/toggleClass 在线文档}
  */
-export default function toggleClass(el: Element, cls: string): void {
-    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+export default function toggleClass(el: HTMLElement, cls: string): void {
     if (hasClass(el, cls)) {
         removeClass(el, cls);
     } else {

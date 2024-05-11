@@ -1,7 +1,7 @@
 import { isUrl } from '@/RegExp';
 
 // `a.click()` doesn't work for all browsers: 参考：http://purl.eligrey.com/github/FileSaver.js 第58行代码
-const clickHack = function (node: Element) {
+const clickHack = function (node: HTMLElement) {
     try {
         node.dispatchEvent(new MouseEvent('click'));
     } catch (e) {

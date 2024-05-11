@@ -1,9 +1,7 @@
 import on from '../on/on';
 import off from '../off/off';
-import { isBrowser } from '@/Base';
 
-const _once = (el: Element, type: string, listener: EventListener, capture = false): void => {
-    if (!isBrowser()) throw new Error('This method is not supported in the current environment');
+const _once = (el: HTMLElement, type: string, listener: EventListener, capture = false): void => {
     const cb = (...args: [Event]) => {
         // eslint-disable-next-line no-unused-expressions
         listener && listener.apply(el, args);
@@ -21,7 +19,7 @@ const _once = (el: Element, type: string, listener: EventListener, capture = fal
  * @see {@link https://hyhello.github.io/utils/#/once 在线文档}
  */
 export default function once(
-    el: Element,
+    el: HTMLElement,
     type: string | Array<string>,
     listener: EventListener,
     capture = false

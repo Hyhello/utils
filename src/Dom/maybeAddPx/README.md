@@ -1,10 +1,10 @@
 #### #maybeAddPx
 
 ```javascript
-utils.maybeAddPx(input);
+utils.maybeAddPx(v);
 ```
 
-可能将值（input）添加后缀 px。
+可能将值（v）添加后缀 px。
 
 - **引入版本**
 
@@ -12,7 +12,7 @@ utils.maybeAddPx(input);
 
 - **参数**
 
-    1. input(number | string): 待处理的值。
+    1. v(number | string): 待处理的值。
 
 - **返回**
 
