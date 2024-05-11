@@ -12,7 +12,7 @@ utils.isNumber(v);
 
 - **参数**
 
-    1. v (any): 待检测类型的变量。
+    1. v (unknown): 待检测类型的变量。
 
 - **返回**
 
@@ -22,7 +22,10 @@ utils.isNumber(v);
 
 ```javascript
 utils.isNumber(NaN);
-// => false
+// => true
+
+utils.isNumber(Infinity);
+// => true
 
 utils.isNumber(1);
 // => true
