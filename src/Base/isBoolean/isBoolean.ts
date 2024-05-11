@@ -5,6 +5,6 @@ import getType from '../getType/getType';
  * @returns {boolean} 一个指示指定的变量是否为布尔值。
  * @see {@link https://hyhello.github.io/utils/#/isBoolean 在线文档}
  */
-export default function isBoolean(v: unknown): boolean {
+export default function isBoolean(v: unknown): v is boolean {
     return getType(v) === 'boolean';
 }

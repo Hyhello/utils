@@ -4,7 +4,7 @@
  * @returns {boolean} 一个指示指定的变量是否为数组。
  * @see {@link https://hyhello.github.io/utils/#/isArray 在线文档}
  */
-export default function isArray(v: unknown): boolean {
+export default function isArray<T>(v: unknown): v is T[] {
     try {
         return Array.isArray(v);
     } catch (e) {

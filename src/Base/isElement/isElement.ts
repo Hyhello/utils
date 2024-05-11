@@ -5,6 +5,6 @@ import isObject from '../isObject/isObject';
  * @returns {boolean} 一个指示指定的变量是否为 HTML 元素。
  * @see {@link https://hyhello.github.io/utils/#/isElement 在线文档}
  */
-export default function isElement(el: unknown): boolean {
-    return isObject(el) && (<Node>el).nodeType === 1;
+export default function isElement(el: unknown): el is HTMLElement {
+    return isObject(el) && (<HTMLElement>el).nodeType === 1;
 }

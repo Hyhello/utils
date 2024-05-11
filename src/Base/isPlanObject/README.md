@@ -12,7 +12,7 @@ utils.isPlainObject(v);
 
 - **参数**
 
-    1. v (any): 待检测类型的变量。
+    1. v (unknown): 待检测类型的变量。
 
 - **返回**
 
@@ -21,15 +21,15 @@ utils.isPlainObject(v);
 - **例子**
 
 ```javascript
-utils.isObject({});
+utils.isPlanObject({});
 // => true
 
-utils.isObject([1, 2, 3]);
+utils.isPlanObject([1, 2, 3]);
 // => false
 
-utils.isObject(new Map());
+utils.isPlanObject(new Map());
 // => false
 
-utils.isObject(null);
+utils.isPlanObject(null);
 // => false
 ```

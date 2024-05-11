@@ -12,7 +12,7 @@ utils.isPrimitive(v);
 
 - **参数**
 
-    1. v (any): 待检测类型的变量。
+    1. v (unknown): 待检测类型的变量。
 
 - **返回**
 
@@ -23,6 +23,10 @@ utils.isPrimitive(v);
 ```javascript
 utils.isPrimitive(true);
 // => true
+
+// 构造函数创建的默认认为不是基本类型，属于引用类型，因为typeof new Boolean() === 'object', 在内存中存储的位置也不一样
+utils.isPrimitive(new Boolean(true));
+// => false
 
 utils.isPrimitive(null);
 // => true

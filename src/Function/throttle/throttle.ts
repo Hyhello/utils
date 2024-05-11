@@ -1,7 +1,3 @@
-type IFunction = {
-    (this: void, ...args: unknown[]): void;
-};
-
 /**
  * 防抖节流，当函数（func）重复调用时，最多每隔wait毫秒调用一次该函数。
  * @param func 执行函数。
@@ -10,9 +6,13 @@ type IFunction = {
  * @returns 新的函数。
  * @see {@link https://hyhello.github.io/utils/#/throttle 在线文档}
  */
-export default function throttle(func: IFunction, wait: number, immediate = false): IFunction {
+export default function throttle<T extends any[]>(
+    func: (...args: T) => any,
+    wait: number,
+    immediate = false
+): (...args: T) => void {
     let last = new Date().getTime();
-    return function (...args: unknown[]): void {
+    return function <C>(this: C, ...args: T) {
         const now = new Date().getTime();
         if (immediate) {
             func.apply(this, args);

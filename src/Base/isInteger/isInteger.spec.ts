@@ -11,12 +11,16 @@ describe('#isInteger()', () => {
         Number.isInteger = nIsInteger;
     });
     test('isInteger', () => {
-        expect(isInteger(1)).toBeTruthy();
-        expect(isInteger('1')).toBeFalsy();
-        expect(isInteger(1.2)).toBeFalsy();
-        expect(isInteger(Infinity)).toBeFalsy();
-        expect(isInteger(5.000000000000001)).toBeFalsy();
-        expect(isInteger(5.0000000000000001)).toBeTruthy();
-        expect(isInteger(Number.MIN_VALUE)).toBeFalsy();
+        expect(isInteger(null)).toEqual(nIsInteger(null));
+        expect(isInteger(undefined)).toEqual(nIsInteger(undefined));
+        expect(isInteger(1)).toEqual(nIsInteger(1));
+        expect(isInteger('1')).toEqual(nIsInteger('1'));
+        expect(isInteger(1.2)).toEqual(nIsInteger(1.2));
+        expect(isInteger(NaN)).toEqual(nIsInteger(NaN));
+        expect(isInteger(Infinity)).toEqual(nIsInteger(Infinity));
+        expect(isInteger(5.01)).toEqual(nIsInteger(5.01));
+        expect(isInteger(5.000000000000001)).toEqual(nIsInteger(5.000000000000001));
+        expect(isInteger(5.0000000000000001)).toEqual(nIsInteger(5.0000000000000001));
+        expect(isInteger(Number.MIN_VALUE)).toEqual(nIsInteger(Number.MIN_VALUE));
     });
 });
