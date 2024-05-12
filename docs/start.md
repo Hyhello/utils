@@ -37,7 +37,7 @@ import { isArray } from '@hyhello/utils';
 
 ### 扩展（按需引入）
 
-#### Usage
+#### Usage in babel
 
 ```javascript
 npm install babel-plugin-import --save-dev
@@ -51,20 +51,43 @@ Via .babelrc or babel-loader.
 }
 ```
 
-#### options
-
 options can be object.
 
 ```javascript
 {
   "libraryName": "@hyhello/utils",
-  "libraryDirectory": "lib",
   "camel2DashComponentName": false,  // default: true
 }
 ```
 
 > [!WARNING]
 > 使用babel-plugin-import后就不能全部引入，详看[issue](https://github.com/umijs/babel-plugin-import/issues/448);
+
+#### Usage in vite
+
+```javascript
+npm install vite-plugin-imp --save-dev
+```
+
+Via vite.config.js.
+
+```javascript
+import vitePluginImp from 'vite-plugin-img';
+
+export default defineConfig({
+    plugins: [vitePluginImp(options)]
+});
+```
+
+options can be object.
+
+```javascript
+{
+  "libName": "@hyhello/utils",
+  "libDirectory": "lib",
+  "camel2DashComponentName": false
+}
+```
 
 #### For example, the default behavior
 

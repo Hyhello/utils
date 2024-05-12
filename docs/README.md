@@ -56,7 +56,7 @@ import { isArray } from '@hyhello/utils';
 
 ### 按需引入
 
-#### Usage
+#### Usage in babel
 
 ```javascript
 npm install babel-plugin-import --save-dev
@@ -70,15 +70,38 @@ Via .babelrc or babel-loader.
 }
 ```
 
-#### options
-
 options can be object.
 
 ```javascript
 {
   "libraryName": "@hyhello/utils",
-  "libraryDirectory": "lib",
   "camel2DashComponentName": false,  // default: true
+}
+```
+
+#### Usage in vite
+
+```javascript
+npm install vite-plugin-imp --save-dev
+```
+
+Via vite.config.js.
+
+```javascript
+import vitePluginImp from 'vite-plugin-img';
+
+export default defineConfig({
+    plugins: [vitePluginImp(options)]
+});
+```
+
+options can be object.
+
+```javascript
+{
+  "libName": "@hyhello/utils",
+  "libDirectory": "lib",
+  "camel2DashComponentName": false
 }
 ```
 
@@ -92,7 +115,7 @@ var isArray = require('@hyhello/utils/lib/isArray');
 
 ### 支持情况
 
-Chrome 74-75, Firefox 66-67, IE 11, Edge 18, Safari 11-12, & Node.js 8-12.
+Tested in Chrome 74-75, Firefox 66-67, IE 9, Edge 18, Safari 11-12.
 
 注：采用 jest + jsdom 进行单元测试，报告如下：
 
