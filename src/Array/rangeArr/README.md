@@ -22,9 +22,17 @@ utils.rangeArr(n[, iteratee]);
 - **例子**
 
 ```javascript
+// iteratee is number
 utils.rangeArr(2, 2);
 // => [2, 2]
 
-utils.rangeArr(2, () => {});
-// => [() => {}, () => {}]
+// iteratee is function
+utils.rangeArr(2, (i) => {
+    return 1 * i;
+});
+// => [0, 1]
+
+// iteratee is noop function
+utils.rangeArr(2, utils.noop);
+// => [undefined, undefined]
 ```
