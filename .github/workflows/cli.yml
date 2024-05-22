@@ -66,6 +66,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
+          scope: '@hyhello'
       - run: |
           npm run build
           npm publish
