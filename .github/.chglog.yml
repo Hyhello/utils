@@ -1,0 +1,36 @@
+options:
+  header:
+    pattern: "^(.*)$"
+    prefix: ""
+  commits:
+    filter:
+      tags:
+        exclude:
+          - "*"
+    template: "- %s"
+    sort: scope
+  templates:
+    default: |
+      {{ .Commit.Subject }}
+      {{ with .Commit.IssueReferences -}}
+      {{ range . -}}
+      {{ if eq .State "closed" }}
+      {{ if .Scope }} (**{{ .Scope }}**): {{ end }}{{ .Name }} ([#{{ .Issue }}]({{ .URL }}))
+      {{ end -}}
+      {{ end -}}
+      {{ end -}}
+  sections:
+    Features: |-
+      {{ $group := .Groups.Get "Features" }}
+      {{ with $group -}}
+      {{ range .Commits -}}
+      {{ .Subject }}
+      {{ end -}}
+      {{ end -}}
+    Bug Fixes: |-
+      {{ $group := .Groups.Get "Bug Fixes" }}
+      {{ with $group -}}
+      {{ range .Commits -}}
+      {{ .Subject }}
+      {{ end -}}
+      {{ end -}}
