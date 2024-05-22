@@ -1,5 +1,5 @@
 
-name: cli tool
+name: cli
 
 on:
   push:
