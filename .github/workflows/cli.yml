@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       - run: |
-            npm ci
+            npm i
             npm run test
 
   build:
