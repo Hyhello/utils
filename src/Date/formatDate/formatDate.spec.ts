@@ -24,7 +24,7 @@ describe('#formatDate()', () => {
         expect(formatDate()).toEqual('Invalid Date');
         expect(formatDate(1639380703857)).toEqual(str);
         expect(formatDate(1639380703857, 'hh:mm:SS')).toEqual(`${hour}:31:857`);
-        expect(formatDate(1639380703857 - 5 * 60 * 60 * 1000, 'h:m:S')).toEqual(`${d.getHours()}:31:857`);
+        expect(formatDate(1639380703857 - 5 * 60 * 60 * 1000, 'h:m:S')).toEqual(`2:31:857`);
         expect(formatDate('2021-12-13', 'yyyy-MM-dd')).toEqual('2021-12-13');
     });
 });
