@@ -1,4 +1,5 @@
 import formatDate from './formatDate';
+import { padZero } from '@/Math';
 
 describe('#formatDate()', () => {
     test('formatDate', () => {
@@ -12,7 +13,7 @@ describe('#formatDate()', () => {
             '-' +
             d.getDate() +
             ' ' +
-            d.getHours() +
+            padZero(d.getHours()) +
             ':' +
             d.getMinutes() +
             ':' +
