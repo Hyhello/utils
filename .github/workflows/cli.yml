@@ -3,6 +3,8 @@ name: cli
 
 on:
   push:
+    branches:
+      - feature
     tags:
       - "*" # Push events to matching v*, i.e. v1.0, v20.15.10
 
