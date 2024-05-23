@@ -18,9 +18,8 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       - run: |
-            npm install -g yarn
-            yarn install --forzen-lockfile
-            yarn test
+            npm ci
+            npm run test
 
   build:
     needs: test
