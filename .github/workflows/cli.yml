@@ -12,19 +12,7 @@ env:
   NODE_VERSION: "16.x"
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-      - run: |
-            npm i
-            npm run test
-
   build:
-    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -32,12 +20,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - run: |
+            npm i
+            npm run test
+
       - name: Generate ChangeLog
         id: changelog
-        uses: git-chglog/git-chglog-action@v1
-        with:
-          config-path: .github/.chglog.yml
-          output: ./docs/CHANGELOG.md
+        run: npx conventional-changelog-cli -p angular -i CHANGELOG.md -s -r 0
 
       - name: Create Release
         uses: actions/create-release@v1
@@ -52,9 +44,6 @@ jobs:
           prerelease: false
 
       - name: Commit docs
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_VERSION }}
       - run: |
           npm run build:docs
           git add .
