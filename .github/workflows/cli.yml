@@ -7,7 +7,7 @@ on:
       - "*" # Push events to matching v*, i.e. v1.0, v20.15.10
 
 env:
-  NODE_VERSION: "14.x"
+  NODE_VERSION: "16.x"
 
 jobs:
   test:
