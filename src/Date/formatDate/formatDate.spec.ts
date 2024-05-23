@@ -17,7 +17,8 @@ describe('#formatDate()', () => {
             d.getMinutes() +
             ':' +
             d.getSeconds();
-
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         expect(formatDate()).toEqual('Invalid Date');
         expect(formatDate(1639380703857)).toEqual(str);
         expect(formatDate(1639380703857, 'hh:mm:SS')).toEqual('15:31:857');
