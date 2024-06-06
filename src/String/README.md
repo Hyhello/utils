@@ -14,3 +14,4 @@
 - [template](./template)
 - [toNumber](./toNumber)
 - [kebabCase](./kebabCase)
+- [getFileExt](./getFileExt)
