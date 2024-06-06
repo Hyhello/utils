@@ -5,5 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isTel 在线文档}
  */
 export default function isTel(str: string): boolean {
-    return /^(\d{3,4}-)?\d{7,8}$/.test(str);
+    return /^(0\d{2,3}-?)?\d{7,8}$/.test(str);
 }
