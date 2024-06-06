@@ -24,7 +24,7 @@ utils.isTel(str);
 utils.isTel('027-1022312');
 // => true
 
-utils.isTel('0271022312');  // bugfix: v1.10.2; v1.10.1版本之前不支持
+utils.isTel('0271022312');  // bugfix: v1.11.0; v1.10.1版本之前不支持
 // => true
 
 utils.isTel(13455667788);
