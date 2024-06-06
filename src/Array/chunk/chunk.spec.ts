@@ -6,7 +6,8 @@ describe('#chunk()', () => {
     });
 
     test('chunk a list (chunk.length === 1)', () => {
+        const b = [1, 2, 3, 4];
         // COPY
-        expect(chunk([1, 2, 3, 4]) === [1, 2, 3, 4]).toBeFalsy();
+        expect(chunk(b) === b).toBeFalsy();
     });
 });

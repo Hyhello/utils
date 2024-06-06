@@ -11,12 +11,12 @@ type ICallback<T> = (this: unknown, ...args: T[]) => any;
  * @see {@link https://hyhello.github.io/utils/#/curry 在线文档}
  */
 export default function curry<T extends any[], R>(func: IFunc<T, R>, ...args: T[number][]): ICallback<T[number]> {
-    return function (this, ...params) {
+    return function (...params) {
         const argu = [...args, ...params];
         if (func.length > argu.length) {
-            return curry<T, R>.call(this, func, ...argu);
+            return curry<T, R>(func, ...argu);
         } else {
-            return func.call(this, ...(argu as T));
+            return func(...(argu as T));
         }
     };
 }

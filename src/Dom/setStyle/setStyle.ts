@@ -18,7 +18,7 @@ export default function setStyle(el: HTMLElement, property: string | { [key: str
     if (isObject(property)) {
         let cssText = ';';
         for (const key in property) {
-            cssText += `${kebabCase(key)}: ${property[key]};`;
+            cssText += `${kebabCase(key)}: ${property[key as keyof typeof property]};`;
         }
         el.style.cssText += cssText;
     } else {
