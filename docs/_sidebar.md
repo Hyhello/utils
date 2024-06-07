@@ -95,6 +95,7 @@
 - String
   - [camelCase](camelCase.md)
   - [capitalize](capitalize.md)
+  - [getFileExt](getFileExt.md)
   - [kebabCase](kebabCase.md)
   - [ltrim](ltrim.md)
   - [parseUrl](parseUrl.md)

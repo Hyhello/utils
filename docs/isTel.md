@@ -4,7 +4,7 @@
 utils.isTel(str);
 ```
 
-检测字符串（str）是否是电话号码（xxx-xxxxxxx|xxx-xxxxxxxx|xxxx-xxxxxxxx|xxxx-xxxxxxxx|xxxxxxx|xxxxxxxx）。
+检测字符串（str）是否是电话号码（0xx-xxxxxxx|0xx-xxxxxxxx|0xxx-xxxxxxxx|0xxx-xxxxxxxx|0xxxxxxxxxx|0xxxxxxxxxxx|xxxxxxx|xxxxxxxx）。
 
 - **引入版本**
 
@@ -22,6 +22,9 @@ utils.isTel(str);
 
 ```javascript
 utils.isTel('027-1022312');
+// => true
+
+utils.isTel('0271022312');  // bugfix: v1.11.0; v1.10.1版本之前不支持
 // => true
 
 utils.isTel(13455667788);

@@ -1,5 +1,17 @@
 # 更新日志
 
+# [1.11.0](https://github.com/Hyhello/utils/compare/1.10.0...1.11.0) (2024-06-07)
+
+
+### Bug Fixes
+
+* 修复isTel校验0xxxxxxxxxxx/0xxxxxxxxx等无法校验通过问题 ([9f22973](https://github.com/Hyhello/utils/commit/9f22973ccfb4c95d93060294c1e1752944345ef7))
+
+
+### Features
+
+* 新增获取文件扩展名getFileExt ([cd78e18](https://github.com/Hyhello/utils/commit/cd78e18bdb19b0a5b00eee8c107d905c5ba757cf))
+
 # [1.10.0](https://github.com/Hyhello/utils/compare/1.9.1...1.10.0) (2024-05-11)
 
 
