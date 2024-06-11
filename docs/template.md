@@ -17,7 +17,7 @@ utils.template(str, obj);
 
 - **返回**
 
-    (number): 返回处理后的结果。
+    (string): 返回处理后的结果。
 
 - **例子**
 
