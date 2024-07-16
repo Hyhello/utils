@@ -1,4 +1,3 @@
-const nToFixed = Number.prototype.toFixed;
 /**
  * 重写 toFixed，解决后面多余 0 的问题。
  * @param num 待处理的值。
@@ -7,5 +6,6 @@ const nToFixed = Number.prototype.toFixed;
  * @see {@link https://hyhello.github.io/utils/#/toFixed 在线文档}
  */
 export default function toFixed(num: number, fixed?: number): string {
+    const nToFixed = Number.prototype.toFixed;
     return parseFloat(nToFixed.call(num, fixed)).toString();
 }

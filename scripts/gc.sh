@@ -83,6 +83,8 @@ else
 # 在当前分类下面修改index.ts (追加抛出)
 echo "export { default as ${NAME} } from './${NAME}/${NAME}';" >> index.ts
 echo "- [${NAME}](./${NAME})" >> README.md
+# 修改index.ts文件
+sed -i -E "s/((\s*)\/\/\s*#$CLASSNAME\s+classify)/\1\n\2$NAME: ${CLASSNAME}Map.${NAME},/" $FILE_PATH/index.ts;
 
 # 创建文件夹
 mkdir -p $NAME

@@ -49,6 +49,9 @@ import { isArray } from '@hyhello/utils';
 
 ### 按需引入
 
+> [!TIP]
+> 从 `V1.12.0` 版本开始，如果您使用的构建工具支持 `Tree shaking`，您在使用 `@hyhello/utils` 库时将能够实现按需加载，无需进行任何额外配置。
+
 #### Usage in babel
 
 ```javascript

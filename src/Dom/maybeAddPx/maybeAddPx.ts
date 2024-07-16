@@ -1,4 +1,3 @@
-const isNaN = Number.isNaN;
 /**
  * 可能将值（v）添加后缀 px。
  * @param v 待处理的值。
@@ -6,5 +5,5 @@ const isNaN = Number.isNaN;
  * @see {@link https://hyhello.github.io/utils/#/maybeAddPx 在线文档}
  */
 export default function maybeAddPx(v: string | number): string {
-    return isNaN(+v) ? String(v) : `${v}px`;
+    return Number.isNaN(+v) ? String(v) : `${v}px`;
 }

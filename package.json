@@ -1,8 +1,9 @@
 {
     "name": "@hyhello/utils",
     "version": "1.11.0",
-    "description": "前端业务常用工具函数库",
+    "description": "前端常用工具函数库",
     "main": "lib/index.min.js",
+    "module": "lib/index.min.mjs",
     "types": "lib/index.d.ts",
     "files": [
         "lib"
@@ -26,7 +27,7 @@
         "node",
         "utils",
         "tools",
-        "前端业务常用工具函数库"
+        "常用工具函数库"
     ],
     "author": "Hyhello",
     "license": "MIT",

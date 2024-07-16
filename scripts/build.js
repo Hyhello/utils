@@ -19,7 +19,7 @@ const version = process.env.VERSION || packageJson.version;
 const banner =
 	'/*!\n' +
 	` * ${packageJson.name} v${version}\n` +
-	` * @license (c) 2021-${new Date().getFullYear()} ${author}\n` +
+	` * (c) 2021-present ${author}\n` +
 	' * Released under the MIT License.\n' +
     ' */';
 
@@ -60,17 +60,22 @@ const buildComponents = async () => {
 
 // 构建所有
 async function buildEntry() {
-    const { pkgName, outputDir, outputType } = config;
+    const { pkgName, outputDir, outputTypeList } = config;
     del([outputDir], false);
     await buildComponents();
     const bundle = await rollup.rollup(rollupConfig);
-    bundle.write({
-        format: outputType,
-        name: pkgName,
-        banner,
-        exports: 'named',
-        file: `${outputDir}/index.min.js`
-    });
+    for (let i in outputTypeList) {
+        const format = outputTypeList[i];
+        const ext = format === 'esm' ? 'mjs' : 'js';
+        bundle.write({
+            format: format,
+            name: pkgName,
+            banner,
+            exports: 'named',
+            file: `${outputDir}/index.min.${ext}`
+        });
+    }
+
     // 生成types
     genTypes();
 }

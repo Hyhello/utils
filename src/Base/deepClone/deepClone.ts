@@ -1,4 +1,5 @@
-import { isObject, isArray } from '@/Base';
+import isArray from '../isArray/isArray';
+import isObject from '../isObject/isObject';
 
 const hasOwn = Object.prototype.hasOwnProperty;
 
