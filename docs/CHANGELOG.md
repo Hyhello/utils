@@ -1,5 +1,12 @@
 # 更新日志
 
+# [1.12.0](https://github.com/Hyhello/utils/compare/1.11.0...1.12.0) (2024-07-18)
+
+
+### Features
+
+* support Tree Shaking ([61b0a95](https://github.com/Hyhello/utils/commit/61b0a951951a060ffb8b1349333fde9bd74ff026))
+
 # [1.11.0](https://github.com/Hyhello/utils/compare/1.10.0...1.11.0) (2024-06-07)
 
 
