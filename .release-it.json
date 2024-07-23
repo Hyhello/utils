@@ -20,7 +20,7 @@
         "@release-it/conventional-changelog": {
             "preset": "angular",
             "head": "# 更新日志",
-            "infile": "CHANGELOG.md"
+            "infile": "./docs/CHANGELOG.md"
         }
     },
     "$schema": "https://unpkg.com/release-it@17/schema/release-it.json"
