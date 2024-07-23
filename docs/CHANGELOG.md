@@ -1,5 +1,7 @@
 # 更新日志
 
+## [Unreleased]
+
 ## [1.12.0](https://github.com/Hyhello/utils/compare/1.11.0...1.12.0) (2024-07-18)
 
 
