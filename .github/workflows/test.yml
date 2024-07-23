@@ -1,0 +1,27 @@
+name: Unit Test
+
+on:
+  push:
+    branches-ignore:
+      - main
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        node: [14, 16, 18, 20]
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'yarn'
+          node-version: ${{ matrix.node }}
+          cache-dependency-path: 'yarn.lock'
+      - run: yarn install --frozen-lockfile
+      - run: yarn test

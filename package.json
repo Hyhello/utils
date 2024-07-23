@@ -53,25 +53,6 @@
         "type": "git",
         "url": "git+https://github.com/Hyhello/utils.git"
     },
-    "release-it": {
-        "hooks": {
-            "before:init": [
-                "npm run lint",
-                "npm run test"
-            ],
-            "after:bump": [
-                "npm run build",
-                "npm run build:docs"
-            ]
-        },
-        "plugins": {
-            "@release-it/conventional-changelog": {
-                "preset": "angular",
-                "header": "# 更新日志",
-                "infile": "./docs/CHANGELOG.md"
-            }
-        }
-    },
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org"

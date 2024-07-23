@@ -2,7 +2,7 @@
 
 ### 介绍
 
-前端业务常用工具函数库。[查看在线文档](https://hyhello.github.io/utils/#/)
+前端常用工具函数库。[查看在线文档](https://hyhello.github.io/utils/#/)
 
 ### 安装教程
 

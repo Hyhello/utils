@@ -1,14 +1,16 @@
-name: Create release
+name: Release
 
 # When a tag is pushed, create a release
 on:
   push:
     tags:
-      - "*" # Push events to matching v*, i.e. v1.0, v20.15.10
+      - "v*" # Push events to matching v*, i.e. v1.0, v20.15.10
 
 jobs:
-  build:
-    name: Create Release and docs
+  test:
+    uses: ./.github/workflows/test.yml
+  release:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -16,11 +18,38 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all tags
 
-      - name: Create Release for Tag
-        id: release_tag
-        uses: actions/create-release@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Get Changelog Entry
+        id: changelog_reader
+        uses: mindsers/changelog-reader-action@v2
         with:
-          tag_name: ${{ github.ref }}
-          release_name: v${{ github.ref }}
+          validation_level: warn
+          path: ./docs/CHANGELOG.md
+
+      - name: Create/update release
+        uses: ncipollo/release-action@v1
+        with:
+          # This pulls from the "Get Changelog Entry" step above, referencing it's ID to get its outputs object.
+          # See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
+          tag: ${{ steps.changelog_reader.outputs.version }}
+          name: v${{ steps.changelog_reader.outputs.version }}
+          body: ${{ steps.changelog_reader.outputs.changes }}
+          prerelease: ${{ steps.changelog_reader.outputs.status == 'prereleased' }}
+          draft: ${{ steps.changelog_reader.outputs.status == 'unreleased' }}
+          allowUpdates: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+  publish:
+    needs: release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'yarn'
+          node-version: 16
+          cache-dependency-path: 'yarn.lock'
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+      - uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
