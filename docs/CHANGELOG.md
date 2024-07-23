@@ -1,13 +1,13 @@
 # 更新日志
 
-# [1.12.0](https://github.com/Hyhello/utils/compare/1.11.0...1.12.0) (2024-07-18)
+## [1.12.0](https://github.com/Hyhello/utils/compare/1.11.0...1.12.0) (2024-07-18)
 
 
 ### Features
 
 * support Tree Shaking ([61b0a95](https://github.com/Hyhello/utils/commit/61b0a951951a060ffb8b1349333fde9bd74ff026))
 
-# [1.11.0](https://github.com/Hyhello/utils/compare/1.10.0...1.11.0) (2024-06-07)
+## [1.11.0](https://github.com/Hyhello/utils/compare/1.10.0...1.11.0) (2024-06-07)
 
 
 ### Bug Fixes
@@ -19,7 +19,7 @@
 
 * 新增获取文件扩展名getFileExt ([cd78e18](https://github.com/Hyhello/utils/commit/cd78e18bdb19b0a5b00eee8c107d905c5ba757cf))
 
-# [1.10.0](https://github.com/Hyhello/utils/compare/1.9.1...1.10.0) (2024-05-11)
+## [1.10.0](https://github.com/Hyhello/utils/compare/1.9.1...1.10.0) (2024-05-11)
 
 
 ### Bug Fixes
@@ -44,7 +44,7 @@
 
 * 修复cookie.get获取问题，如token匹配到third-token中的token ([c8a247a](https://github.com/Hyhello/utils/commit/c8a247a125e691941da17da23ad3711a02d884a4))
 
-# 1.9.0 (2023-05-27)
+## 1.9.0 (2023-05-27)
 
 
 ### Bug Fixes
@@ -64,7 +64,7 @@
 
 * 修复cookie.set方法设置时长失效问题 ([00f720f](https://github.com/Hyhello/utils/commit/00f720fd697f6f8c4fceaaaee582e90eef76a1c8))
 
-# [1.8.0](https://github.com/Hyhello/utils/compare/1.7.0...1.8.0) (2022-11-26)
+## [1.8.0](https://github.com/Hyhello/utils/compare/1.7.0...1.8.0) (2022-11-26)
 
 
 ### Bug Fixes
@@ -77,7 +77,7 @@
 * 分类Date新增beautifyTime方法。 ([ec22e25](https://github.com/Hyhello/utils/commit/ec22e25ab1f62b524ef25b91d35243b05b454669))
 * 分类Math新增padZero方法。 ([459be7f](https://github.com/Hyhello/utils/commit/459be7fa3b2a42372fcb773d65eda310d9f9959a))
 
-# [1.7.0](https://github.com/Hyhello/utils/compare/1.6.0...1.7.0) (2022-11-24)
+## [1.7.0](https://github.com/Hyhello/utils/compare/1.6.0...1.7.0) (2022-11-24)
 
 
 ### Bug Fixes
@@ -90,7 +90,7 @@
 * 分类Array新增flatten扁平化函数 ([42a3e62](https://github.com/Hyhello/utils/commit/42a3e625c1755d0721ea50cbd5796e8d28a39a0a))
 * 分类Math新增inRange方法。 ([e25be1c](https://github.com/Hyhello/utils/commit/e25be1c318c90029e64b53de51a69dfa375d7ad6))
 
-# [1.6.0](https://github.com/Hyhello/utils/compare/1.5.0...1.6.0) (2022-10-27)
+## [1.6.0](https://github.com/Hyhello/utils/compare/1.5.0...1.6.0) (2022-10-27)
 
 
 ### Bug Fixes
@@ -103,7 +103,7 @@
 * Function 分类新增 pipe 方法 ([c1f3837](https://github.com/Hyhello/utils/commit/c1f38373e3640f03a8501df50432e04926bbbfee))
 * Function 分类新增 curry 方法 ([b5e6971](https://github.com/Hyhello/utils/commit/b5e6971e95e694fcc54ca4d9e4fe2b19381a2885))
 
-# [1.5.0](https://github.com/Hyhello/utils/compare/1.4.0...1.5.0) (2022-06-26)
+## [1.5.0](https://github.com/Hyhello/utils/compare/1.4.0...1.5.0) (2022-06-26)
 
 
 ### Features
@@ -112,28 +112,28 @@
 * Store 分类 cookie 新增 remove方法 ([e31cd5e](https://github.com/Hyhello/utils/commit/e31cd5ed0fbbc6fa9c7b114f5231c060a3a224ad))
 * String 分类新增 kebabCase方法 ([e292063](https://github.com/Hyhello/utils/commit/e292063945d43505b2efb8cfae39e611bcaa95b5))
 
-# [1.4.0](https://github.com/Hyhello/utils/compare/1.3.3...1.4.0) (2022-06-24)
+## [1.4.0](https://github.com/Hyhello/utils/compare/1.3.3...1.4.0) (2022-06-24)
 
 
 ### Features
 
 * store 添加remove方法，废弃clear方法 ([5106b5f](https://github.com/Hyhello/utils/commit/5106b5f16bb9ad2259f8f51d326bd59ea470a662))
 
-# [1.3.3](https://github.com/Hyhello/utils/compare/1.3.2...1.3.3) (2022-05-18)
+## [1.3.3](https://github.com/Hyhello/utils/compare/1.3.2...1.3.3) (2022-05-18)
 
 
 ### Bug Fixes
 
 * 修复toFixed在纯数字200等情况下会转换为2的情况 ([8ff9024](https://github.com/Hyhello/utils/commit/8ff902479fad36a7f04bb9da89946c53f3b4272e))
 
-# [1.3.1](https://github.com/Hyhello/utils/compare/1.3.0...1.3.1) (2022-04-20)
+## [1.3.1](https://github.com/Hyhello/utils/compare/1.3.0...1.3.1) (2022-04-20)
 
 
 ### Bug Fixes
 
 * 添加toSecret方法及添加types ([f43145d](https://github.com/Hyhello/utils/commit/f43145d2873319163217ea014c61a2178836f3be))
 
-# [1.3.0](https://github.com/Hyhello/utils/compare/1.2.8...1.3.0) (2022-04-20)
+## [1.3.0](https://github.com/Hyhello/utils/compare/1.2.8...1.3.0) (2022-04-20)
 
 
 ### Bug Fixes
@@ -145,14 +145,14 @@
 
 * toSecret 字符串转"*"涉密方法 ([44e21c2](https://github.com/Hyhello/utils/commit/44e21c2de41c07ead245d599921cdae483da4fc2))
 
-# [1.2.8](https://github.com/Hyhello/utils/compare/1.2.7...1.2.8) (2022-04-02)
+## [1.2.8](https://github.com/Hyhello/utils/compare/1.2.7...1.2.8) (2022-04-02)
 
 
 ### Bug Fixes
 
 * 修改types 添加isString ([51ada0b](https://github.com/Hyhello/utils/commit/51ada0bbdf0295b4babe94c150d8de811645cd11))
 
-# [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
+## [1.2.6](https://github.com/Hyhello/utils/compare/1.2.0...1.2.6) (2022-03-11)
 
 
 ### Bug Fixes
