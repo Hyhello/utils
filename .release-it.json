@@ -17,10 +17,10 @@
         ]
     },
     "plugins": {
-        "@release-it/keep-a-changelog": {
-            "filename": "./docs/CHANGELOG.md",
-            "addVersionUrl": true,
-            "head": "# 更新日志"
+        "@release-it/conventional-changelog": {
+            "infile": "./docs/CHANGELOG.md",
+            "preset": "angular",
+            "header": "# 更新日志"
         }
     },
     "$schema": "https://unpkg.com/release-it@17/schema/release-it.json"
