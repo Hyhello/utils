@@ -1,6 +1,6 @@
 # 更新日志
 
-### [1.12.1](https://github.com/Hyhello/utils/compare/1.12.0...1.12.1) (2024-07-24)
+## [1.12.1](https://github.com/Hyhello/utils/compare/1.12.0...1.12.1) (2024-07-24)
 
 
 ### Bug Fixes
