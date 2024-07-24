@@ -16,9 +16,12 @@
     "plugins": {
         "@release-it/conventional-changelog": {
             "preset": {
-                "name": "conventionalcommits"
+                "name": "angular"
             },
             "header": "# 更新日志",
+            "context": {
+                "isPatch": true
+            },
             "infile": "./docs/CHANGELOG.md"
         }
     },
