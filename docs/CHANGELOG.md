@@ -1,5 +1,12 @@
 # 更新日志
 
+### [1.12.1](https://github.com/Hyhello/utils/compare/1.12.0...1.12.1) (2024-07-24)
+
+
+### Bug Fixes
+
+* Fix the issue of isURL matching `/a/b.png` that can pass ([4a4222e](https://github.com/Hyhello/utils/commit/4a4222e08cbcfc04953b12bcd6d19c04389d98fa))
+
 ## [1.12.0](https://github.com/Hyhello/utils/compare/1.11.0...1.12.0) (2024-07-18)
 
 
