@@ -3,21 +3,7 @@
     "version": "1.12.1",
     "description": "前端常用工具函数库",
     "main": "lib/index.min.js",
-    "module": "lib/index.min.mjs",
     "types": "lib/index.d.ts",
-    "exports": {
-        ".": {
-            "import": {
-                "types": "./lib/index.d.ts",
-                "default": "./lib/index.min.mjs"
-            },
-            "require": {
-                "types": "./lib/index.d.ts",
-                "default": "./lib/index.min.js"
-            }
-        },
-        "./package.json": "./package.json"
-    },
     "files": [
         "lib"
     ],
