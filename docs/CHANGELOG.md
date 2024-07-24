@@ -1,5 +1,12 @@
 # 更新日志
 
+## [1.12.3](https://github.com/Hyhello/utils/compare/1.12.1...1.12.3) (2024-07-24)
+
+
+### Bug Fixes
+
+* 向下兼容 ([b53c974](https://github.com/Hyhello/utils/commit/b53c9740f6080729075bc861e4fc46ac34fb96e1))
+
 ## [1.12.1](https://github.com/Hyhello/utils/compare/1.12.0...1.12.1) (2024-07-24)
 
 
