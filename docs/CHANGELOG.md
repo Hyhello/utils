@@ -1,5 +1,12 @@
 # 更新日志
 
+## [1.12.5](https://github.com/Hyhello/utils/compare/1.12.3...1.12.5) (2024-07-26)
+
+
+### Bug Fixes
+
+* Fix error when referencing the 'babel-plugin-import' plugin ([61fe6b3](https://github.com/Hyhello/utils/commit/61fe6b3637c012a65a08ff1bfc00e612102c6191))
+
 ## [1.12.3](https://github.com/Hyhello/utils/compare/1.12.1...1.12.3) (2024-07-24)
 
 
