@@ -1,5 +1,7 @@
 # @hyhello/utils
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/toss/slash/blob/main/LICENSE) [![codecov](https://codecov.io/github/Hyhello/utils/graph/badge.svg?token=85BP7240GO)](https://codecov.io/github/Hyhello/utils) [![NPM badge](https://img.shields.io/npm/v/%40hyhello%2Futils?logo=npm)](https://www.npmjs.com/package/@hyhello/utils)
+
 ### 介绍
 
 前端常用工具函数库。[查看在线文档](https://hyhello.github.io/utils/#/)
