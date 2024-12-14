@@ -3,7 +3,7 @@ import debounce from './debounce';
 jest.useFakeTimers();
 
 describe('#debounce()', () => {
-    test('debounce test', () => {
+    test('debounce test 100ms', () => {
         const fn = jest.fn();
         const debouncedFn = debounce(fn, 100);
         debouncedFn('param');
@@ -18,11 +18,20 @@ describe('#debounce()', () => {
         expect(fn).toBeCalledWith('param');
     });
 
-    test('debounce test a', () => {
+    test('debounce test 1000ms', () => {
         const fn = jest.fn();
         const debouncedFn = debounce(fn, 1000, true);
         debouncedFn('param');
         jest.advanceTimersByTime(1000);
+        expect(fn).toBeCalledWith('param');
+        expect(fn).toBeCalledTimes(1);
+    });
+
+    test('debounce test await 0ms', () => {
+        const fn = jest.fn();
+        const debouncedFn = debounce(fn, 0);
+        debouncedFn('param');
+        jest.advanceTimersByTime(50);
         expect(fn).toBeCalledWith('param');
         expect(fn).toBeCalledTimes(1);
     });
