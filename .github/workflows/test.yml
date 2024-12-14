@@ -13,7 +13,7 @@ jobs:
   test:
     strategy:
       matrix:
-        node: [14, 16, 18, 20]
+        node: [18, 20]
 
     runs-on: ubuntu-latest
     steps:
@@ -25,7 +25,7 @@ jobs:
           cache-dependency-path: 'yarn.lock'
       - run: yarn install --frozen-lockfile
       - run: yarn test --coverage
-      
+
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
         with:
