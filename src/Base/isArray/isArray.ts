@@ -5,9 +5,5 @@
  * @see {@link https://hyhello.github.io/utils/#/isArray 在线文档}
  */
 export default function isArray<T>(v: unknown): v is T[] {
-    try {
-        return Array.isArray(v);
-    } catch (e) {
-        return v instanceof Array;
-    }
+    return Array.isArray ? Array.isArray(v) : v instanceof Array;
 }

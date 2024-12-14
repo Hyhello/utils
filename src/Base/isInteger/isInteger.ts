@@ -7,13 +7,11 @@ import isNumber from '../isNumber/isNumber';
  * @see {@link https://hyhello.github.io/utils/#/isInteger 在线文档}
  */
 export default function isInteger(v: unknown): v is number {
-    try {
+    if (Number.isInteger) {
         return Number.isInteger(v);
-    } catch (e) {
-        if (isNumber(v)) {
-            // 此处 NaN % 1 = NaN, Infinity % 1 = NaN; 此处屏蔽了 NaN, Infinity等特殊值
-            return v % 1 === 0;
-        }
-        return false;
+    } else if (isNumber(v)) {
+        // 此处 NaN % 1 = NaN, Infinity % 1 = NaN; 此处屏蔽了 NaN, Infinity等特殊值
+        return v % 1 === 0;
     }
+    return false;
 }

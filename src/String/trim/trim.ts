@@ -5,9 +5,6 @@
  * @see {@link https://hyhello.github.io/utils/#/trim 在线文档}
  */
 export default function trim(str: string): string {
-    try {
-        return String.prototype.trim.call(str);
-    } catch (e) {
-        return str.replace(/^\s*|\s*$/g, '');
-    }
+    const nTrim = String.prototype.trim;
+    return nTrim ? nTrim.call(str) : str.replace(/^\s*|\s*$/g, '');
 }
