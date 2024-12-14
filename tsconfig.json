@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
+        "target": "ES2015",
         "moduleResolution": "node",
         "module": "esnext", // 模块类型
         "allowJs": false, // 是否编辑js文件
