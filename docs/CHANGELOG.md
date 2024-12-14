@@ -1,5 +1,17 @@
 # 更新日志
 
+## [2.0.0](https://github.com/Hyhello/utils/compare/1.12.5...2.0.0) (2024-12-14)
+
+
+### Bug Fixes
+
+* 去除部分try catch, 这个大量调用时影响性能 ([3336d5f](https://github.com/Hyhello/utils/commit/3336d5f990dffbc5c0d635044dd582fc681f6f80))
+
+
+### Features
+
+* compare 方法添加order 参数 ([3a665e4](https://github.com/Hyhello/utils/commit/3a665e4c205824ffee35095d412b0055cc69e9ea))
+
 ## [1.12.5](https://github.com/Hyhello/utils/compare/1.12.3...1.12.5) (2024-07-26)
 
 
