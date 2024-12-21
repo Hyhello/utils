@@ -13,7 +13,7 @@ utils.compare([key], [order]);
 - **参数**
 
     1. key (number | string): 需要排序的数组。
-    2. order ('asc' | 'desc')：排序方式，默认为：'asc'
+    2. order ('asc' | 'desc')：排序方式，默认为：'asc'。（实现版本：v2.0.0）。
 
 - **返回**
 
