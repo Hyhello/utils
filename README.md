@@ -113,7 +113,7 @@ var isArray = require('@hyhello/utils/lib/isArray');
 
 ### 支持情况
 
-Tested in Chrome 74-75, Firefox 66-67, IE 9, Edge 18, Safari 11-12.
+Tested in Chrome 74-75, Firefox 66-67, IE 11, Edge 18, Safari 11-12.
 
 注：采用 jest + jsdom 进行单元测试，报告如下：
 

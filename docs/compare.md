@@ -1,7 +1,7 @@
 #### #compare
 
 ```javascript
-utils.compare([key]);
+utils.compare([key], [order]);
 ```
 
 服务于sort，用于排序。
@@ -13,6 +13,7 @@ utils.compare([key]);
 - **参数**
 
     1. key (number | string): 需要排序的数组。
+    2. order ('asc' | 'desc')：排序方式，默认为：'asc'
 
 - **返回**
 
@@ -26,4 +27,7 @@ utils.compare([key]);
 
 [{ name: 1 }, { name: 3 }, { name: 2 }].sort(utils.compare('name'));
 // => [{ name: 1 }, { name: 2 }, { name: 3 }]
+
+[{ name: 1 }, { name: 3 }, { name: 2 }].sort(utils.compare('name'， 'desc'));
+// => [{ name: 3 }, { name: 2 }, { name: 1 }]
 ```
