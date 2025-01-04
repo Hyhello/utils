@@ -21,3 +21,4 @@
 - [isPrimitive](./isPrimitive)
 - [isUndefined](./isUndefined)
 - [isPlainObject](./isPlainObject)
+- [merge](./merge)

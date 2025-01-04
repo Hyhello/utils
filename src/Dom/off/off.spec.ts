@@ -18,10 +18,10 @@ describe('#off()', () => {
             const trigger = function () {
                 index++;
             };
-            on($el, 'click', trigger);
+            on($el, ['click'], trigger);
             $el.click();
             expect(index).toEqual(1);
-            off($el, 'click', trigger);
+            off($el, ['click'], trigger);
             $el.click();
             expect(index).toEqual(1);
         });

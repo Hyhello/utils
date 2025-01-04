@@ -28,11 +28,12 @@
   - [isNative](isNative.md)
   - [isNumber](isNumber.md)
   - [isObject](isObject.md)
-  - [isPlanObject](isPlanObject.md)
+  - [isPlainObject](isPlainObject.md)
   - [isPrimitive](isPrimitive.md)
   - [isPromise](isPromise.md)
   - [isString](isString.md)
   - [isUndefined](isUndefined.md)
+  - [merge](merge.md)
   - [set](set.md)
   - [uuid](uuid.md)
 

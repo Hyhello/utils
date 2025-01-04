@@ -16,7 +16,7 @@ describe('#on()', () => {
             const trigger = function () {
                 $el.style.backgroundColor = 'red';
             };
-            on($el, 'click', trigger);
+            on($el, ['click'], trigger);
             $el.click();
             expect(window.getComputedStyle($el).getPropertyValue('background-color')).toEqual('red');
         });

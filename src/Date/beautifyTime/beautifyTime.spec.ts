@@ -6,7 +6,7 @@ describe('#beautifyTime()', () => {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         expect(beautifyTime()).toEqual('Invalid Date');
-        expect(beautifyTime(`${year}-04-22`)).toEqual('1年前');
+        expect(beautifyTime(`${year}-04-22`)).toEqual('8个月前');
         expect(beautifyTime(Date.now() - 10 * 1000)).toEqual('刚刚');
         expect(beautifyTime(Date.now() + 10 * 1000)).toEqual('刚刚');
         expect(beautifyTime(Date.now() + 11 * 1000)).toEqual('11秒后');

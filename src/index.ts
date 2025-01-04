@@ -35,6 +35,7 @@ export default {
     flatten: ArrayMap.flatten,
 
     // #Base classify
+    merge: BaseMap.merge,
     get: BaseMap.get,
     set: BaseMap.set,
     uuid: BaseMap.uuid,

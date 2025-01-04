@@ -17,4 +17,5 @@ export { default as deepClone } from './deepClone/deepClone';
 export { default as isFunction } from './isFunction/isFunction';
 export { default as isUndefined } from './isUndefined/isUndefined';
 export { default as isPrimitive } from './isPrimitive/isPrimitive';
-export { default as isPlainObject } from './isPlanObject/isPlainObject';
+export { default as isPlainObject } from './isPlainObject/isPlainObject';
+export { default as merge } from './merge/merge';
