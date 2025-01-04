@@ -1,5 +1,12 @@
 # 更新日志
 
+## [2.1.0](https://github.com/Hyhello/utils/compare/2.0.0...2.1.0) (2025-01-04)
+
+
+### Features
+
+* add merge function ([358540f](https://github.com/Hyhello/utils/commit/358540ff5db274e5ac8330d8b1a1e4515d50a05e))
+
 ## [2.0.0](https://github.com/Hyhello/utils/compare/1.12.5...2.0.0) (2024-12-14)
 
 

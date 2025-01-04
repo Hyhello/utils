@@ -1,12 +1,10 @@
 #### #merge
 
 ```javascript
-utils.merge();
+utils.merge(target, source);
 ```
 
 将源对象的属性合并到目标对象中。
-
-> 会覆盖原本对向
 
 - **引入版本**
 
