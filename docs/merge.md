@@ -22,5 +22,13 @@ utils.merge(target, source);
 - **例子**
 
 ```javascript
+const target = { a: { b: 1, c: 2 }, d: { m: [1, 2] } };
+const result = utils.merge(target, { a: { b: [2, 1], c: 2 }, d: { m: [2, 3] } } );
+// => { a: { b: [2, 1], c: 2 }, d: { m: [2, 3] }} };
 
+console.log(target);
+// => { a: { b: [2, 1], c: 2 }, d: { m: [2, 3] }} };
+
+console.log(target === result);
+// => true;
 ```
